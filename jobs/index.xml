@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/jobs/</link>
+    <description>Recent content in Jobs on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineer at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
+      <link>http://localhost:1313/jobs/itri_2/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/itri_2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intern, Moonshine Studio &amp; Moonshine XR Studio, Taipei City, Taiwan</title>
+      <link>http://localhost:1313/jobs/moonshine/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/moonshine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intern at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
+      <link>http://localhost:1313/jobs/itri_1/</link>
+      <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/itri_1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visiting Scholar at Engineering Product Development, Singapore University of Technology and Design (SUTD), Singapore</title>
+      <link>http://localhost:1313/jobs/sutd/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/sutd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching Assistant at Department of Physics, National Central University</title>
+      <link>http://localhost:1313/jobs/ncu/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/ncu/</guid>
+      <description>&lt;p&gt;author: &amp;ldquo;Ying-Shan Chen&amp;rdquo;&#xA;title: &amp;ldquo;Teaching Assistant at Department of Physics, National Central University&amp;rdquo;&#xA;jobtitle: &amp;ldquo;Teaching Assistant at Department of Physics&amp;rdquo;&#xA;company: &amp;ldquo;National Central University (NCU)&amp;rdquo;&#xA;location: &amp;ldquo;Taoyuan City, Taiwan&amp;rdquo;&#xA;date: &amp;lsquo;2019-09-01&amp;rsquo;&#xA;periods: &amp;ldquo;2019.09 - 2024.01&amp;rdquo;&#xA;jobs: [&#xA;&amp;ldquo;Courses: Applied Mathematics, Mechanics, Electromagnetism, Optics, Programming in Physics, Physics of Waves, Introduction to Computational Physics, Programming in General Physics, Student Service-Learning&amp;rdquo;,&#xA;&amp;ldquo;Participate in course planning and professional knowledge discussions.&amp;rdquo;,&#xA;&amp;ldquo;Actively communicate with professor and students.&amp;rdquo;]&#xA;moreinfo: false&#xA;tags: [&amp;ldquo;Part-time Job&amp;rdquo;, &amp;ldquo;Hybrid Work&amp;rdquo;, &amp;ldquo;Physics&amp;rdquo;, &amp;ldquo;Calculus&amp;rdquo;, &amp;ldquo;Python&amp;rdquo;, &amp;ldquo;C++&amp;rdquo;, &amp;ldquo;FORTRAN&amp;rdquo;, &amp;ldquo;Data Analysis&amp;rdquo;]&#xA;logo: ./logo/NCU.jpg&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

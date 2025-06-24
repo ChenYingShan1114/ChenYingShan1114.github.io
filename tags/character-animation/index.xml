@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Character Animation on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/character-animation/</link>
+    <description>Recent content in Character Animation on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/character-animation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bouncing Ball Animation</title>
+      <link>http://localhost:1313/projects_animation/example/</link>
+      <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/example/</guid>
+      <description>&lt;font face=&#34;Georgia&#34;&gt;&#xA;    The smallest yellow ball with blue strike on it is a bouncing ball; the medium purple ball with gray strike acts like a bowling ball; the largest green ball with orange strike is simulating a beach ball. By implementing &lt;strong&gt;The Twelve Basic Principles of Animation&lt;/strong&gt;, such like &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arcs&lt;/em&gt; and &lt;em&gt;timing&lt;/em&gt;, the ball looks not only real but also more appealing by its cartooning style. Also, &#34;squash and stretch&#34; makes the bouncing ball lifelike because of its resilience.&lt;br&gt;&#xA;    &lt;p align=&#34;center&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/P-codDlmq6U?si=c8K_22TskaycU8tG&amp;autoplay=1&amp;loop=1&amp;playlist=P-codDlmq6U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Emoji Support</title>
+      <link>http://localhost:1313/projects_physics/example/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/example/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

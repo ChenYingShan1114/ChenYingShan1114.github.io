@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educations on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/educations/</link>
+    <description>Recent content in Educations on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/educations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Master of Science majoring in physics, National Central University</title>
+      <link>http://localhost:1313/educations/ncu_master/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/educations/ncu_master/</guid>
+      <description>&lt;p&gt;GPA: 4.0/4.0&#xA;GPA: 4.15/4.3&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exchange student summer academy course, Linköping University (LiU)</title>
+      <link>http://localhost:1313/educations/liu/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/educations/liu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bachelor of Science majoring in physics, National Central University</title>
+      <link>http://localhost:1313/educations/ncu_undergraduate/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/educations/ncu_undergraduate/</guid>
+      <description>&lt;p&gt;80-100: 129&#xA;70-80: 7&#xA;60-70: 6&#xA;( 129&lt;em&gt;4 + 7&lt;/em&gt;3 + 6*2 ) / 142 = 3.86619718&#xA;GPA: 3.9/4.0&lt;/p&gt;&#xA;&lt;p&gt;GPA: 4.02/4.3&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
