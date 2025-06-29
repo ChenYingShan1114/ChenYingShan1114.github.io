@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intern Project on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/categories/intern-project/</link>
+    <description>Recent content in Intern Project on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/intern-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poster Series made by Virtual Production</title>
+      <link>http://localhost:1313/projects_animation/moonshineposter/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/moonshineposter/</guid>
+      <description>&lt;p&gt;During my internship as a Technical Art Intern at Moonshine Studio which is one of Taiwan’s leading animation companies, I worked with professionals from diverse backgrounds, including 2D/3D animation, motion design, visual effects, post-production for film and TV, interactive media, and technical R&amp;amp;D. While many teams focused on traditional and digital production, I joined a specialized team pioneering Virtual Production at Moonshine XR Studio which is the first studio in Taiwan to adopt this technique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Light Controlled by Sound in Real-time</title>
+      <link>http://localhost:1313/projects_animation/moonshineosc/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/moonshineosc/</guid>
+      <description>&lt;h3&gt; 🔧 Step 1: Room Construction and Cinematic Setup &lt;/h3&gt;&#xA;Using assets from Fab, I built a 3m × 3m × 5m interior space in Unreal Engine. The scene includes a variety of lighting elements:&#xA;&lt;p&gt;• Environmental light simulates the overall ambient condition and expresses the transition between daytime and nighttime.&lt;/p&gt;&#xA;&lt;p&gt;• Indirect (indirectional) lighting is added to fill in darker areas, ensuring that key parts of the room remain visible without relying on harsh direct light.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

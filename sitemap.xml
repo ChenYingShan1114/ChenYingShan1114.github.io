@@ -17,22 +17,67 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-21T10:53:50+08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/autodesk-maya/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/character-animation/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/mini-project/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/walkcycle/</loc>
+    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/bouncingballwithlegs/</loc>
+    <lastmod>2025-03-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/jobs/itri_2/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/group-work/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/intern-project/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/photoshop/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/moonshineposter/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unreal-engine/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/virtual-production/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/bouncingballwithtail/</loc>
+    <lastmod>2025-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/audio-visualization/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/moonshineosc/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/open-sound-control/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/toughdesigner/</loc>
+    <lastmod>2025-03-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jobs/moonshine/</loc>
     <lastmod>2025-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/autodesk-maya/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects_animation/example/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/character-animation/</loc>
-    <lastmod>2025-03-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/projects_animation/</loc>
+    <loc>http://localhost:1313/projects_animation/bouncingball/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jobs/itri_1/</loc>
@@ -97,9 +142,6 @@
   </url><url>
     <loc>http://localhost:1313/researchers/ncu/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>

@@ -6,14 +6,35 @@
     <description>Recent content in Character Animation on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/character-animation/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Walk Cycle Animation</title>
+      <link>http://localhost:1313/projects_animation/walkcycle/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/walkcycle/</guid>
+      <description>&lt;p&gt;This project explores the concept of a walk cycle using a non-character object (known as Bony) which is an abstract or simplified form that doesn’t resemble a human or animal. However, it is still a useful tool to convey believable locomotion.&lt;/p&gt;&#xA;&lt;p&gt;Without limbs or a defined anatomy, the animation relies entirely on &lt;em&gt;timing&lt;/em&gt;, &lt;em&gt;spacing&lt;/em&gt;, and weight shifts to create the illusion of walking. The challenge here was to break down the essence of a walk cycle into its most fundamental visual beats, such like contact, down, passing, and up, and reinterpret them in a stylized way.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bouncing Ball with Legs Animation</title>
+      <link>http://localhost:1313/projects_animation/bouncingballwithlegs/</link>
+      <pubDate>Sun, 30 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/bouncingballwithlegs/</guid>
+      <description>&lt;p&gt;Unlike the previous &lt;a href=&#34;../bouncingballwithtail&#34;&gt;bouncing ball with a tail&lt;/a&gt;, this animation introduces legs to the ball, adding complexity and personality to its movement.&lt;/p&gt;&#xA;&lt;p&gt;The key challenge was to balance the motion of the main body, which follows the principles of a traditional bouncing ball, with the legs, which provide buffering, elasticity, and propulsion. The legs not only absorb impact upon landing but also give a sense of power and intent during takeoff, making the animation feel more grounded and character-driven.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bouncing Ball with Tail Animation</title>
+      <link>http://localhost:1313/projects_animation/bouncingballwithtail/</link>
+      <pubDate>Sun, 16 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/bouncingballwithtail/</guid>
+      <description>&lt;p&gt;This animation features a bouncing ball with a tail and a pendulum, both of which serve as ideal subjects to demonstrate &lt;em&gt;follow through and overlapping action&lt;/em&gt;, one of the &lt;strong&gt;Twelve Basic Principles of Animation&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The ball&amp;rsquo;s body follows the same motion logic as the previous &lt;a href=&#34;../bouncingball&#34;&gt;bouncing ball project&lt;/a&gt;, but the tail adds &lt;em&gt;secondary motion&lt;/em&gt;, trailing behind the main body to enhance realism and fluidity. This overlapping motion helps the ball feel more alive and responsive to physical forces.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Bouncing Ball Animation</title>
-      <link>http://localhost:1313/projects_animation/example/</link>
+      <link>http://localhost:1313/projects_animation/bouncingball/</link>
       <pubDate>Sun, 02 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_animation/example/</guid>
-      <description>&lt;font face=&#34;Georgia&#34;&gt;&#xA;    The smallest yellow ball with blue strike on it is a bouncing ball; the medium purple ball with gray strike acts like a bowling ball; the largest green ball with orange strike is simulating a beach ball. By implementing &lt;strong&gt;The Twelve Basic Principles of Animation&lt;/strong&gt;, such like &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arcs&lt;/em&gt; and &lt;em&gt;timing&lt;/em&gt;, the ball looks not only real but also more appealing by its cartooning style. Also, &#34;squash and stretch&#34; makes the bouncing ball lifelike because of its resilience.&lt;br&gt;&#xA;    &lt;p align=&#34;center&#34;&gt;&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/P-codDlmq6U?si=c8K_22TskaycU8tG&amp;autoplay=1&amp;loop=1&amp;playlist=P-codDlmq6U&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/projects_animation/bouncingball/</guid>
+      <description>&lt;p&gt;In this project, I used keyframe animation in Maya to simulate the motion of three types of balls, each representing a different physical behavior:&lt;/p&gt;&#xA;&lt;p&gt;• A small yellow ball with a blue stripe acts as a bouncing ball.&lt;/p&gt;&#xA;&lt;p&gt;• A medium purple ball with a gray stripe behaves like a heavy bowling ball.&lt;/p&gt;&#xA;&lt;p&gt;• A large green ball with an orange stripe simulates a light, floaty beach ball.&lt;/p&gt;&#xA;&lt;p&gt;Rather than solving the equations of motion, I animated each ball by manually setting keyframes and applying the &lt;strong&gt;Twelve Basic Principles of Animation&lt;/strong&gt;. Techniques such as &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arc&lt;/em&gt;, and &lt;em&gt;timing&lt;/em&gt; were used to make the movements feel natural and expressive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emoji Support</title>
