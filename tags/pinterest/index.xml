@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pinterest on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/pinterest/</link>
+    <description>Recent content in Pinterest on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pinterest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dynamics of Human Locomotion</title>
+      <link>http://localhost:1313/projects_animation/locomotions/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/locomotions/</guid>
+      <description>&lt;h6&gt;&lt;a href=&#34;https://www.linkedin.com/learning/character-animation-locomotion&#34;&gt; Linkedin learning course &lt;/a&gt;&lt;/h6&gt;&#xA;&lt;h2&gt; Between the Velocity &lt;/h2&gt;&#xA;The difference between jogging and sprinting is not merely a matter of speed. It also lies in how the body stores and releases force through the joints during movement.&#xA;&lt;p&gt;• When jogging, the joints store less force, the motion is more rhythmic and relaxed, the body’s center of gravity remains stable, and the arm swing is minimal.&lt;/p&gt;&#xA;&lt;p&gt;• In contrast, during sprinting, the knee and ankle joints store significantly more force, the center of gravity shifts forward, and the arms swing with greater intensity to generate forward momentum.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

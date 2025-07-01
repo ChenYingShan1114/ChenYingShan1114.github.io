@@ -98,14 +98,35 @@
     <loc>http://localhost:1313/publications_journal/</loc>
     <lastmod>2024-06-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/animation/</loc>
+    <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/lighting/</loc>
+    <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/modeling/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects_animation/walle/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/rendering/</loc>
+    <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/rigging/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/locomotions/</loc>
+    <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pinterest/</loc>
+    <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/practice/</loc>
+    <lastmod>2024-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/uv-texturing/</loc>
+    <lastmod>2024-03-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jobs/sutd/</loc>
     <lastmod>2024-03-04T00:00:00+00:00</lastmod>
@@ -121,6 +142,15 @@
   </url><url>
     <loc>http://localhost:1313/publications_conference/aapps2023/</loc>
     <lastmod>2023-11-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/substance-3d-painter/</loc>
+    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/scene/</loc>
+    <lastmod>2023-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_animation/rocket/</loc>
+    <lastmod>2023-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publications_conference/tps2023/</loc>
     <lastmod>2023-01-17T00:00:00+00:00</lastmod>
@@ -145,6 +175,12 @@
   </url><url>
     <loc>http://localhost:1313/publications_conference/tps2022/</loc>
     <lastmod>2022-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/gallery_name/</loc>
+    <lastmod>2019-12-01T13:21:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/</loc>
+    <lastmod>2019-12-01T13:21:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jobs/ncu/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>

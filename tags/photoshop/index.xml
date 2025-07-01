@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/projects_animation/moonshineposter/</guid>
       <description>&lt;p&gt;Group members: 游沛勳 彭俊諺 張哲嘉 高秉誠 陳盈珊&lt;/p&gt;&#xA;&lt;p&gt;During my internship as a Technical Art Intern at Moonshine Studio which is one of Taiwan’s leading animation companies, I worked with professionals from diverse backgrounds, including 2D/3D animation, motion design, visual effects, post-production for film and TV, interactive media, and technical R&amp;amp;D. While many teams focused on traditional and digital production, I joined a specialized team pioneering Virtual Production at Moonshine XR Studio which is the first studio in Taiwan to adopt this technique.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>My First Step into Animation: Cartoon Rocket Launch</title>
+      <link>http://localhost:1313/projects_animation/rocket/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/rocket/</guid>
+      <description>&lt;p&gt;The launch of a rocket is often seen as a symbol of venturing into the unknown, which is an idea that resonates deeply with my own journey as I step into the world of animation. This short film serves as a personal metaphor, with the rocket representing my ambitions and curiosity at the very beginning of this creative path.&lt;/p&gt;&#xA;&lt;p&gt;The rocket is designed in a simple, cartoon style, reflecting the innocence and rawness of someone just starting out. While the design remains playful, the animation is brought to life through dynamic smoke effects created using Maya&amp;rsquo;s particle system, which adds a sense of timing, weight, and immersion to the scene.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

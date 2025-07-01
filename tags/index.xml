@@ -93,6 +93,20 @@
       <description></description>
     </item>
     <item>
+      <title>Animation</title>
+      <link>http://localhost:1313/tags/animation/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/animation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lighting</title>
+      <link>http://localhost:1313/tags/lighting/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lighting/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Modeling</title>
       <link>http://localhost:1313/tags/modeling/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
@@ -100,10 +114,38 @@
       <description></description>
     </item>
     <item>
+      <title>Rendering</title>
+      <link>http://localhost:1313/tags/rendering/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rendering/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Rigging</title>
       <link>http://localhost:1313/tags/rigging/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/rigging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pinterest</title>
+      <link>http://localhost:1313/tags/pinterest/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pinterest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>UV Texturing</title>
+      <link>http://localhost:1313/tags/uv-texturing/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/uv-texturing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Substance 3D Painter</title>
+      <link>http://localhost:1313/tags/substance-3d-painter/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/substance-3d-painter/</guid>
       <description></description>
     </item>
     <item>

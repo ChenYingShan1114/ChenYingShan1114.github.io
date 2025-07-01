@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rendering on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/rendering/</link>
+    <description>Recent content in Rendering on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rendering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconstruct Pixar&#39;s WALL·E</title>
+      <link>http://localhost:1313/projects_animation/walle/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/walle/</guid>
+      <description>&lt;p&gt;After studying modeling techniques through LinkedIn Learning and receiving guidance from a friend majoring in animation at Queensland University of Technology (QUT), I took on the challenge of reconstructing the iconic WALL·E character from Pixar.&lt;/p&gt;&#xA;&lt;p&gt;This project focused on high-detail modeling in Autodesk Maya. I paid close attention to the mechanical structure, especially the eyes, body shape, and internal gears. Notably, the “WALL·E” logo on the body was not a texture but fully modeled geometry, making the result feel physically grounded and stylized.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dynamics of Human Locomotion</title>
+      <link>http://localhost:1313/projects_animation/locomotions/</link>
+      <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/locomotions/</guid>
+      <description>&lt;h6&gt;&lt;a href=&#34;https://www.linkedin.com/learning/character-animation-locomotion&#34;&gt; Linkedin learning course &lt;/a&gt;&lt;/h6&gt;&#xA;&lt;h2&gt; Between the Velocity &lt;/h2&gt;&#xA;The difference between jogging and sprinting is not merely a matter of speed. It also lies in how the body stores and releases force through the joints during movement.&#xA;&lt;p&gt;• When jogging, the joints store less force, the motion is more rhythmic and relaxed, the body’s center of gravity remains stable, and the arm swing is minimal.&lt;/p&gt;&#xA;&lt;p&gt;• In contrast, during sprinting, the knee and ankle joints store significantly more force, the center of gravity shifts forward, and the arms swing with greater intensity to generate forward momentum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Solitude House</title>
+      <link>http://localhost:1313/projects_animation/scene/</link>
+      <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/scene/</guid>
+      <description>&lt;p&gt;The lonely house in this piece symbolizes both physical isolation and a deeper sense of inner solitude. For me, loneliness is not just an absence of company. It’s a rare opportunity to engage in quiet, honest conversations with myself. In solitude, I’m able to calmly explore my inner world, allowing my thoughts to expand, my emotions to settle, and my perspective to deepen. It’s in these moments of stillness that I often find new strength, clarity, and resilience to face life with greater purpose.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Step into Animation: Cartoon Rocket Launch</title>
+      <link>http://localhost:1313/projects_animation/rocket/</link>
+      <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/rocket/</guid>
+      <description>&lt;p&gt;The launch of a rocket is often seen as a symbol of venturing into the unknown, which is an idea that resonates deeply with my own journey as I step into the world of animation. This short film serves as a personal metaphor, with the rocket representing my ambitions and curiosity at the very beginning of this creative path.&lt;/p&gt;&#xA;&lt;p&gt;The rocket is designed in a simple, cartoon style, reflecting the innocence and rawness of someone just starting out. While the design remains playful, the animation is brought to life through dynamic smoke effects created using Maya&amp;rsquo;s particle system, which adds a sense of timing, weight, and immersion to the scene.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
