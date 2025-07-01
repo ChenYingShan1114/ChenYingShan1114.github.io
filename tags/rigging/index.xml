@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rigging on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/rigging/</link>
+    <description>Recent content in Rigging on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rigging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reconstruct Pixar&#39;s Wall • E</title>
+      <link>http://localhost:1313/projects_animation/walle/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_animation/walle/</guid>
+      <description>&lt;p&gt;This project explores the concept of a walk cycle using a non-character object (known as Bony) which is an abstract or simplified form that doesn’t resemble a human or animal. However, it is still a useful tool to convey believable locomotion.&lt;/p&gt;&#xA;&lt;p&gt;Without limbs or a defined anatomy, the animation relies entirely on &lt;em&gt;timing&lt;/em&gt;, &lt;em&gt;spacing&lt;/em&gt;, and weight shifts to create the illusion of walking. The challenge here was to break down the essence of a walk cycle into its most fundamental visual beats, such like contact, down, passing, and up, and reinterpret them in a stylized way.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
