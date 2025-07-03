@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Project on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/categories/research-project/</link>
+    <description>Recent content in Research Project on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/research-project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Stream Instability Simulation in Plasma Physics</title>
+      <link>http://localhost:1313/projects_physics/twostreaminstability/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/twostreaminstability/</guid>
+      <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

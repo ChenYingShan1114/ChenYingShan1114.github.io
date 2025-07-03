@@ -142,10 +142,66 @@
       <description></description>
     </item>
     <item>
+      <title>Data Analysis</title>
+      <link>http://localhost:1313/tags/data-analysis/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/data-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier Transform</title>
+      <link>http://localhost:1313/tags/fourier-transform/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fourier-transform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum Mechanics</title>
+      <link>http://localhost:1313/tags/quantum-mechanics/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/quantum-mechanics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving Systems of Equations</title>
+      <link>http://localhost:1313/tags/solving-systems-of-equations/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solving-systems-of-equations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classical Mechanics</title>
+      <link>http://localhost:1313/tags/classical-mechanics/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/classical-mechanics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ordinary Differential Equation</title>
+      <link>http://localhost:1313/tags/ordinary-differential-equation/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ordinary-differential-equation/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Substance 3D Painter</title>
       <link>http://localhost:1313/tags/substance-3d-painter/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/substance-3d-painter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Particle-in-Cell Simulation</title>
+      <link>http://localhost:1313/tags/particle-in-cell-simulation/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/particle-in-cell-simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plasma Physics</title>
+      <link>http://localhost:1313/tags/plasma-physics/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/plasma-physics/</guid>
       <description></description>
     </item>
     <item>

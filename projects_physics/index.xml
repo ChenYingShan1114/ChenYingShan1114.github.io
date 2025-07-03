@@ -6,8 +6,36 @@
     <description>Recent content in projects_physics on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects_physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Digital Filter – Frequency Domain Analysis</title>
+      <link>http://localhost:1313/projects_physics/simpledigitalfilter/</link>
+      <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/simpledigitalfilter/</guid>
+      <description>&lt;p&gt;In today’s data-driven world, understanding macro-scale phenomena often begins with data analysis. Two key tools in this field are:&lt;/p&gt;&#xA;&lt;p&gt;• Curve fitting, such as linear regression, which minimizes the least squares error&lt;/p&gt;&#xA;&lt;p&gt;• Fourier transform, which decomposes signals into frequency components—particularly useful in analyzing periodic systems&lt;/p&gt;&#xA;&lt;p&gt;In this project, I generate a synthesized signal made up of multiple sine waves, apply simple mathematical operations, and analyze the result using Fourier transform. Surprisingly, these operations behave like digital filters in the frequency domain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finite Square Well</title>
+      <link>http://localhost:1313/projects_physics/finitesquarewell/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/finitesquarewell/</guid>
+      <description>&lt;p&gt;There are two common approaches for solving systems of equations: linear and non-linear. For linear unsteady systems, it can be solved by &lt;a href=&#34;https://en.wikipedia.org/wiki/Gaussian_elimination&#34;&gt; Gaussian elimination&lt;/a&gt; and inverse matrix. However, for nonlinear equations, &lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%27s_method&#34;&gt;Newton&amp;rsquo;s method&lt;/a&gt; can let us approach the solution.&#xA;This project demonstrates how Newton’s method can be applied to solve the nonlinear eigenvalue problem of a finite potential square well, where no theoritical solution exists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;finite-square-well&#34;&gt;Finite Square Well&lt;/h2&gt;&#xA;&lt;p&gt;In quantum mechanics, the energy eigenvalues of finite potential square well are given by transcendental equations. Therefore, these equations are highly nonlinear and must be solved numerically or graphically. In this project, I used single-variable Newton&amp;rsquo;s method to find the roots corresponding to the allowed energy eigenvalues of a bound electron in the well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rutherford Scattering</title>
+      <link>http://localhost:1313/projects_physics/rutherfordscattering/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/rutherfordscattering/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Rutherford_scattering_experiments#Rutherford_scattering&#34;&gt; Rutherford’s historic experiment &lt;/a&gt;, alpha particles were observed to scatter when passing near the gold nuclei in a thin foil. This experiment disproved the &lt;a href=&#34;https://en.wikipedia.org/wiki/Plum_pudding_model&#34;&gt; plum pudding model &lt;/a&gt; and provided strong evidence for the existence of a small, dense atomic nucleus.&lt;/p&gt;&#xA;&lt;p&gt;In this project, I recreated the scattering process using a numerical simulation of the Coulomb force between an alpha particle and a gold ion. The simulation is solved using the adaptive Runge-Kutta method, which provides high accuracy when modeling the particle’s trajectory under the influence of electrostatic repulsion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Two Stream Instability Simulation in Plasma Physics</title>
+      <link>http://localhost:1313/projects_physics/twostreaminstability/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/twostreaminstability/</guid>
+      <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Placeholder Text</title>
       <link>http://localhost:1313/projects_physics/placeholder-text/</link>
