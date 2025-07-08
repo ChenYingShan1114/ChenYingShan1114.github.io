@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stochastic Method on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/stochastic-method/</link>
+    <description>Recent content in Stochastic Method on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/stochastic-method/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acceptance-Rejection Distribution Generator</title>
+      <link>http://localhost:1313/projects_physics/distributiongenerator/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/distributiongenerator/</guid>
+      <description>&lt;h2 id=&#34;acceptane-rejection-sampling-method&#34;&gt;Acceptane-Rejection Sampling Method&lt;/h2&gt;&#xA;&lt;p&gt;Acceptance-rejection is a technique for building generators of distributions, which works well both on continuous and discrete random variables. The general idea is analogous to throwing darts at a dartboard.&#xA;Consider a continuous random variable \(x\) distributed in \([a,b)\) with a proba-&#xA;bility distribution \(P_x(x)\). We select a value \(P^{max}_x(x)\) with the condition&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;P^{max}_x \ge P_x(x)&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;for all \(x\). There are four steps that the scheme selecting a random value for \(x\):&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -3,14 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ying-Shan Chen@TW ~ $ - Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasma </title>
+    <title>Ying-Shan Chen@TW ~ $ - The Second Kind Bessel Function </title>
     
     
-    <meta content="High-Harmonic Generation, Numerical Simulation, electromagnetic" name="keywords">
+    <meta content="Bessel Function, Numerical Integration, TA project" name="keywords">
     
-    <meta content="Ying-Shan Chen@TW ~ $ - 2022-12-02 ~ 2022-12-04
-https://optic2022.conf.tw/site/page.aspx?pid=901&amp;sid=1443&amp;lang=en
-https://optic2022.conf.tw/site/order/1443/SessionDetail.aspx?sid=1443&amp;lang=en&amp;snid=C&amp;rmid=C11" name="description">
+    <meta content="Ying-Shan Chen@TW ~ $ - Computed Bessel functions of the second kind \(Y_m(x)\) using upward recursion, with starting values derived via analytical identities and numerical integration. Verified results by plotting \(Y_m(x)\) for various orders over the range \(0 &lt; x &lt; 50\)." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -137,14 +135,20 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote self-elem-quote-bg-gray markdown-body single-title" >
-                    <h1>Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasma</h1>
+                    <h1>The Second Kind Bessel Function</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2022-12-03</span>
+    <span>2023-12-21</span>
 
     
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
 
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
     
 
     
@@ -152,16 +156,12 @@ layui.use('element', function(){
     
 
     
-        <a href="/tags/high-harmonic-generation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">High-Harmonic Generation</span>
+        <a href="/tags/bessel-function/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Bessel Function</span>
         </a>
     
-        <a href="/tags/numerical-simulation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
-        </a>
-    
-        <a href="/tags/electromagnetic/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">electromagnetic</span>
+        <a href="/tags/numerical-integration/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Integration</span>
         </a>
     
     
@@ -169,60 +169,29 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
-                    <p>2022-12-02 ~ 2022-12-04
-<a href="https://optic2022.conf.tw/site/page.aspx?pid=901&amp;sid=1443&amp;lang=en">https://optic2022.conf.tw/site/page.aspx?pid=901&amp;sid=1443&amp;lang=en</a>
-<a href="https://optic2022.conf.tw/site/order/1443/SessionDetail.aspx?sid=1443&amp;lang=en&amp;snid=C&amp;rmid=C11">https://optic2022.conf.tw/site/order/1443/SessionDetail.aspx?sid=1443&amp;lang=en&amp;snid=C&amp;rmid=C11</a></p>
+                    <p>The second solution to Bessel&rsquo;s equation is \(Y_m(x)\), the Bessel function of the second kind. Compute the function \(Y_m(x)\) using upward recursion
+$$
+Y_{m+1}=\frac{2m}{x}Y_m(x)-Y_{m-1}(x).
+$$
+To obtain the starting values for recursion, use the identities
+$$
+Y_0(x) = \frac{2}{\pi} \left[ \ln{\frac{x}{2}} + \gamma \right] J_0(x) - \frac{4}{\pi} \sum^\infty_{k=1}(-1)^k \frac{J_{2k}(x)}{k}
+$$
+and
+$$
+J_1(x)Y_0(x)-J_0(x)Y_1(x) = \frac{2}{\pi x}
+$$
+where \(\gamma \approx 0.577215664\). Demonstrate your routine by producing plots of \(Y_m(x)\) for \(0 &lt; x &lt; 50\) and various \(m\).</p>
+<p>🔗 See more details <a href="https://github.com/ChenYingShan1114/Numerical-Integration"> here</a>.</p>
+<h2 id="numerical-integration-result">Numerical Integration Result</h2>
+<p align="center">
+    <img src="/self/img/projects_physics/BesselFunction/Bessel.png" width="700" style="margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px"> 
+</p>
 </div>
             </div>
         </div>
 
         <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
-            
-            <div class="layui-card single-card">
-                <h2 class="single-title">Relevant Topics</h2>
-                
-                	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/publications_conference/tps2022/">
-                                <h3 class="">Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly-Ionized Plasma</h3>
-                            </a>
-                            
-                            <h3 style="margin-top:10px; margin-bottom:10px"> 
-    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2022-01-24</span>
-
-    
-    
-
-    
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
-    
-
-    
-        <a href="/tags/high-harmonic-generation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">High-Harmonic Generation</span>
-        </a>
-    
-        <a href="/tags/numerical-simulation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
-        </a>
-    
-        <a href="/tags/electromagnetic/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">electromagnetic</span>
-        </a>
-    
-    
-</h3>
-
-                        </blockquote>
-                    </div>
-                	
-                
-                <br />
-            </div>
             
 
             <div class="layui-card single-card">

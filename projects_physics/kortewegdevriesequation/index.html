@@ -3,14 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ying-Shan Chen@TW ~ $ - Numerical Simulation of Phase-Matched High Harmonics Generation through Laser Plasma Interaction </title>
+    <title>Ying-Shan Chen@TW ~ $ - Korteweg de Vries Equation </title>
     
     
-    <meta content="High-Harmonic Generation, Numerical Simulation, electromagnetic" name="keywords">
+    <meta content="Wave, Numerical Simulation, Partial Differential Equation, TA project" name="keywords">
     
-    <meta content="Ying-Shan Chen@TW ~ $ - 2023-01-16 ~ 2023-01-18
-https://tps2023.conf.tw/site/page.aspx?pid=901&amp;sid=1463&amp;lang=en
-https://tps2023.conf.tw/site/order/1463/poster.aspx?sid=1463&amp;lang=en" name="description">
+    <meta content="Ying-Shan Chen@TW ~ $ - Simulated soliton waves using the Korteweg–de Vries (KdV) equation to explore how different explicit and implicit time-stepping methods affect accuracy and stability." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -137,14 +135,20 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote self-elem-quote-bg-gray markdown-body single-title" >
-                    <h1>Numerical Simulation of Phase-Matched High Harmonics Generation through Laser Plasma Interaction</h1>
+                    <h1>Korteweg de Vries Equation</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2023-01-17</span>
+    <span>2023-11-14</span>
 
     
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
 
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
     
 
     
@@ -152,16 +156,16 @@ layui.use('element', function(){
     
 
     
-        <a href="/tags/high-harmonic-generation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">High-Harmonic Generation</span>
+        <a href="/tags/wave/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Wave</span>
         </a>
     
         <a href="/tags/numerical-simulation/">
             <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
         </a>
     
-        <a href="/tags/electromagnetic/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">electromagnetic</span>
+        <a href="/tags/partial-differential-equation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Partial Differential Equation</span>
         </a>
     
     
@@ -169,9 +173,43 @@ layui.use('element', function(){
 
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
-                    <p>2023-01-16 ~ 2023-01-18
-<a href="https://tps2023.conf.tw/site/page.aspx?pid=901&amp;sid=1463&amp;lang=en">https://tps2023.conf.tw/site/page.aspx?pid=901&amp;sid=1463&amp;lang=en</a>
-<a href="https://tps2023.conf.tw/site/order/1463/poster.aspx?sid=1463&amp;lang=en">https://tps2023.conf.tw/site/order/1463/poster.aspx?sid=1463&amp;lang=en</a></p>
+                    <p>Partial Differential Equations (PDEs) play a foundational role in modeling physical phenomena involving functions of multiple variables—such as heat flow, wave propagation, fluid dynamics, and quantum mechanics. These equations describe how quantities evolve over space and time, often governed by laws of conservation, motion, or energy.</p>
+<h4 id="-types-of-pde-problems">🧩 Types of PDE Problems</h4>
+<p>Two major classes of problems arise when dealing with PDEs:</p>
+<p>• Initial Value Problems (IVPs): Solutions evolve over time from given initial conditions. These are common in time-dependent systems like waves or diffusion.</p>
+<p>• Boundary Value Problems (BVPs): Solutions are defined within a spatial domain with specified boundary conditions. These are often encountered in steady-state or spatially constrained scenarios.</p>
+<h4 id="-core-equations-and-concepts">🧪 Core Equations and Concepts</h4>
+<p>Some of the most studied equations in this field include:</p>
+<p>• Diffusion Equation: Describes the spread of heat or particles (e.g., heat equation).</p>
+<p>• Advection Equation: Describes the transport of material by a velocity field.</p>
+<p>• Poisson Equation: A classic elliptic PDE appearing in electrostatics, fluid flow, and gravitational fields.</p>
+<p>These core equations provide a foundation for understanding more complex physical systems.</p>
+<h4 id="-numerical-techniques-for-pdes">🛠 Numerical Techniques for PDEs</h4>
+<p>Several numerical techniques are used to discretize and solve PDEs:</p>
+<p>• Relaxation Methods: Iteratively approach the solution of elliptic equations like the Poisson equation.</p>
+<p>• Fourier-Galerkin Method: A spectral method using orthogonal functions (e.g., sine, cosine) to approximate PDE solutions with high accuracy.</p>
+<p>• Stability Analysis: Evaluates the numerical behavior of a method under perturbations or over long time integration.</p>
+<p>• Implicit and Explicit Schemes: Methods for time-stepping. Explicit schemes are simple and fast but often require small time steps for stability. Implicit schemes, such as the Crank–Nicolson method, are stable under larger steps but more computationally intensive due to solving matrix systems.</p>
+<p>🔗 See more examples <a href="https://github.com/ChenYingShan1114/Partial-Differential-Equations"> here</a>.</p>
+<h2 id="-kortewegde-vries-kdv-equation">🌊 Korteweg–de Vries (KdV) Equation</h2>
+<p>The Korteweg–de Vries (KdV) equation is a nonlinear PDE that models wave motion in shallow water. It combines nonlinear advection with third-order dispersion:
+$$
+\frac{\partial \rho}{\partial t}=-6\rho \frac{\partial \rho}{\partial x} - \frac{\partial ^3 \rho}{\partial x^3}.
+$$
+This equation is renowned for supporting soliton solutions—waves that maintain their shape while propagating at constant speed.
+In this project, I use Dirichlet boundary conditions, \(\rho(x= L/2)=\rho(x= -L/2)=0\) and test the program with the known solitary wave solution \(\rho(x,t)=2 \mathrm{sech} ^2(x-4t)\).</p>
+<h3 id="-numerical-methods-implemented">🔧 Numerical Methods Implemented</h3>
+<p>To solve the KdV equation numerically, I implemented three approaches:</p>
+<p>• Explicit Scheme (Iterative Method): Direct time stepping with finite differences.</p>
+<p>• Explicit Scheme (Matrix Method): Matrix formulation for improved computational structure.</p>
+<p>• Implicit Scheme (Crank–Nicolson Method): A semi-implicit method with better stability and accuracy.</p>
+<p>🔗 See more details <a href="https://github.com/ChenYingShan1114/Korteweg-de-Vries-Equation"> here</a>.</p>
+<h3 id="simulation-result">Simulation Result</h3>
+<p>Below is a comparison of wave evolution using different numerical schemes:
+(From left to right, the time steps \(\tau\) are \(10^{-4}\text{s}\), \(10^{-4}\text{s}\), and \(5 \times 10^{-3}~\text{s}\), respectively.)</p>
+<p align="center">
+    <img src="/self/img/projects_physics/KortewegdeVriesEquation/KdV_figure.png" width="700" style="margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px"> 
+</p>
 </div>
             </div>
         </div>
@@ -184,17 +222,23 @@ layui.use('element', function(){
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/publications_conference/optic2022/">
-                                <h3 class="">Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasma</h3>
+                            <a href="/projects_physics/finitesquarewell/">
+                                <h3 class="">Finite Square Well</h3>
                             </a>
                             
                             <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2022-12-03</span>
+    <span>2023-10-30</span>
 
     
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
 
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
     
 
     
@@ -202,16 +246,16 @@ layui.use('element', function(){
     
 
     
-        <a href="/tags/high-harmonic-generation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">High-Harmonic Generation</span>
+        <a href="/tags/quantum-mechanics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Quantum Mechanics</span>
         </a>
     
         <a href="/tags/numerical-simulation/">
             <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
         </a>
     
-        <a href="/tags/electromagnetic/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">electromagnetic</span>
+        <a href="/tags/solving-systems-of-equations/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Solving Systems of Equations</span>
         </a>
     
     
@@ -222,17 +266,23 @@ layui.use('element', function(){
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/publications_conference/tps2022/">
-                                <h3 class="">Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly-Ionized Plasma</h3>
+                            <a href="/projects_physics/rutherfordscattering/">
+                                <h3 class="">Rutherford Scattering</h3>
                             </a>
                             
                             <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2022-01-24</span>
+    <span>2023-10-14</span>
 
     
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
 
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
     
 
     
@@ -240,16 +290,16 @@ layui.use('element', function(){
     
 
     
-        <a href="/tags/high-harmonic-generation/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">High-Harmonic Generation</span>
+        <a href="/tags/classical-mechanics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Classical Mechanics</span>
         </a>
     
         <a href="/tags/numerical-simulation/">
             <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
         </a>
     
-        <a href="/tags/electromagnetic/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">electromagnetic</span>
+        <a href="/tags/ordinary-differential-equation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Ordinary Differential Equation</span>
         </a>
     
     

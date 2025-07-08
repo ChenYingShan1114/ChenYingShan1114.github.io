@@ -36,12 +36,5 @@
       <guid>http://localhost:1313/projects_animation/bouncingball/</guid>
       <description>&lt;p&gt;In this project, I used keyframe animation in Maya to simulate the motion of three types of balls, each representing a different physical behavior:&lt;/p&gt;&#xA;&lt;p&gt;• A small yellow ball with a blue stripe acts as a bouncing ball.&lt;/p&gt;&#xA;&lt;p&gt;• A medium purple ball with a gray stripe behaves like a heavy bowling ball.&lt;/p&gt;&#xA;&lt;p&gt;• A large green ball with an orange stripe simulates a light, floaty beach ball.&lt;/p&gt;&#xA;&lt;p&gt;Rather than solving the equations of motion, I animated each ball by manually setting keyframes and applying the &lt;strong&gt;Twelve Basic Principles of Animation&lt;/strong&gt;. Techniques such as &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arc&lt;/em&gt;, and &lt;em&gt;timing&lt;/em&gt; were used to make the movements feel natural and expressive.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/projects_physics/example/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/example/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

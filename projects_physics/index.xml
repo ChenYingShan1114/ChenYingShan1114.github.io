@@ -6,8 +6,29 @@
     <description>Recent content in projects_physics on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects_physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Second Kind Bessel Function</title>
+      <link>http://localhost:1313/projects_physics/besselfunction/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/besselfunction/</guid>
+      <description>&lt;p&gt;The second solution to Bessel&amp;rsquo;s equation is \(Y_m(x)\), the Bessel function of the second kind. Compute the function \(Y_m(x)\) using upward recursion&#xA;$$&#xA;Y_{m+1}=\frac{2m}{x}Y_m(x)-Y_{m-1}(x).&#xA;$$&#xA;To obtain the starting values for recursion, use the identities&#xA;$$&#xA;Y_0(x) = \frac{2}{\pi} \left[ \ln{\frac{x}{2}} + \gamma \right] J_0(x) - \frac{4}{\pi} \sum^\infty_{k=1}(-1)^k \frac{J_{2k}(x)}{k}&#xA;$$&#xA;and&#xA;$$&#xA;J_1(x)Y_0(x)-J_0(x)Y_1(x) = \frac{2}{\pi x}&#xA;$$&#xA;where \(\gamma \approx 0.577215664\). Demonstrate your routine by producing plots of \(Y_m(x)\) for \(0 &amp;lt; x &amp;lt; 50\) and various \(m\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Acceptance-Rejection Distribution Generator</title>
+      <link>http://localhost:1313/projects_physics/distributiongenerator/</link>
+      <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/distributiongenerator/</guid>
+      <description>&lt;h2 id=&#34;acceptane-rejection-sampling-method&#34;&gt;Acceptane-Rejection Sampling Method&lt;/h2&gt;&#xA;&lt;p&gt;Acceptance-rejection is a technique for building generators of distributions, which works well both on continuous and discrete random variables. The general idea is analogous to throwing darts at a dartboard.&#xA;Consider a continuous random variable \(x\) distributed in \([a,b)\) with a proba-&#xA;bility distribution \(P_x(x)\). We select a value \(P^{max}_x(x)\) with the condition&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;P^{max}_x \ge P_x(x)&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;for all \(x\). There are four steps that the scheme selecting a random value for \(x\):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Korteweg de Vries Equation</title>
+      <link>http://localhost:1313/projects_physics/kortewegdevriesequation/</link>
+      <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/kortewegdevriesequation/</guid>
+      <description>&lt;p&gt;Partial Differential Equations (PDEs) play a foundational role in modeling physical phenomena involving functions of multiple variables—such as heat flow, wave propagation, fluid dynamics, and quantum mechanics. These equations describe how quantities evolve over space and time, often governed by laws of conservation, motion, or energy.&lt;/p&gt;&#xA;&lt;h4 id=&#34;-types-of-pde-problems&#34;&gt;🧩 Types of PDE Problems&lt;/h4&gt;&#xA;&lt;p&gt;Two major classes of problems arise when dealing with PDEs:&lt;/p&gt;&#xA;&lt;p&gt;• Initial Value Problems (IVPs): Solutions evolve over time from given initial conditions. These are common in time-dependent systems like waves or diffusion.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Simple Digital Filter – Frequency Domain Analysis</title>
       <link>http://localhost:1313/projects_physics/simpledigitalfilter/</link>
@@ -37,18 +58,11 @@
       <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Placeholder Text</title>
-      <link>http://localhost:1313/projects_physics/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&#xA;pectora summo.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Emoji Support</title>
-      <link>http://localhost:1313/projects_physics/example/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/example/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+      <title>Introduction to Computational Physics</title>
+      <link>http://localhost:1313/projects_physics/ta_introtocomphysics/</link>
+      <pubDate>Sun, 14 Nov 1999 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/ta_introtocomphysics/</guid>
+      <description>&lt;h2 id=&#34;ta-project&#34;&gt;TA Project&lt;/h2&gt;&#xA;&lt;p&gt;• Ordinary Differential Equation: &lt;a href=&#34;../rutherfordscattering/&#34;&gt;Rutherford Scattering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Solving Systems of Equations: &lt;a href=&#34;../finitesquarewell/&#34;&gt;Finite Square Well&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Analysis of Data: &lt;a href=&#34;../simpledigitalfilter/&#34;&gt;Simple Digital Filter – Frequency Domain Analysis&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Partial Differential Equation: &lt;a href=&#34;../kortewegdevriesequation/&#34;&gt;Korteweg de Vries Equation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Stochastic Method: &lt;a href=&#34;../distributiongenerator/&#34;&gt;Acceptance-Rejection Distribution Generator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Special Functions and Quadrature (Numerical Integration): &lt;a href=&#34;../besselfunction/&#34;&gt;The Second Kind Bessel Function&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
