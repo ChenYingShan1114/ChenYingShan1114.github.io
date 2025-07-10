@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soap on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/soap/</link>
+    <description>Recent content in Soap on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/soap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vortex Dynamics in 2-dimensional Soap Film Turbulence</title>
+      <link>http://localhost:1313/projects_physics/soapturbulence/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/soapturbulence/</guid>
+      <description>&lt;p&gt;Team members: 陳盈珊 張容誌&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/SoapTurbulence/G03_Poster_final version.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

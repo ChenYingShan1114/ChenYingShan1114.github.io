@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/publications_conference/aapps2023/</guid>
       <description>&lt;p&gt;2023-11-12 ~ 2023-11-17&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasmas</title>
+      <link>http://localhost:1313/projects_physics/hhg/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/hhg/</guid>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

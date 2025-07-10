@@ -17,10 +17,25 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-06-21T10:53:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/autodesk-maya/</loc>
-    <lastmod>2025-04-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nvidia-omniverse/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/pancakesimulation/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/physics-engine/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/work-project/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/autodesk-maya/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/character-animation/</loc>
@@ -97,6 +112,15 @@
   </url><url>
     <loc>http://localhost:1313/publications_journal/</loc>
     <lastmod>2024-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/curvefitting/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/computer-graphics/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/animation/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
@@ -206,8 +230,32 @@
     <loc>http://localhost:1313/projects_animation/scene/</loc>
     <lastmod>2023-05-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects_physics/analyzetemperature/</loc>
+    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/course-project/</loc>
+    <lastmod>2023-05-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects_animation/rocket/</loc>
     <lastmod>2023-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
+    <lastmod>2022-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/openglut/</loc>
+    <lastmod>2022-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/zbufferandshading/</loc>
+    <lastmod>2022-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/3dcgpipeline/</loc>
+    <lastmod>2022-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/transformationandclipping/</loc>
+    <lastmod>2022-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/paintbrush/</loc>
+    <lastmod>2022-10-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/educations/</loc>
     <lastmod>2022-09-01T00:00:00+00:00</lastmod>
@@ -218,23 +266,74 @@
     <loc>http://localhost:1313/educations/liu/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/note/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_cg/notecg/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/theory/</loc>
+    <lastmod>2022-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/particle-in-cell-simulation/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/plasma-physics/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/research-project/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/twostreaminstability/</loc>
+    <lastmod>2022-03-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/researchers/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/researchers/ncku/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/particle-in-cell-simulation/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/derivation/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/plasma-physics/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/projects_physics/gaussianbeam/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/research-project/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/gauussian-beam/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects_physics/twostreaminstability/</loc>
-    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2021-10-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/hhg/</loc>
+    <lastmod>2021-06-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/finite-difference-time-domain-method/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/fdtd/</loc>
+    <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/experimental-physics/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/piv-method/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/soap/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/turbulence/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/soapturbulence/</loc>
+    <lastmod>2020-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/pendulum/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pendulum/</loc>
+    <lastmod>2019-12-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/gallery_name/</loc>
     <lastmod>2019-12-01T13:21:53+08:00</lastmod>
@@ -247,6 +346,18 @@
   </url><url>
     <loc>http://localhost:1313/researchers/ncu/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/circuit/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/electrooculography/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects_physics/eyecontrolledtwowheelrobot/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/pid-controller/</loc>
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/css/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
@@ -287,12 +398,7 @@
     <loc>http://localhost:1313/educations/ncu_undergraduate/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects_physics/ta_introtocomphysics/</loc>
-    <lastmod>1999-11-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/projects_cg/</loc>
   </url><url>
     <loc>http://localhost:1313/publications/</loc>
   </url>

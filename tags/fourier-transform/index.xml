@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/projects_physics/simpledigitalfilter/</guid>
       <description>&lt;p&gt;In today’s data-driven world, understanding macro-scale phenomena often begins with data analysis. Two key tools in this field are:&lt;/p&gt;&#xA;&lt;p&gt;• Curve fitting, such as linear regression, which minimizes the least squares error&lt;/p&gt;&#xA;&lt;p&gt;• Fourier transform, which decomposes signals into frequency components—particularly useful in analyzing periodic systems&lt;/p&gt;&#xA;&lt;p&gt;In this project, I generate a synthesized signal made up of multiple sine waves, apply simple mathematical operations, and analyze the result using Fourier transform. Surprisingly, these operations behave like digital filters in the frequency domain.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Analysis of the Temperature Data at Hualien between 2010-2020</title>
+      <link>http://localhost:1313/projects_physics/analyzetemperature/</link>
+      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/analyzetemperature/</guid>
+      <description>&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/proposal.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/complex.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

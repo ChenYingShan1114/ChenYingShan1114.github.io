@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Derivation on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/derivation/</link>
+    <description>Recent content in Derivation on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/derivation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Derivation of Gaussian Beam under 2D space and 3D space</title>
+      <link>http://localhost:1313/projects_physics/gaussianbeam/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/gaussianbeam/</guid>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

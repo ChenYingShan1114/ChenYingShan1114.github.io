@@ -6,8 +6,15 @@
     <description>Recent content on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pancake Simulation</title>
+      <link>http://localhost:1313/projects_cg/pancakesimulation/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/pancakesimulation/</guid>
+      <description>&lt;p&gt;Our final goal is to use a robotic arm to control a spatula and implement an autonomous cooking robot. To achieve this, NVIDIA Omniverse is a good tool to generate diverse video simulations, which are used to train a robotic arm&amp;rsquo;s motion for real-world deployment.&lt;/p&gt;&#xA;&lt;p&gt;In this project, I use Isaac Sim as the physics engine to simulate the process of cooking a pancake. By tuning physical parameters of the batter and pancake, I created a realistic animation that mimics real-world pancake cooking behavior in a kitchen setting.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Walk Cycle Animation</title>
       <link>http://localhost:1313/projects_animation/walkcycle/</link>
@@ -77,6 +84,13 @@
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications_journal/oe2024/</guid>
       <description>&lt;p&gt;“Numerical experiment of phase-matched ion-based high-order harmonic generation in the water-window x-ray spectral region via electromagnetic envelope equation”, Optics Express, 2024&#xA;&lt;a href=&#34;https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-13-23469&amp;amp;id=551626&#34;&gt;https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-13-23469&amp;amp;id=551626&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Curve Fitting Tool</title>
+      <link>http://localhost:1313/projects_cg/curvefitting/</link>
+      <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/curvefitting/</guid>
+      <description>&lt;p&gt;By self-studing the course &lt;a href=&#34;http://staff.ustc.edu.cn/~lgliu/Courses/GAMES102_2020/default.html&#34;&gt;GAMES102&lt;/a&gt;, I summarized the curve fitting methods introduced in Homework 01~05.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Curve_Fitting&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;curve-fitting&#34;&gt;Curve Fitting&lt;/h2&gt;&#xA;&lt;p&gt;Implement curve fitting and interpolation using five different methods:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Polynomial interpolation&lt;/li&gt;&#xA;&lt;li&gt;Gaussian interpolation&lt;/li&gt;&#xA;&lt;li&gt;Polynomial least square&lt;/li&gt;&#xA;&lt;li&gt;Polynomial ridge regression&lt;/li&gt;&#xA;&lt;li&gt;Neural network&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Also explored four parameterization techniques:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Uniform parameterization&lt;/li&gt;&#xA;&lt;li&gt;Chordal parameterization&lt;/li&gt;&#xA;&lt;li&gt;Centripetal parameterization&lt;/li&gt;&#xA;&lt;li&gt;Foley parameterization&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/CurveFitting/diff_fit_method.png&#34; width=&#34;700&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &lt;br&gt;&#xA;    Fix Parameterization Method&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/CurveFitting/diff_parameterization.png&#34; width=&#34;700&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &lt;br&gt;&#xA;    Fix Fitting Method&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;cubic-splines&#34;&gt;Cubic Splines&lt;/h2&gt;&#xA;&lt;p&gt;Solved cubic spline interpolation under various continuity constraints:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reconstruct Pixar&#39;s WALL·E</title>
@@ -163,11 +177,46 @@
       <description>&lt;p&gt;The lonely house in this piece symbolizes both physical isolation and a deeper sense of inner solitude. For me, loneliness is not just an absence of company. It’s a rare opportunity to engage in quiet, honest conversations with myself. In solitude, I’m able to calmly explore my inner world, allowing my thoughts to expand, my emotions to settle, and my perspective to deepen. It’s in these moments of stillness that I often find new strength, clarity, and resilience to face life with greater purpose.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Analysis of the Temperature Data at Hualien between 2010-2020</title>
+      <link>http://localhost:1313/projects_physics/analyzetemperature/</link>
+      <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/analyzetemperature/</guid>
+      <description>&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/proposal.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/complex.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>My First Step into Animation: Cartoon Rocket Launch</title>
       <link>http://localhost:1313/projects_animation/rocket/</link>
       <pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects_animation/rocket/</guid>
       <description>&lt;p&gt;The launch of a rocket is often seen as a symbol of venturing into the unknown, which is an idea that resonates deeply with my own journey as I step into the world of animation. This short film serves as a personal metaphor, with the rocket representing my ambitions and curiosity at the very beginning of this creative path.&lt;/p&gt;&#xA;&lt;p&gt;The rocket is designed in a simple, cartoon style, reflecting the innocence and rawness of someone just starting out. While the design remains playful, the animation is brought to life through dynamic smoke effects created using Maya&amp;rsquo;s particle system, which adds a sense of timing, weight, and immersion to the scene.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Z-buffer and Shading</title>
+      <link>http://localhost:1313/projects_cg/zbufferandshading/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/zbufferandshading/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Zbuffer_and_Shading&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;read-the-file&#34;&gt;Read the file:&lt;/h3&gt;&#xA;&lt;p&gt;Read file with command line &lt;code&gt;name + lab4X.in&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3D Computer Graphics Pipeline</title>
+      <link>http://localhost:1313/projects_cg/3dcgpipeline/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/3dcgpipeline/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformation and Clipping</title>
+      <link>http://localhost:1313/projects_cg/transformationandclipping/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/transformationandclipping/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Also, each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Transformation_and_Clipping&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If a &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which # appears.)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;reset&#34;&gt;Reset:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;reset&lt;/code&gt;&lt;br&gt;&#xA;Reset the transformation matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Paint Brush</title>
+      <link>http://localhost:1313/projects_cg/paintbrush/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/paintbrush/</guid>
+      <description>&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Paint_Brush&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;p&gt;Use the keyboard to switch between various modes and the mouse to interact with the canvas. Each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-points-d&#34;&gt;✏️ Draw Points (d):&lt;/h3&gt;&#xA;Start drawing graphic when you press the left mouse button.&lt;br&gt;&#xA;Stop drawing graphic when you release the left mouse button.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-lines-l&#34;&gt;📏 Draw Lines (l):&lt;/h3&gt;&#xA;First click to assign the starting point.&lt;br&gt;&#xA;Second click to assign the ending point.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-circles-o&#34;&gt;⚪ Draw Circles (o):&lt;/h3&gt;&#xA;First click to assign the center of circle.&lt;br&gt;&#xA;Second click to assign the radius of circle.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-polygons-p&#34;&gt;🔷 Draw Polygons (p):&lt;/h3&gt;&#xA;Left click to assign the coordinates of polygon.&lt;br&gt;&#xA;Right click to close the polygon.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-clear-c&#34;&gt;🧹 Clear (c):&lt;/h3&gt;&#xA;Press keyboard button c to clean the screen.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-undo-r&#34;&gt;↩️ Undo (r):&lt;/h3&gt;&#xA;Press keyboard button r to undo the clean action.&lt;br&gt;&#xA;&lt;strong&gt;This feature only works after cleaning the screen.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-quit-q&#34;&gt;❌ Quit (q):&lt;/h3&gt;&#xA;Press keyboard button q to quit the window.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/PaintBrush/lab1.png&#34; width=&#34;600&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Master of Science majoring in physics, National Central University</title>
@@ -184,6 +233,20 @@
       <description></description>
     </item>
     <item>
+      <title>Note: Computer Graphics</title>
+      <link>http://localhost:1313/projects_cg/notecg/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/notecg/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;&#xA;  &lt;div class=&#34;flipbook&#34;&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&#xA;      GAMES101: 现代计算机图形学入门 &lt;small&gt;~ Note by Ying-Shan Chen&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;small&gt;Lectured by Prof. Lingqi Yan (闫令琪),&lt;/small&gt;&#xA;      &lt;small&gt;Computer Science, UC Santa Barbara&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-1.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Charmandar &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-2.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Arbok &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-3.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Pikachu &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-4.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Mew &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-5.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Darkrai &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;The end &lt;small&gt;~&lt;/small&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/jquery.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/turn.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script&gt;&#xA;    $(&#34;.flipbook&#34;).turn();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Two Stream Instability Simulation in Plasma Physics</title>
+      <link>http://localhost:1313/projects_physics/twostreaminstability/</link>
+      <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/twostreaminstability/</guid>
+      <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Teaching Assistant at Department of Physics, National Central University</title>
       <link>http://localhost:1313/researchers/ncku/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
@@ -191,11 +254,39 @@
       <description></description>
     </item>
     <item>
-      <title>Two Stream Instability Simulation in Plasma Physics</title>
-      <link>http://localhost:1313/projects_physics/twostreaminstability/</link>
-      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/twostreaminstability/</guid>
-      <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
+      <title>Derivation of Gaussian Beam under 2D space and 3D space</title>
+      <link>http://localhost:1313/projects_physics/gaussianbeam/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/gaussianbeam/</guid>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasmas</title>
+      <link>http://localhost:1313/projects_physics/hhg/</link>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/hhg/</guid>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>One-Dimensional Simulation with the FDTD Method</title>
+      <link>http://localhost:1313/projects_physics/fdtd/</link>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/fdtd/</guid>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd1.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;boundary-condition&#34;&gt;Boundary Condition&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed boundary condition with hard source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Fixed boundary condition with soft source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Absorb boundary condition&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd2.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;propagation-in-medium&#34;&gt;Propagation in Medium&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd3.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The reflection coefficient is&#xA;$$&#xA;\varGamma = \frac{\sqrt{\epsilon_0} - \sqrt{\epsilon_r}}{\sqrt{\epsilon_0} + \sqrt{\epsilon_r}}&#xA;$$&#xA;and the transmission coefficient is&#xA;$$&#xA;\tau = \frac{2\sqrt{\epsilon_0}}{(\sqrt{\epsilon_0} + \sqrt{\epsilon_r})}.&#xA;$$&#xA;The region where \(x &amp;gt; 100\) has a relative permittivity \(\epsilon_r\) of 4.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Lossy Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd4.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The region where \(x &amp;gt; 100 \) has a relative permittivity \(\epsilon_r = 4\) and electrical conductivity \(\sigma = 0.04\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vortex Dynamics in 2-dimensional Soap Film Turbulence</title>
+      <link>http://localhost:1313/projects_physics/soapturbulence/</link>
+      <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/soapturbulence/</guid>
+      <description>&lt;p&gt;Team members: 陳盈珊 張容誌&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/SoapTurbulence/G03_Poster_final version.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compound Pendulums</title>
+      <link>http://localhost:1313/projects_physics/pendulum/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/pendulum/</guid>
+      <description>&lt;p&gt;Team members: 陳盈珊 李思杰&lt;/p&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;We use a setup to realize two physics phenomenon&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;flipping of lower pendulum in double pendulum&lt;/li&gt;&#xA;&lt;li&gt;the synchronization of two single pendulems on a plane with wheels.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/Pendulum/pendulum.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;measurement-method&#34;&gt;Measurement Method&lt;/h2&gt;&#xA;&lt;p&gt;Use image analysis to track specific point on the pendulum. Record 10 to 15 frames per second.&lt;/p&gt;&#xA;&lt;h2 id=&#34;anaylsis-method&#34;&gt;Anaylsis Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Time series observation&lt;/li&gt;&#xA;&lt;li&gt;Energy transfer&lt;/li&gt;&#xA;&lt;li&gt;Phse diagram&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;flipping-pendulum&#34;&gt;Flipping Pendulum&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-does-flipping-means&#34;&gt;What does flipping means?&lt;/h3&gt;&#xA;&lt;p&gt;Non-flipping with initial condition \( \theta_1=\theta_2=60^\circ\)&lt;/p&gt;</description>
     </item>
     <item>
       <title>A gallery</title>
@@ -217,6 +308,13 @@
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/researchers/ncu/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Eye Controlled Two-wheel Robot</title>
+      <link>http://localhost:1313/projects_physics/eyecontrolledtwowheelrobot/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_physics/eyecontrolledtwowheelrobot/</guid>
+      <description>&lt;p&gt;Team members: 陳盈珊 曾義閔&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/EyeControlledTwowheelRobot/poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
@@ -252,13 +350,6 @@
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/educations/ncu_undergraduate/</guid>
       <description>&lt;p&gt;80-100: 129&#xA;70-80: 7&#xA;60-70: 6&#xA;( 129&lt;em&gt;4 + 7&lt;/em&gt;3 + 6*2 ) / 142 = 3.86619718&#xA;GPA: 3.9/4.0&lt;/p&gt;&#xA;&lt;p&gt;GPA: 4.02/4.3&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Introduction to Computational Physics</title>
-      <link>http://localhost:1313/projects_physics/ta_introtocomphysics/</link>
-      <pubDate>Sun, 14 Nov 1999 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/ta_introtocomphysics/</guid>
-      <description>&lt;h2 id=&#34;ta-project&#34;&gt;TA Project&lt;/h2&gt;&#xA;&lt;p&gt;• Ordinary Differential Equation: &lt;a href=&#34;../rutherfordscattering/&#34;&gt;Rutherford Scattering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Solving Systems of Equations: &lt;a href=&#34;../finitesquarewell/&#34;&gt;Finite Square Well&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Analysis of Data: &lt;a href=&#34;../simpledigitalfilter/&#34;&gt;Simple Digital Filter – Frequency Domain Analysis&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Partial Differential Equation: &lt;a href=&#34;../kortewegdevriesequation/&#34;&gt;Korteweg de Vries Equation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Stochastic Method: &lt;a href=&#34;../distributiongenerator/&#34;&gt;Acceptance-Rejection Distribution Generator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Special Functions and Quadrature (Numerical Integration): &lt;a href=&#34;../besselfunction/&#34;&gt;The Second Kind Bessel Function&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

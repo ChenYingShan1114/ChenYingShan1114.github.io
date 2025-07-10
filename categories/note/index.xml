@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/categories/note/</link>
+    <description>Recent content in Note on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note: Computer Graphics</title>
+      <link>http://localhost:1313/projects_cg/notecg/</link>
+      <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/notecg/</guid>
+      <description>&lt;div align=&#34;center&#34;&gt;&#xA;  &lt;div class=&#34;flipbook&#34;&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&#xA;      GAMES101: 现代计算机图形学入门 &lt;small&gt;~ Note by Ying-Shan Chen&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;small&gt;Lectured by Prof. Lingqi Yan (闫令琪),&lt;/small&gt;&#xA;      &lt;small&gt;Computer Science, UC Santa Barbara&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-1.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Charmandar &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-2.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Arbok &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-3.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Pikachu &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-4.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Mew &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-5.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Darkrai &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;The end &lt;small&gt;~&lt;/small&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/jquery.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/turn.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script&gt;&#xA;    $(&#34;.flipbook&#34;).turn();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

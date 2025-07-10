@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C&#43;&#43; on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+    <description>Recent content in C&#43;&#43; on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Z-buffer and Shading</title>
+      <link>http://localhost:1313/projects_cg/zbufferandshading/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/zbufferandshading/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Zbuffer_and_Shading&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;read-the-file&#34;&gt;Read the file:&lt;/h3&gt;&#xA;&lt;p&gt;Read file with command line &lt;code&gt;name + lab4X.in&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3D Computer Graphics Pipeline</title>
+      <link>http://localhost:1313/projects_cg/3dcgpipeline/</link>
+      <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/3dcgpipeline/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformation and Clipping</title>
+      <link>http://localhost:1313/projects_cg/transformationandclipping/</link>
+      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/transformationandclipping/</guid>
+      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Also, each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Transformation_and_Clipping&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If a &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which # appears.)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;reset&#34;&gt;Reset:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;reset&lt;/code&gt;&lt;br&gt;&#xA;Reset the transformation matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Paint Brush</title>
+      <link>http://localhost:1313/projects_cg/paintbrush/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects_cg/paintbrush/</guid>
+      <description>&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Paint_Brush&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;p&gt;Use the keyboard to switch between various modes and the mouse to interact with the canvas. Each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-points-d&#34;&gt;✏️ Draw Points (d):&lt;/h3&gt;&#xA;Start drawing graphic when you press the left mouse button.&lt;br&gt;&#xA;Stop drawing graphic when you release the left mouse button.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-lines-l&#34;&gt;📏 Draw Lines (l):&lt;/h3&gt;&#xA;First click to assign the starting point.&lt;br&gt;&#xA;Second click to assign the ending point.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-circles-o&#34;&gt;⚪ Draw Circles (o):&lt;/h3&gt;&#xA;First click to assign the center of circle.&lt;br&gt;&#xA;Second click to assign the radius of circle.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-polygons-p&#34;&gt;🔷 Draw Polygons (p):&lt;/h3&gt;&#xA;Left click to assign the coordinates of polygon.&lt;br&gt;&#xA;Right click to close the polygon.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-clear-c&#34;&gt;🧹 Clear (c):&lt;/h3&gt;&#xA;Press keyboard button c to clean the screen.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-undo-r&#34;&gt;↩️ Undo (r):&lt;/h3&gt;&#xA;Press keyboard button r to undo the clean action.&lt;br&gt;&#xA;&lt;strong&gt;This feature only works after cleaning the screen.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-quit-q&#34;&gt;❌ Quit (q):&lt;/h3&gt;&#xA;Press keyboard button q to quit the window.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/PaintBrush/lab1.png&#34; width=&#34;600&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
