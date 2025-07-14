@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/numerical-integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Second Kind Bessel Function</title>
-      <link>http://localhost:1313/projects_physics/besselfunction/</link>
+      <link>http://localhost:1313/projects/projects_physics/besselfunction/</link>
       <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/besselfunction/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/besselfunction/</guid>
       <description>&lt;p&gt;The second solution to Bessel&amp;rsquo;s equation is \(Y_m(x)\), the Bessel function of the second kind. Compute the function \(Y_m(x)\) using upward recursion&#xA;$$&#xA;Y_{m+1}=\frac{2m}{x}Y_m(x)-Y_{m-1}(x).&#xA;$$&#xA;To obtain the starting values for recursion, use the identities&#xA;$$&#xA;Y_0(x) = \frac{2}{\pi} \left[ \ln{\frac{x}{2}} + \gamma \right] J_0(x) - \frac{4}{\pi} \sum^\infty_{k=1}(-1)^k \frac{J_{2k}(x)}{k}&#xA;$$&#xA;and&#xA;$$&#xA;J_1(x)Y_0(x)-J_0(x)Y_1(x) = \frac{2}{\pi x}&#xA;$$&#xA;where \(\gamma \approx 0.577215664\). Demonstrate your routine by producing plots of \(Y_m(x)\) for \(0 &amp;lt; x &amp;lt; 50\) and various \(m\).&lt;/p&gt;</description>
     </item>
   </channel>

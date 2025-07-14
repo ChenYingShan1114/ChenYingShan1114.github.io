@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/rigging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reconstruct Pixar&#39;s WALL·E</title>
-      <link>http://localhost:1313/projects_animation/walle/</link>
+      <link>http://localhost:1313/projects/projects_animation/walle/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_animation/walle/</guid>
+      <guid>http://localhost:1313/projects/projects_animation/walle/</guid>
       <description>&lt;p&gt;After studying modeling techniques through LinkedIn Learning and receiving guidance from a friend majoring in animation at Queensland University of Technology (QUT), I took on the challenge of reconstructing the iconic WALL·E character from Pixar.&lt;/p&gt;&#xA;&lt;p&gt;This project focused on high-detail modeling in Autodesk Maya. I paid close attention to the mechanical structure, especially the eyes, body shape, and internal gears. Notably, the “WALL·E” logo on the body was not a texture but fully modeled geometry, making the result feel physically grounded and stylized.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/quantum-mechanics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finite Square Well</title>
-      <link>http://localhost:1313/projects_physics/finitesquarewell/</link>
+      <link>http://localhost:1313/projects/projects_physics/finitesquarewell/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/finitesquarewell/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/finitesquarewell/</guid>
       <description>&lt;p&gt;There are two common approaches for solving systems of equations: linear and non-linear. For linear unsteady systems, it can be solved by &lt;a href=&#34;https://en.wikipedia.org/wiki/Gaussian_elimination&#34;&gt; Gaussian elimination&lt;/a&gt; and inverse matrix. However, for nonlinear equations, &lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%27s_method&#34;&gt;Newton&amp;rsquo;s method&lt;/a&gt; can let us approach the solution.&#xA;This project demonstrates how Newton’s method can be applied to solve the nonlinear eigenvalue problem of a finite potential square well, where no theoritical solution exists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;finite-square-well&#34;&gt;Finite Square Well&lt;/h2&gt;&#xA;&lt;p&gt;In quantum mechanics, the energy eigenvalues of finite potential square well are given by transcendental equations. Therefore, these equations are highly nonlinear and must be solved numerically or graphically. In this project, I used single-variable Newton&amp;rsquo;s method to find the roots corresponding to the allowed energy eigenvalues of a bound electron in the well.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,788 @@
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ying-Shan Chen@TW ~ $ - Pancake Simulation </title>
+    
+    
+    <meta content="Computer Graphics, Physics Engine, NVIDIA Omniverse, computer graphics, work project" name="keywords">
+    
+    <meta content="Ying-Shan Chen@TW ~ $ - Simulated pancake-cooking scenes using NVIDIA Omniverse Isaac Sim and PhysX, with the goal of training a real-world robotic arm for cooking tasks. By carefully adjusting material properties and separating batter and pancake states across two physics scenes, we achieved realistic deformation and fluid dynamics for animation data generation." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src=" /layui/layui.js"></script>
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+
+    
+    
+
+    
+    <link rel="stylesheet" href="/self/css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2TD7H36ZY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G2TD7H36ZY');
+</script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+    
+    <a class="nav-self-logo" href="/">
+        Ying-Shan Chen@TW ~ $
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan nav-self-bar" lay-filter="">
+        
+        
+        
+        
+
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">~/about</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/publications/">~/publications</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/projects/">~/projects</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/gallery/">~/gallery</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                
+                
+
+                
+                    
+                        <dd><a href="/about/">~/about</a></dd>
+                    
+                        <dd><a href="/publications/">~/publications</a></dd>
+                    
+                        <dd><a href="/projects/">~/projects</a></dd>
+                    
+                        <dd><a href="/gallery/">~/gallery</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote self-elem-quote-bg-gray markdown-body single-title" >
+                    <h1>Pancake Simulation</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-05-28</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/work-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">work project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/physics-engine/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Physics Engine</span>
+        </a>
+    
+        <a href="/tags/nvidia-omniverse/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">NVIDIA Omniverse</span>
+        </a>
+    
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
+                    <p>Our final goal is to use a robotic arm to control a spatula and implement an autonomous cooking robot. To achieve this, NVIDIA Omniverse is a good tool to generate diverse video simulations, which are used to train a robotic arm&rsquo;s motion for real-world deployment.</p>
+<p>In this project, I use Isaac Sim as the physics engine to simulate the process of cooking a pancake. By tuning physical parameters of the batter and pancake, I created a realistic animation that mimics real-world pancake cooking behavior in a kitchen setting.</p>
+<h2 id="object-settings">Object Settings</h2>
+<p align="center">
+    <table style="width:100%;">
+        <thead>
+            <tr style="background-color: #f0f0f0;">
+                <th>Object</th>
+                <th>Source</th>
+                <th>Collider</th>
+                <th>Physics Property</th>
+                <th>Material</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">Pan</td>
+                <td align="center" rowspan=3>3DGS to Mesh Grid</td>
+                <td align="center">Yes</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td align="center">Spatula</td>
+                <td align="center">Yes</td>
+                <td align="center">Rigid Body</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td align="center">Container</td>
+                <td align="center">Yes</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td align="center">Batter</td>
+                <td align="center" rowspan=2 style="background-color:rgb(255, 255, 255);">Mesh Grid</td>
+                <td align="center">No</td>
+                <td align="center">Particle Sampler with Isosurface</td>
+                <td align="center">PBD Particle</td>
+            </tr>
+            <tr>
+                <td align="center">Pancake</td>
+                <td align="center">No</td>
+                <td align="center">Deformable Body</td>
+                <td align="center">Deformable Body</td>
+            </tr>
+        </tbody>
+    </table>
+</p>
+<h2 id="physics-scene-configuration">Physics Scene Configuration</h2>
+<p>Because the state of batter and pancake can&rsquo;t transfor like the real world work, I use two separate physics scenes — one for the batter and one for the cooked pancake — because physics interactions in Omniverse occur even if an object is invisible. Separating them ensures clean transitions and prevents unwanted interactions.</p>
+<ol>
+<li>Scene 1: container, batter, pan</li>
+<li>Scene 2: spatula, pancake, pan</li>
+</ol>
+<h2 id="adjusting-physical-parameters">Adjusting Physical Parameters</h2>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RM-HoD7I5DE?si=lBosfyzhkJ9i6syk&autoplay=1&loop=1&playlist=RM-HoD7I5DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+<p align="center">
+    <table style="width:70%;">
+        <thead>
+            <tr style="background-color: #f0f0f0;">
+                <th>Fluid Parameter</th>
+                <th>Left</th>
+                <th>Middle</th>
+                <th>Right</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center">density</td>
+                <td align="center">1.0</td>
+                <td align="center">10.0</td>
+                <td align="center">0.0</td>
+            </tr>
+            <tr>
+                <td align="center">fiction</td>
+                <td align="center">0.0</td>
+                <td align="center">0.2</td>
+                <td align="center">0.2</td>
+            </tr>
+            <tr>
+                <td align="center">surface tension</td>
+                <td align="center">0.0</td>
+                <td align="center">0.5</td>
+                <td align="center">0.0</td>
+            </tr>
+            <tr>
+                <td align="center">viscosity</td>
+                <td align="center">0.0</td>
+                <td align="center">50.0</td>
+                <td align="center">50000.0</td>
+            </tr>
+            <tr>
+                <td align="center">cohesion</td>
+                <td colspan=3 align="center">0.0</td>
+            </tr>
+            <tr>
+                <td align="center">damping</td>
+                <td colspan=3 align="center">0.0</td>
+            </tr>
+            <tr>
+                <td align="center">drag</td>
+                <td colspan=3 align="center">0.0</td>
+            </tr>
+            <tr>
+                <td align="center">lift</td>
+                <td colspan=3 align="center">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</p>
+<h2 id="final-physical-parameters">Final Physical Parameters</h2>
+<p>Most parameters are set as defualt, except</p>
+<p align="center">
+    <table style="width:100%;">
+        <thead>
+            <tr style="background-color: #f0f0f0;">
+                <th>Object</th>
+                <th>Parameters</th>
+                <th>Value</th>
+                <th>Unit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="center" rowspan=4>Pancake (Mesh)</td>
+                <td align="center">mass</td>
+                <td align="center">0.2</td>
+                <td align="center">kg</td>
+            </tr>
+            <tr>
+                <td align="center">simulation mesh resolution</td>
+                <td align="center">5</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td align="center">vertex velocity damping</td>
+                <td align="center">10</td>
+                <td align="center">1/s</td>
+            </tr>
+            <tr>
+                <td align="center">rest offset</td>
+                <td align="center">0</td>
+                <td align="center">m</td>
+            </tr>
+            <tr>
+                <td align="center" rowspan=2>Pancake (Material)</td>
+                <td align="center">dynamic fiction</td>
+                <td align="center">0.5</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td align="center">Young's modulus</td>
+                <td align="center">50000</td>
+                <td align="center">kg/m/s<sup>2</sup>=N/m<sup>2</sup></td>
+            </tr>
+            <tr>
+                <td align="center">Batter (Particle System)</td>
+                <td align="center">particle contact offset</td>
+                <td align="center">0.005</td>
+                <td align="center">m</td>
+            </tr>
+            <tr>
+                <td align="center" rowspan=3 style="background-color:rgb(255, 255, 255);">Pancake (Material)</td>
+                <td align="center">density</td>
+                <td align="center">10</td>
+                <td align="center">kg/m<sup>3</sup></td>
+            </tr>
+            <tr>
+                <td align="center">surface tension</td>
+                <td align="center">0.5</td>
+                <td align="center">1/m<sup>3</sup></td>
+            </tr>
+            <tr>
+                <td align="center">viscosity</td>
+                <td align="center">50</td>
+                <td align="center">-</td>
+            </tr>
+        </tbody>
+    </table>
+</p>
+<!--
+Parameter Descriptions:
+• simulation mesh resolution: use how mant mesh to simulate the motion of deformable body. Bigger the value, softer the object.
+• vertex velocity damping: provide a drag force to vertices on mesh, act like air drag. Bigger the value, stiffer the object.
+• rest offset: the rest offset of rigid body.
+• Young's modulus: the stiffness of material. Smaller the value, softer the object.
+• particle contact offset: the distance between particles. Smaller the value, smaller the distance between particles, therefore there will have more particles under same volume and cost more computational resource.
+• viscosity: how sticky the fluid is.
+-->
+<h2 id="simulation-result">Simulation Result</h2>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jRciGPLgf7U?si=vZgFnR9-Ms2Aqlow&autoplay=1&loop=1&playlist=jRciGPLgf7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p></div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/curvefitting/">
+                                <h3 class="">A Curve Fitting Tool</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2024-05-26</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/python/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Python</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/zbufferandshading/">
+                                <h3 class="">Z-buffer and Shading</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-12-26</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/course-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">course project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/openglut/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">OpenGLUT</span>
+        </a>
+    
+        <a href="/tags/c&#43;&#43;/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">C&#43;&#43;</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/3dcgpipeline/">
+                                <h3 class="">3D Computer Graphics Pipeline</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-11-28</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/course-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">course project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/openglut/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">OpenGLUT</span>
+        </a>
+    
+        <a href="/tags/c&#43;&#43;/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">C&#43;&#43;</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/transformationandclipping/">
+                                <h3 class="">Transformation and Clipping</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-10-31</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/course-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">course project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/openglut/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">OpenGLUT</span>
+        </a>
+    
+        <a href="/tags/c&#43;&#43;/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">C&#43;&#43;</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/paintbrush/">
+                                <h3 class="">A Paint Brush</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-10-03</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/course-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">course project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/openglut/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">OpenGLUT</span>
+        </a>
+    
+        <a href="/tags/c&#43;&#43;/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">C&#43;&#43;</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/markdown-syntax/">
+                        <h3 class="">Markdown Syntax Guide</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-11</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/themes/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">themes</span>
+        </a>
+    
+        <a href="/categories/syntax/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">syntax</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/markdown/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">markdown</span>
+        </a>
+    
+        <a href="/tags/css/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">css</span>
+        </a>
+    
+        <a href="/tags/html/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">html</span>
+        </a>
+    
+        <a href="/tags/themes/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">themes</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/placeholder-text/">
+                        <h3 class="">Placeholder Text</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-09</span>
+
+    
+    
+
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/markdown/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">markdown</span>
+        </a>
+    
+        <a href="/tags/text/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">text</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/math-typesetting/">
+                        <h3 class="">Math Typesetting</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-08</span>
+
+    
+    
+
+    
+
+    
+
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/emoji-support/">
+                        <h3 class="">Emoji Support</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-05</span>
+
+    
+    
+
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/emoji/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">emoji</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+    
+    <div class="layui-container">
+        <p class="copyright">Copyright © 2025 Ying-Shan (Sandy) Chen, Steve Francia and the Hugo Authors; all rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

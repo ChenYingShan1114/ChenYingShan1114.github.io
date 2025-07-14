@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/substance-3d-painter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Solitude House</title>
-      <link>http://localhost:1313/projects_animation/scene/</link>
+      <link>http://localhost:1313/projects/projects_animation/scene/</link>
       <pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_animation/scene/</guid>
+      <guid>http://localhost:1313/projects/projects_animation/scene/</guid>
       <description>&lt;p&gt;The lonely house in this piece symbolizes both physical isolation and a deeper sense of inner solitude. For me, loneliness is not just an absence of company. It’s a rare opportunity to engage in quiet, honest conversations with myself. In solitude, I’m able to calmly explore my inner world, allowing my thoughts to expand, my emotions to settle, and my perspective to deepen. It’s in these moments of stillness that I often find new strength, clarity, and resilience to face life with greater purpose.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -9,10 +9,24 @@
     <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Computer Graphics</title>
+      <link>http://localhost:1313/categories/computer-graphics/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/computer-graphics/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Work Project</title>
       <link>http://localhost:1313/categories/work-project/</link>
       <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/work-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Animation</title>
+      <link>http://localhost:1313/categories/animation/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/animation/</guid>
       <description></description>
     </item>
     <item>
@@ -41,6 +55,13 @@
       <link>http://localhost:1313/categories/practice/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/practice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>http://localhost:1313/categories/physics/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/physics/</guid>
       <description></description>
     </item>
     <item>

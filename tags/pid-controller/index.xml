@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/pid-controller/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eye Controlled Two-wheel Robot</title>
-      <link>http://localhost:1313/projects_physics/eyecontrolledtwowheelrobot/</link>
+      <link>http://localhost:1313/projects/projects_physics/eyecontrolledtwowheelrobot/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/eyecontrolledtwowheelrobot/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/eyecontrolledtwowheelrobot/</guid>
       <description>&lt;p&gt;Team members: 陳盈珊 曾義閔&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/EyeControlledTwowheelRobot/poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

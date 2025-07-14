@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/plasma-physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two Stream Instability Simulation in Plasma Physics</title>
-      <link>http://localhost:1313/projects_physics/twostreaminstability/</link>
+      <link>http://localhost:1313/projects/projects_physics/twostreaminstability/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/twostreaminstability/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/twostreaminstability/</guid>
       <description>&lt;p&gt;In this project, I used the Particle-in-Cell (PIC) simulation method to study the two-stream instability which is a fundamental plasma instability that arises when two particle populations move at different velocities. The system which is shown here is triggered by setting up a current in a plasma such that electrons and ions drift at different speeds.&lt;/p&gt;&#xA;&lt;p&gt;As a result of these relative motions, energy is transferred into the plasma, leading to the excitation of plasma waves. These waves grow over time and play a key role in phenomena such as wave–particle interactions, turbulence, and anomalous transport in plasmas.&lt;/p&gt;</description>
     </item>
   </channel>

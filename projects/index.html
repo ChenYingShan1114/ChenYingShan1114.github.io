@@ -1,0 +1,773 @@
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ying-Shan Chen@TW ~ $ - projects </title>
+    
+    
+    <meta content="Ying-Shan Chen@TW ~ $" name="keywords">
+    
+    <meta content="Ying-Shan Chen@TW ~ $ - A website called Ying-Shan Chen@TW ~ $" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+        <link href="/projects/index.xml" rel="alternate" type="application/rss&#43;xml" title="Ying-Shan Chen@TW ~ $" />
+        <link href="/projects/index.xml" rel="feed" type="application/rss&#43;xml" title="Ying-Shan Chen@TW ~ $" />
+    
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src=" /layui/layui.js"></script>
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+
+    
+    
+
+    
+    <link rel="stylesheet" href="/self/css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2TD7H36ZY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G2TD7H36ZY');
+</script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+    
+    <a class="nav-self-logo" href="/">
+        Ying-Shan Chen@TW ~ $
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan nav-self-bar" lay-filter="">
+        
+        
+        
+        
+
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">~/about</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/publications/">~/publications</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/projects/">~/projects</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/gallery/">~/gallery</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                
+                
+
+                
+                    
+                        <dd><a href="/about/">~/about</a></dd>
+                    
+                        <dd><a href="/publications/">~/publications</a></dd>
+                    
+                        <dd><a href="/projects/">~/projects</a></dd>
+                    
+                        <dd><a href="/gallery/">~/gallery</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+
+    
+
+<main id="main">
+
+    <div class="layui-fluid list-show" >
+        <div class="layui-row">
+            <div class="layui-col-md6 layui-col-sm12 layui-col-xs12">
+                <div class="list-show-title">
+                    <h1>These are my all projects</h1>
+                    <h2>and also my life</h2>
+                </div>
+            </div>
+            <div class="layui-col-md6 layui-col-sm12 layui-col-xs12" style="text-align:center;">
+                
+                <div style="display: flex; justify-content: center; align-items: center; height: 350px;">
+                  <div id="threejs-container" style="width: 400px; height: 300px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="layui-container">
+            
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-blue" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_cg/pancakesimulation/">
+            <h2 class="">Pancake Simulation</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-05-28</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/work-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">work project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/physics-engine/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Physics Engine</span>
+        </a>
+    
+        <a href="/tags/nvidia-omniverse/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">NVIDIA Omniverse</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				Simulated pancake-cooking scenes using NVIDIA Omniverse Isaac Sim and PhysX, with the goal of training a real-world robotic arm for cooking tasks. By carefully adjusting material properties and separating batter and pancake states across two physics scenes, we achieved realistic deformation and fluid dynamics for animation data generation.
+			 <a href="/projects/projects_cg/pancakesimulation/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/walkcycle/">
+            <h2 class="">Walk Cycle Animation</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-04-13</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/character-animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">character animation</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				A stylized walk cycle animated using a non-character object, focusing on rhythm, weight shift, and the illusion of locomotion through shape and timing alone.
+			 <a href="/projects/projects_animation/walkcycle/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/bouncingballwithlegs/">
+            <h2 class="">Bouncing Ball with Legs Animation</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-03-30</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/character-animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">character animation</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				An animation featuring a bouncing ball with legs, exploring how body and limb movement interact to create balance, elasticity, and expressive power in character motion.
+			 <a href="/projects/projects_animation/bouncingballwithlegs/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/moonshineposter/">
+            <h2 class="">Poster Series Made by Virtual Production</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-03-21</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/intern-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">intern project</span>
+        </a>
+    
+        <a href="/categories/group-work/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">group work</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/unreal-engine/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Unreal Engine</span>
+        </a>
+    
+        <a href="/tags/virtual-production/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Virtual Production</span>
+        </a>
+    
+        <a href="/tags/photoshop/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">PhotoShop</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				A poster series created during my technical art internship at Moonshine Studio, using virtual production technology powered by Unreal Engine and LED panels. This project blends real-time rendering with physical cinematography to create immersive medieval scenes.
+			 <a href="/projects/projects_animation/moonshineposter/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/bouncingballwithtail/">
+            <h2 class="">Bouncing Ball with Tail Animation</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-03-16</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/character-animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">character animation</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				An animation of a bouncing ball with a tail and pendulum, demonstrating two key principles of expressive motion in character animation: follow through and overlapping action, and anticipation.
+			 <a href="/projects/projects_animation/bouncingballwithtail/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/moonshineosc/">
+            <h2 class="">Light Controlled by Sound in Real-time</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-03-14</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/intern-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">intern project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/unreal-engine/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Unreal Engine</span>
+        </a>
+    
+        <a href="/tags/toughdesigner/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">ToughDesigner</span>
+        </a>
+    
+        <a href="/tags/open-sound-control/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Open Sound Control</span>
+        </a>
+    
+        <a href="/tags/audio-visualization/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Audio Visualization</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				A two-part project combining Unreal Engine and TouchDesigner: I first designed a detailed virtual room with lighting and camera sequencing, then connected audio analysis from TouchDesigner to control a blueprint-driven sparkling wall lamp.
+			 <a href="/projects/projects_animation/moonshineosc/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/bouncingball/">
+            <h2 class="">Bouncing Ball Animation</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2025-03-02</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/character-animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">character animation</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				An animation created in Maya to demonstrate the motion of three different balls—bouncing, rolling, and floating—by applying the Twelve Principles of Animation for a stylized yet physically inspired effect.
+			 <a href="/projects/projects_animation/bouncingball/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-blue" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_cg/curvefitting/">
+            <h2 class="">A Curve Fitting Tool</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2024-05-26</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/python/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Python</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				Implemented and compared multiple curve fitting and interpolation methods, parameterization techniques, spline continuity conditions, and subdivision algorithms for smooth curve generation and analysis.
+			 <a href="/projects/projects_cg/curvefitting/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/walle/">
+            <h2 class="">Reconstruct Pixar&#39;s WALL·E</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2024-04-30</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/mini-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">mini project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/modeling/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">modeling</span>
+        </a>
+    
+        <a href="/tags/rigging/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">rigging</span>
+        </a>
+    
+        <a href="/tags/lighting/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">lighting</span>
+        </a>
+    
+        <a href="/tags/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/tags/rendering/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">rendering</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				A detailed 3D reconstruction of Pixar's WALL·E character, modeled and rigged in Maya. This project includes fine mechanical details, custom geometry for the logo, and hand rigging using binding and skinning techniques.
+			 <a href="/projects/projects_animation/walle/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-green" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+                
+        <a href="/projects/projects_animation/locomotions/">
+            <h2 class="">Dynamics of Human Locomotion</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2024-03-30</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/categories/practice/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">practice</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/uv-texturing/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">UV texturing</span>
+        </a>
+    
+        <a href="/tags/animation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">animation</span>
+        </a>
+    
+        <a href="/tags/lighting/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">lighting</span>
+        </a>
+    
+        <a href="/tags/rendering/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">rendering</span>
+        </a>
+    
+        <a href="/tags/autodesk-maya/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Autodesk Maya</span>
+        </a>
+    
+        <a href="/tags/pinterest/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Pinterest</span>
+        </a>
+    
+    
+</h3>
+
+        <h3>
+        	
+				A comparative animation study of human locomotion, exploring the mechanical and expressive differences between jogging, sprinting, walking, and jumping. Through careful keyframing, the project highlights how body posture, joint force, and rhythm vary across movement styles.
+			 <a href="/projects/projects_animation/locomotions/"><span style="color:#01AAED">Read More</span></a>
+        </h3>
+    </blockquote>
+
+    
+
+    
+<div class="pager">
+    <div class="layui-btn-group">
+        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+            <a href="/projects/"><i class="layui-icon">&#xe65a;</i></a>
+        </button>
+        
+        <button type="button" class="layui-btn layui-btn-disabled layui-btn-sm">
+            <i class="layui-icon">&#xe603;</i>
+        </button>
+        
+        
+        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+            <a href="/projects/page/2/"><i class="layui-icon">&#xe602;</i></a>
+        </button>
+        
+        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
+            <a href="/projects/page/4/"><i class="layui-icon">&#xe65b;</i></a>
+        </button>
+    </div>
+</div>
+
+    </div>
+
+    <script type="module" src="/self/js/threejs_script.js"></script>
+
+</main>
+
+
+
+
+        </div><footer>
+    
+    
+    <div class="layui-container">
+        <p class="copyright">Copyright © 2025 Ying-Shan (Sandy) Chen, Steve Francia and the Hugo Authors; all rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

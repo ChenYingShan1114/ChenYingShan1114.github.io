@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/virtual-production/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poster Series Made by Virtual Production</title>
-      <link>http://localhost:1313/projects_animation/moonshineposter/</link>
+      <link>http://localhost:1313/projects/projects_animation/moonshineposter/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_animation/moonshineposter/</guid>
+      <guid>http://localhost:1313/projects/projects_animation/moonshineposter/</guid>
       <description>&lt;p&gt;Group members: 游沛勳 彭俊諺 張哲嘉 高秉誠 陳盈珊&lt;/p&gt;&#xA;&lt;p&gt;During my internship as a Technical Art Intern at Moonshine Studio which is one of Taiwan’s leading animation companies, I worked with professionals from diverse backgrounds, including 2D/3D animation, motion design, visual effects, post-production for film and TV, interactive media, and technical R&amp;amp;D. While many teams focused on traditional and digital production, I joined a specialized team pioneering Virtual Production at Moonshine XR Studio which is the first studio in Taiwan to adopt this technique.&lt;/p&gt;</description>
     </item>
   </channel>

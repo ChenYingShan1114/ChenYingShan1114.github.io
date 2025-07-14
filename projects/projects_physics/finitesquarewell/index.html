@@ -1,0 +1,504 @@
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ying-Shan Chen@TW ~ $ - Finite Square Well </title>
+    
+    
+    <meta content="Quantum Mechanics, Numerical Simulation, Solving Systems of Equations, physics, TA project" name="keywords">
+    
+    <meta content="Ying-Shan Chen@TW ~ $ - This project applies Newton&#39;s method to solve the transcendental eigenvalue equations of a finite potential square well in quantum mechanics. It numerically estimates bound-state energy levels, using initial guesses derived from the infinite square well solution." name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+      }
+    </script>
+
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src=" /layui/layui.js"></script>
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+
+    
+    
+
+    
+    <link rel="stylesheet" href="/self/css/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js" integrity="sha256-PZEg+mIdptYTwWmLcBTsa99GIDZujyt7VHBZ9Lb2Jys=" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2TD7H36ZY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G2TD7H36ZY');
+</script></head>
+
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+    
+    <a class="nav-self-logo" href="/">
+        Ying-Shan Chen@TW ~ $
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan nav-self-bar" lay-filter="">
+        
+        
+        
+        
+
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">~/about</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/publications/">~/publications</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/projects/">~/projects</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/gallery/">~/gallery</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                
+                
+
+                
+                    
+                        <dd><a href="/about/">~/about</a></dd>
+                    
+                        <dd><a href="/publications/">~/publications</a></dd>
+                    
+                        <dd><a href="/projects/">~/projects</a></dd>
+                    
+                        <dd><a href="/gallery/">~/gallery</a></dd>
+                    
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md8 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="self-elem-quote self-elem-quote-bg-gray markdown-body single-title" >
+                    <h1>Finite Square Well</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2023-10-30</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/physics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">physics</span>
+        </a>
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/quantum-mechanics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Quantum Mechanics</span>
+        </a>
+    
+        <a href="/tags/numerical-simulation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
+        </a>
+    
+        <a href="/tags/solving-systems-of-equations/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Solving Systems of Equations</span>
+        </a>
+    
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
+                    <p>There are two common approaches for solving systems of equations: linear and non-linear. For linear unsteady systems, it can be solved by <a href="https://en.wikipedia.org/wiki/Gaussian_elimination"> Gaussian elimination</a> and inverse matrix. However, for nonlinear equations, <a href="https://en.wikipedia.org/wiki/Newton%27s_method">Newton&rsquo;s method</a> can let us approach the solution.
+This project demonstrates how Newton’s method can be applied to solve the nonlinear eigenvalue problem of a finite potential square well, where no theoritical solution exists.</p>
+<h2 id="finite-square-well">Finite Square Well</h2>
+<p>In quantum mechanics, the energy eigenvalues of finite potential square well are given by transcendental equations. Therefore, these equations are highly nonlinear and must be solved numerically or graphically. In this project, I used single-variable Newton&rsquo;s method to find the roots corresponding to the allowed energy eigenvalues of a bound electron in the well.</p>
+<p>🔗 See more details <a href="https://github.com/ChenYingShan1114/Finite-Square-Well/"> here</a>.</p>
+<h2 id="system-conditions">System conditions</h2>
+<p>Consider an electron in a quantum square well potential of depth \(V=-13.6 eV\) and half-width \(a=20a_B\) where \(a_B\) is the Bohr radius.</p>
+<h2 id="energy-equations">Energy Equations</h2>
+<p>The energy eigenvalues, \(E&gt;V\), are given by the transcendental equations. For the odd states,
+$$
+\sqrt{-E} = \sqrt{E-V}\tan\left(\frac{a}{\hbar}\sqrt{2m(E-V)}\right)
+$$
+, and the even states
+$$
+\sqrt{-E} = -\sqrt{E-V}\cot\left(\frac{a}{\hbar}\sqrt{2m(E-V)}\right)
+$$
+Since these equations cannot be solved analytically, we apply a numerical root-finding approach.</p>
+<h2 id="initial-guess">Initial Guess</h2>
+<p>The eigenenergies of an infinite square well with the same width are
+$$
+E_n = \frac{n^2\pi^2 \hbar^2}{8ma^2} - 13.6.
+$$
+These values serve as initial guesses for the Newton iteration process.</p>
+<h2 id="simulation-result">Simulation Result</h2>
+<p>By plotting the difference between the left- and right-hand sides of the transcendental equations, we visually identify the root locations where the plot intersects \(y=0\). These roots represent valid eigenenergies.</p>
+<p align="center">
+    <img src="/self/img/projects_physics/FiniteSquareWell/eigenenergy.png" width="500" style="margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px"> 
+</p>
+Finally, the solutions show in the following table:
+<table style="width:100%; text-align: center;">
+  <thead>
+    <tr style="background-color: #f0f0f0;">
+      <th style="padding: 12px; border: 1px solid #ccc;">State</th>
+      <th style="padding: 12px; border: 1px solid #ccc;">Initial Guess (eV)</th>
+      <th style="padding: 12px; border: 1px solid #ccc;">Eigenenergy of Finite Square Well (eV)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">1</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-13.516</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-13.2954</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">2</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-13.2641</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-12.915</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">3</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-12.8442</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-12.3831</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">4</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-12.2563</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-11.7002</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">5</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-11.5004</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-10.8675</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">6</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-10.5766</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-9.88612</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">7</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-9.48483</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-8.7581</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">8</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-8.22509</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-7.4862</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">9</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-6.79738</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-6.07472</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">10</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-5.2017</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-4.53088</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">11</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-3.43806</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-2.869</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px; border: 1px solid #ccc;">12</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-1.50645</td>
+      <td style="padding: 12px; border: 1px solid #ccc;">-1.12859</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_physics/rutherfordscattering/">
+                                <h3 class="">Rutherford Scattering</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2023-10-14</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/physics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">physics</span>
+        </a>
+    
+        <a href="/categories/ta-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">TA project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/classical-mechanics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Classical Mechanics</span>
+        </a>
+    
+        <a href="/tags/numerical-simulation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Numerical Simulation</span>
+        </a>
+    
+        <a href="/tags/ordinary-differential-equation/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Ordinary Differential Equation</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                
+                <br />
+            </div>
+            
+
+            <div class="layui-card single-card">
+                <h2 class="single-title">Recent Posts</h2>
+            
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/markdown-syntax/">
+                        <h3 class="">Markdown Syntax Guide</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-11</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/themes/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">themes</span>
+        </a>
+    
+        <a href="/categories/syntax/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">syntax</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/markdown/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">markdown</span>
+        </a>
+    
+        <a href="/tags/css/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">css</span>
+        </a>
+    
+        <a href="/tags/html/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">html</span>
+        </a>
+    
+        <a href="/tags/themes/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">themes</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/placeholder-text/">
+                        <h3 class="">Placeholder Text</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-09</span>
+
+    
+    
+
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/markdown/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">markdown</span>
+        </a>
+    
+        <a href="/tags/text/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">text</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/math-typesetting/">
+                        <h3 class="">Math Typesetting</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-08</span>
+
+    
+    
+
+    
+
+    
+
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+                <div style="margin-left: 10px;">
+                    <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                    <a href="/post/emoji-support/">
+                        <h3 class="">Emoji Support</h3>
+                    </a>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2019-03-05</span>
+
+    
+    
+
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/emoji/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">emoji</span>
+        </a>
+    
+    
+</h3>
+
+                    </blockquote>
+                </div>
+                
+            
+            <br />
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        </div><footer>
+    
+    
+    <div class="layui-container">
+        <p class="copyright">Copyright © 2025 Ying-Shan (Sandy) Chen, Steve Francia and the Hugo Authors; all rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

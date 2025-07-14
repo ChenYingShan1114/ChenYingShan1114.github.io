@@ -10,44 +10,44 @@
     <atom:link href="http://localhost:1313/categories/ta-project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Second Kind Bessel Function</title>
-      <link>http://localhost:1313/projects_physics/besselfunction/</link>
+      <link>http://localhost:1313/projects/projects_physics/besselfunction/</link>
       <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/besselfunction/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/besselfunction/</guid>
       <description>&lt;p&gt;The second solution to Bessel&amp;rsquo;s equation is \(Y_m(x)\), the Bessel function of the second kind. Compute the function \(Y_m(x)\) using upward recursion&#xA;$$&#xA;Y_{m+1}=\frac{2m}{x}Y_m(x)-Y_{m-1}(x).&#xA;$$&#xA;To obtain the starting values for recursion, use the identities&#xA;$$&#xA;Y_0(x) = \frac{2}{\pi} \left[ \ln{\frac{x}{2}} + \gamma \right] J_0(x) - \frac{4}{\pi} \sum^\infty_{k=1}(-1)^k \frac{J_{2k}(x)}{k}&#xA;$$&#xA;and&#xA;$$&#xA;J_1(x)Y_0(x)-J_0(x)Y_1(x) = \frac{2}{\pi x}&#xA;$$&#xA;where \(\gamma \approx 0.577215664\). Demonstrate your routine by producing plots of \(Y_m(x)\) for \(0 &amp;lt; x &amp;lt; 50\) and various \(m\).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Acceptance-Rejection Distribution Generator</title>
-      <link>http://localhost:1313/projects_physics/distributiongenerator/</link>
+      <link>http://localhost:1313/projects/projects_physics/distributiongenerator/</link>
       <pubDate>Thu, 14 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/distributiongenerator/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/distributiongenerator/</guid>
       <description>&lt;h2 id=&#34;acceptane-rejection-sampling-method&#34;&gt;Acceptane-Rejection Sampling Method&lt;/h2&gt;&#xA;&lt;p&gt;Acceptance-rejection is a technique for building generators of distributions, which works well both on continuous and discrete random variables. The general idea is analogous to throwing darts at a dartboard.&#xA;Consider a continuous random variable \(x\) distributed in \([a,b)\) with a proba-&#xA;bility distribution \(P_x(x)\). We select a value \(P^{max}_x(x)\) with the condition&lt;/p&gt;&#xA;&lt;p&gt;$$&#xA;P^{max}_x \ge P_x(x)&#xA;$$&lt;/p&gt;&#xA;&lt;p&gt;for all \(x\). There are four steps that the scheme selecting a random value for \(x\):&lt;/p&gt;</description>
     </item>
     <item>
       <title>Korteweg de Vries Equation</title>
-      <link>http://localhost:1313/projects_physics/kortewegdevriesequation/</link>
+      <link>http://localhost:1313/projects/projects_physics/kortewegdevriesequation/</link>
       <pubDate>Tue, 14 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/kortewegdevriesequation/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/kortewegdevriesequation/</guid>
       <description>&lt;p&gt;Partial Differential Equations (PDEs) play a foundational role in modeling physical phenomena involving functions of multiple variables—such as heat flow, wave propagation, fluid dynamics, and quantum mechanics. These equations describe how quantities evolve over space and time, often governed by laws of conservation, motion, or energy.&lt;/p&gt;&#xA;&lt;h4 id=&#34;-types-of-pde-problems&#34;&gt;🧩 Types of PDE Problems&lt;/h4&gt;&#xA;&lt;p&gt;Two major classes of problems arise when dealing with PDEs:&lt;/p&gt;&#xA;&lt;p&gt;• Initial Value Problems (IVPs): Solutions evolve over time from given initial conditions. These are common in time-dependent systems like waves or diffusion.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simple Digital Filter – Frequency Domain Analysis</title>
-      <link>http://localhost:1313/projects_physics/simpledigitalfilter/</link>
+      <link>http://localhost:1313/projects/projects_physics/simpledigitalfilter/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/simpledigitalfilter/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/simpledigitalfilter/</guid>
       <description>&lt;p&gt;In today’s data-driven world, understanding macro-scale phenomena often begins with data analysis. Two key tools in this field are:&lt;/p&gt;&#xA;&lt;p&gt;• Curve fitting, such as linear regression, which minimizes the least squares error&lt;/p&gt;&#xA;&lt;p&gt;• Fourier transform, which decomposes signals into frequency components—particularly useful in analyzing periodic systems&lt;/p&gt;&#xA;&lt;p&gt;In this project, I generate a synthesized signal made up of multiple sine waves, apply simple mathematical operations, and analyze the result using Fourier transform. Surprisingly, these operations behave like digital filters in the frequency domain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Finite Square Well</title>
-      <link>http://localhost:1313/projects_physics/finitesquarewell/</link>
+      <link>http://localhost:1313/projects/projects_physics/finitesquarewell/</link>
       <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/finitesquarewell/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/finitesquarewell/</guid>
       <description>&lt;p&gt;There are two common approaches for solving systems of equations: linear and non-linear. For linear unsteady systems, it can be solved by &lt;a href=&#34;https://en.wikipedia.org/wiki/Gaussian_elimination&#34;&gt; Gaussian elimination&lt;/a&gt; and inverse matrix. However, for nonlinear equations, &lt;a href=&#34;https://en.wikipedia.org/wiki/Newton%27s_method&#34;&gt;Newton&amp;rsquo;s method&lt;/a&gt; can let us approach the solution.&#xA;This project demonstrates how Newton’s method can be applied to solve the nonlinear eigenvalue problem of a finite potential square well, where no theoritical solution exists.&lt;/p&gt;&#xA;&lt;h2 id=&#34;finite-square-well&#34;&gt;Finite Square Well&lt;/h2&gt;&#xA;&lt;p&gt;In quantum mechanics, the energy eigenvalues of finite potential square well are given by transcendental equations. Therefore, these equations are highly nonlinear and must be solved numerically or graphically. In this project, I used single-variable Newton&amp;rsquo;s method to find the roots corresponding to the allowed energy eigenvalues of a bound electron in the well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rutherford Scattering</title>
-      <link>http://localhost:1313/projects_physics/rutherfordscattering/</link>
+      <link>http://localhost:1313/projects/projects_physics/rutherfordscattering/</link>
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/rutherfordscattering/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/rutherfordscattering/</guid>
       <description>&lt;p&gt;In &lt;a href=&#34;https://en.wikipedia.org/wiki/Rutherford_scattering_experiments#Rutherford_scattering&#34;&gt; Rutherford’s historic experiment &lt;/a&gt;, alpha particles were observed to scatter when passing near the gold nuclei in a thin foil. This experiment disproved the &lt;a href=&#34;https://en.wikipedia.org/wiki/Plum_pudding_model&#34;&gt; plum pudding model &lt;/a&gt; and provided strong evidence for the existence of a small, dense atomic nucleus.&lt;/p&gt;&#xA;&lt;p&gt;In this project, I recreated the scattering process using a numerical simulation of the Coulomb force between an alpha particle and a gold ion. The simulation is solved using the adaptive Runge-Kutta method, which provides high accuracy when modeling the particle’s trajectory under the influence of electrostatic repulsion.&lt;/p&gt;</description>
     </item>
   </channel>

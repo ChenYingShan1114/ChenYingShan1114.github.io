@@ -6,48 +6,55 @@
     <description>Recent content in Computer Graphics on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pancake Simulation</title>
+      <link>http://localhost:1313/projects/projects_cg/pancakesimulation/</link>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/pancakesimulation/</guid>
+      <description>&lt;p&gt;Our final goal is to use a robotic arm to control a spatula and implement an autonomous cooking robot. To achieve this, NVIDIA Omniverse is a good tool to generate diverse video simulations, which are used to train a robotic arm&amp;rsquo;s motion for real-world deployment.&lt;/p&gt;&#xA;&lt;p&gt;In this project, I use Isaac Sim as the physics engine to simulate the process of cooking a pancake. By tuning physical parameters of the batter and pancake, I created a realistic animation that mimics real-world pancake cooking behavior in a kitchen setting.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>A Curve Fitting Tool</title>
-      <link>http://localhost:1313/projects_cg/curvefitting/</link>
+      <link>http://localhost:1313/projects/projects_cg/curvefitting/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/curvefitting/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/curvefitting/</guid>
       <description>&lt;p&gt;By self-studing the course &lt;a href=&#34;http://staff.ustc.edu.cn/~lgliu/Courses/GAMES102_2020/default.html&#34;&gt;GAMES102&lt;/a&gt;, I summarized the curve fitting methods introduced in Homework 01~05.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Curve_Fitting&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;curve-fitting&#34;&gt;Curve Fitting&lt;/h2&gt;&#xA;&lt;p&gt;Implement curve fitting and interpolation using five different methods:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Polynomial interpolation&lt;/li&gt;&#xA;&lt;li&gt;Gaussian interpolation&lt;/li&gt;&#xA;&lt;li&gt;Polynomial least square&lt;/li&gt;&#xA;&lt;li&gt;Polynomial ridge regression&lt;/li&gt;&#xA;&lt;li&gt;Neural network&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Also explored four parameterization techniques:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Uniform parameterization&lt;/li&gt;&#xA;&lt;li&gt;Chordal parameterization&lt;/li&gt;&#xA;&lt;li&gt;Centripetal parameterization&lt;/li&gt;&#xA;&lt;li&gt;Foley parameterization&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/CurveFitting/diff_fit_method.png&#34; width=&#34;700&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &lt;br&gt;&#xA;    Fix Parameterization Method&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/CurveFitting/diff_parameterization.png&#34; width=&#34;700&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &lt;br&gt;&#xA;    Fix Fitting Method&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;cubic-splines&#34;&gt;Cubic Splines&lt;/h2&gt;&#xA;&lt;p&gt;Solved cubic spline interpolation under various continuity constraints:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Z-buffer and Shading</title>
-      <link>http://localhost:1313/projects_cg/zbufferandshading/</link>
+      <link>http://localhost:1313/projects/projects_cg/zbufferandshading/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/zbufferandshading/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/zbufferandshading/</guid>
       <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Zbuffer_and_Shading&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;read-the-file&#34;&gt;Read the file:&lt;/h3&gt;&#xA;&lt;p&gt;Read file with command line &lt;code&gt;name + lab4X.in&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3D Computer Graphics Pipeline</title>
-      <link>http://localhost:1313/projects_cg/3dcgpipeline/</link>
+      <link>http://localhost:1313/projects/projects_cg/3dcgpipeline/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/3dcgpipeline/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/3dcgpipeline/</guid>
       <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Transformation and Clipping</title>
-      <link>http://localhost:1313/projects_cg/transformationandclipping/</link>
+      <link>http://localhost:1313/projects/projects_cg/transformationandclipping/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/transformationandclipping/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/transformationandclipping/</guid>
       <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Also, each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Transformation_and_Clipping&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If a &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which # appears.)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;reset&#34;&gt;Reset:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;reset&lt;/code&gt;&lt;br&gt;&#xA;Reset the transformation matrix.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A Paint Brush</title>
-      <link>http://localhost:1313/projects_cg/paintbrush/</link>
+      <link>http://localhost:1313/projects/projects_cg/paintbrush/</link>
       <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/paintbrush/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/paintbrush/</guid>
       <description>&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/Paint_Brush&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;p&gt;Use the keyboard to switch between various modes and the mouse to interact with the canvas. Each shape will automatically be assigned a random color.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-points-d&#34;&gt;✏️ Draw Points (d):&lt;/h3&gt;&#xA;Start drawing graphic when you press the left mouse button.&lt;br&gt;&#xA;Stop drawing graphic when you release the left mouse button.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-lines-l&#34;&gt;📏 Draw Lines (l):&lt;/h3&gt;&#xA;First click to assign the starting point.&lt;br&gt;&#xA;Second click to assign the ending point.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-circles-o&#34;&gt;⚪ Draw Circles (o):&lt;/h3&gt;&#xA;First click to assign the center of circle.&lt;br&gt;&#xA;Second click to assign the radius of circle.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-draw-polygons-p&#34;&gt;🔷 Draw Polygons (p):&lt;/h3&gt;&#xA;Left click to assign the coordinates of polygon.&lt;br&gt;&#xA;Right click to close the polygon.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-clear-c&#34;&gt;🧹 Clear (c):&lt;/h3&gt;&#xA;Press keyboard button c to clean the screen.&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-undo-r&#34;&gt;↩️ Undo (r):&lt;/h3&gt;&#xA;Press keyboard button r to undo the clean action.&lt;br&gt;&#xA;&lt;strong&gt;This feature only works after cleaning the screen.&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;-quit-q&#34;&gt;❌ Quit (q):&lt;/h3&gt;&#xA;Press keyboard button q to quit the window.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/img/projects_cg/PaintBrush/lab1.png&#34; width=&#34;600&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt; &#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Note: Computer Graphics</title>
-      <link>http://localhost:1313/projects_cg/notecg/</link>
+      <link>http://localhost:1313/projects/projects_cg/notecg/</link>
       <pubDate>Fri, 10 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_cg/notecg/</guid>
+      <guid>http://localhost:1313/projects/projects_cg/notecg/</guid>
       <description>&lt;div align=&#34;center&#34;&gt;&#xA;  &lt;div class=&#34;flipbook&#34;&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&#xA;      GAMES101: 现代计算机图形学入门 &lt;small&gt;~ Note by Ying-Shan Chen&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;small&gt;Lectured by Prof. Lingqi Yan (闫令琪),&lt;/small&gt;&#xA;      &lt;small&gt;Computer Science, UC Santa Barbara&lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-1.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Charmandar &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-2.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Arbok &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-3.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Pikachu &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-4.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Mew &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div&gt;&#xA;      &lt;img src=&#34;http://localhost:1313/self/img/images/img-5.png&#34; alt=&#34;&#34; /&gt;&#xA;      &lt;small&gt; Darkrai &lt;/small&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;&lt;/div&gt;&#xA;    &lt;div class=&#34;hard&#34;&gt;The end &lt;small&gt;~&lt;/small&gt;&lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/jquery.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script src=&#34;http://localhost:1313/self/js/turn.js&#34;&gt;&lt;/script&gt;&#xA;  &lt;script&gt;&#xA;    $(&#34;.flipbook&#34;).turn();&#xA;  &lt;/script&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>

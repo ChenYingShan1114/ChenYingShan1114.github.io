@@ -10,23 +10,23 @@
     <atom:link href="http://localhost:1313/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simple Digital Filter – Frequency Domain Analysis</title>
-      <link>http://localhost:1313/projects_physics/simpledigitalfilter/</link>
+      <link>http://localhost:1313/projects/projects_physics/simpledigitalfilter/</link>
       <pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/simpledigitalfilter/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/simpledigitalfilter/</guid>
       <description>&lt;p&gt;In today’s data-driven world, understanding macro-scale phenomena often begins with data analysis. Two key tools in this field are:&lt;/p&gt;&#xA;&lt;p&gt;• Curve fitting, such as linear regression, which minimizes the least squares error&lt;/p&gt;&#xA;&lt;p&gt;• Fourier transform, which decomposes signals into frequency components—particularly useful in analyzing periodic systems&lt;/p&gt;&#xA;&lt;p&gt;In this project, I generate a synthesized signal made up of multiple sine waves, apply simple mathematical operations, and analyze the result using Fourier transform. Surprisingly, these operations behave like digital filters in the frequency domain.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Analysis of the Temperature Data at Hualien between 2010-2020</title>
-      <link>http://localhost:1313/projects_physics/analyzetemperature/</link>
+      <link>http://localhost:1313/projects/projects_physics/analyzetemperature/</link>
       <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/analyzetemperature/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/analyzetemperature/</guid>
       <description>&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/proposal.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/complex.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compound Pendulums</title>
-      <link>http://localhost:1313/projects_physics/pendulum/</link>
+      <link>http://localhost:1313/projects/projects_physics/pendulum/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects_physics/pendulum/</guid>
+      <guid>http://localhost:1313/projects/projects_physics/pendulum/</guid>
       <description>&lt;p&gt;Team members: 陳盈珊 李思杰&lt;/p&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;We use a setup to realize two physics phenomenon&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;flipping of lower pendulum in double pendulum&lt;/li&gt;&#xA;&lt;li&gt;the synchronization of two single pendulems on a plane with wheels.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/Pendulum/pendulum.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;measurement-method&#34;&gt;Measurement Method&lt;/h2&gt;&#xA;&lt;p&gt;Use image analysis to track specific point on the pendulum. Record 10 to 15 frames per second.&lt;/p&gt;&#xA;&lt;h2 id=&#34;anaylsis-method&#34;&gt;Anaylsis Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Time series observation&lt;/li&gt;&#xA;&lt;li&gt;Energy transfer&lt;/li&gt;&#xA;&lt;li&gt;Phse diagram&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;flipping-pendulum&#34;&gt;Flipping Pendulum&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-does-flipping-means&#34;&gt;What does flipping means?&lt;/h3&gt;&#xA;&lt;p&gt;Non-flipping with initial condition \( \theta_1=\theta_2=60^\circ\)&lt;/p&gt;</description>
     </item>
   </channel>
