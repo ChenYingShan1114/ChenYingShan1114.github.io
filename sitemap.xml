@@ -260,6 +260,12 @@
     <loc>http://localhost:1313/projects/projects_cg/3dcgpipeline/</loc>
     <lastmod>2022-11-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/researchers/isba/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/researchers/</loc>
+    <lastmod>2022-11-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/projects_cg/transformationandclipping/</loc>
     <lastmod>2022-10-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -299,9 +305,6 @@
     <loc>http://localhost:1313/projects/projects_physics/twostreaminstability/</loc>
     <lastmod>2022-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/researchers/</loc>
-    <lastmod>2022-02-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/researchers/ncku/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -317,6 +320,12 @@
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2021-10-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/others/activity/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/others/</loc>
+    <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/projects_physics/hhg/</loc>
     <lastmod>2021-06-11T00:00:00+00:00</lastmod>
   </url><url>
@@ -325,6 +334,9 @@
   </url><url>
     <loc>http://localhost:1313/projects/projects_physics/fdtd/</loc>
     <lastmod>2020-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/others/award/</loc>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/experimental-physics/</loc>
     <lastmod>2020-06-09T00:00:00+00:00</lastmod>
@@ -352,6 +364,9 @@
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2019-12-01T13:21:53+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/others/scholarship/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/jobs/ncu/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>

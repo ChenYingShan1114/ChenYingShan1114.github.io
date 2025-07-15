@@ -212,6 +212,13 @@
       <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
     </item>
     <item>
+      <title>KEK IINAS 5th International School on Beam Dynamics and Accelerator Technology</title>
+      <link>http://localhost:1313/researchers/isba/</link>
+      <pubDate>Mon, 21 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/researchers/isba/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Transformation and Clipping</title>
       <link>http://localhost:1313/projects/projects_cg/transformationandclipping/</link>
       <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
@@ -275,6 +282,13 @@
       <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Activities</title>
+      <link>http://localhost:1313/others/activity/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/others/activity/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Particle-in-Cell Simulation of Phase-Matched High Harmonics Generation in Highly Ionized Plasmas</title>
       <link>http://localhost:1313/projects/projects_physics/hhg/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
@@ -287,6 +301,13 @@
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/fdtd/</guid>
       <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd1.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;boundary-condition&#34;&gt;Boundary Condition&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed boundary condition with hard source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Fixed boundary condition with soft source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Absorb boundary condition&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd2.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;propagation-in-medium&#34;&gt;Propagation in Medium&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd3.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The reflection coefficient is&#xA;$$&#xA;\varGamma = \frac{\sqrt{\epsilon_0} - \sqrt{\epsilon_r}}{\sqrt{\epsilon_0} + \sqrt{\epsilon_r}}&#xA;$$&#xA;and the transmission coefficient is&#xA;$$&#xA;\tau = \frac{2\sqrt{\epsilon_0}}{(\sqrt{\epsilon_0} + \sqrt{\epsilon_r})}.&#xA;$$&#xA;The region where \(x &amp;gt; 100\) has a relative permittivity \(\epsilon_r\) of 4.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Lossy Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd4.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The region where \(x &amp;gt; 100 \) has a relative permittivity \(\epsilon_r = 4\) and electrical conductivity \(\sigma = 0.04\).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Awards</title>
+      <link>http://localhost:1313/others/award/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/others/award/</guid>
+      <description></description>
     </item>
     <item>
       <title>Vortex Dynamics in 2-dimensional Soap Film Turbulence</title>
@@ -310,11 +331,18 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/self/img/avatar.jpg&#34; alt=&#34;0&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/self/img//logo/LiU.png&#34; alt=&#34;1&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/self/img//logo/NCHC.png&#34; alt=&#34;2&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/self/img//logo/NCKU.jpg&#34; alt=&#34;3&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Scholarships</title>
+      <link>http://localhost:1313/others/scholarship/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/others/scholarship/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Teaching Assistant at Department of Physics, National Central University</title>
       <link>http://localhost:1313/jobs/ncu/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/jobs/ncu/</guid>
-      <description>&lt;p&gt;author: &amp;ldquo;Ying-Shan Chen&amp;rdquo;&#xA;title: &amp;ldquo;Teaching Assistant at Department of Physics, National Central University&amp;rdquo;&#xA;jobtitle: &amp;ldquo;Teaching Assistant at Department of Physics&amp;rdquo;&#xA;company: &amp;ldquo;National Central University (NCU)&amp;rdquo;&#xA;location: &amp;ldquo;Taoyuan City, Taiwan&amp;rdquo;&#xA;date: &amp;lsquo;2019-09-01&amp;rsquo;&#xA;periods: &amp;ldquo;2019.09 - 2024.01&amp;rdquo;&#xA;jobs: [&#xA;&amp;ldquo;Courses: Applied Mathematics, Mechanics, Electromagnetism, Optics, Programming in Physics, Physics of Waves, Introduction to Computational Physics, Programming in General Physics, Student Service-Learning&amp;rdquo;,&#xA;&amp;ldquo;Participate in course planning and professional knowledge discussions.&amp;rdquo;,&#xA;&amp;ldquo;Actively communicate with professor and students.&amp;rdquo;]&#xA;moreinfo: false&#xA;tags: [&amp;ldquo;Part-time Job&amp;rdquo;, &amp;ldquo;Hybrid Work&amp;rdquo;, &amp;ldquo;Physics&amp;rdquo;, &amp;ldquo;Calculus&amp;rdquo;, &amp;ldquo;Python&amp;rdquo;, &amp;ldquo;C++&amp;rdquo;, &amp;ldquo;FORTRAN&amp;rdquo;, &amp;ldquo;Data Analysis&amp;rdquo;]&#xA;logo: ./logo/NCU.jpg&lt;/p&gt;</description>
+      <description>&lt;p&gt;author: &amp;ldquo;Ying-Shan Chen&amp;rdquo;&#xA;title: &amp;ldquo;Teaching Assistant at Department of Physics, National Central University&amp;rdquo;&#xA;jobtitle: &amp;ldquo;Teaching Assistant at Department of Physics&amp;rdquo;&#xA;company: &amp;ldquo;National Central University (NCU)&amp;rdquo;&#xA;location: &amp;ldquo;Taoyuan City, Taiwan&amp;rdquo;&#xA;date: &amp;lsquo;2019-09-01&amp;rsquo;&#xA;periods: &amp;ldquo;2019.09 - 2024.01&amp;rdquo;&#xA;jobs: [&#xA;&amp;ldquo;Courses: Applied Mathematics, Mechanics, Electromagnetism, Optics, Programming in Physics, Physics of Waves, Introduction to Computational Physics, Programming in General Physics, Student Service-Learning&amp;rdquo;,&#xA;&amp;ldquo;Participate in course planning and professional knowledge discussions.&amp;rdquo;,&#xA;&amp;ldquo;Actively communicate with professor and students.&amp;rdquo;]&#xA;tags: [&amp;ldquo;Part-time Job&amp;rdquo;, &amp;ldquo;Hybrid Work&amp;rdquo;, &amp;ldquo;Physics&amp;rdquo;, &amp;ldquo;Calculus&amp;rdquo;, &amp;ldquo;Python&amp;rdquo;, &amp;ldquo;C++&amp;rdquo;, &amp;ldquo;FORTRAN&amp;rdquo;, &amp;ldquo;Data Analysis&amp;rdquo;]&#xA;logo: ./logo/NCU.jpg&lt;/p&gt;</description>
     </item>
     <item>
       <title>Teaching Assistant at Department of Physics, National Central University</title>
