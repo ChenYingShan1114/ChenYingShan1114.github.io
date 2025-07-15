@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-var container = document.getElementById('threejs-container');
+var container = document.getElementById('threejs-container-animation');
 var width = container.offsetWidth;
 var height = container.offsetHeight;
 var scene = new THREE.Scene();
@@ -20,8 +20,8 @@ camera.position.z = 3;
 
 function animate() {
     requestAnimationFrame(animate);
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
+    cube.rotation.x += 1.00;
+    cube.rotation.y += 1.00;
     renderer.render(scene, camera);
 }
 animate();
