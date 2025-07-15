@@ -79,11 +79,25 @@
       <description>&lt;p&gt;In this project, I used keyframe animation in Maya to simulate the motion of three types of balls, each representing a different physical behavior:&lt;/p&gt;&#xA;&lt;p&gt;• A small yellow ball with a blue stripe acts as a bouncing ball.&lt;/p&gt;&#xA;&lt;p&gt;• A medium purple ball with a gray stripe behaves like a heavy bowling ball.&lt;/p&gt;&#xA;&lt;p&gt;• A large green ball with an orange stripe simulates a light, floaty beach ball.&lt;/p&gt;&#xA;&lt;p&gt;Rather than solving the equations of motion, I animated each ball by manually setting keyframes and applying the &lt;strong&gt;Twelve Basic Principles of Animation&lt;/strong&gt;. Techniques such as &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arc&lt;/em&gt;, and &lt;em&gt;timing&lt;/em&gt; were used to make the movements feel natural and expressive.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>3DGS Rrefrigerator Animation</title>
+      <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
+      <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;At the beginning I started to work as intern in ITRI, my main job is taking picture for an object from different directions. The pictures should cover as many views from different direction as possible. After input the pictures as data into the program which the software engineer in our group already built, it will generate a .ply file which is like a point cloud model. However, those are not only points. They are &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt; Gaussian Splat &lt;/a&gt;which have different color when audieunce see them from different direction. The higher the spherical harmonic order, the colorful the Gaussian splat, the more accuracy of the object model, the large the data storage need.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Intern at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
       <link>http://localhost:1313/jobs/itri_1/</link>
       <pubDate>Wed, 21 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/jobs/itri_1/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Urban Fractional Model</title>
+      <link>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</guid>
+      <description>&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/urban_fractional_calculus_website&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Numerical experiment of phase-matched ion-based high-order harmonic generation in the water-window x-ray spectral region via electromagnetic envelope equation</title>

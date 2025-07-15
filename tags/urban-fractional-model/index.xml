@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTML on Ying-Shan Chen@TW ~ $</title>
-    <link>http://localhost:1313/tags/html/</link>
-    <description>Recent content in HTML on Ying-Shan Chen@TW ~ $</description>
+    <title>Urban Fractional Model on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/urban-fractional-model/</link>
+    <description>Recent content in Urban Fractional Model on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/urban-fractional-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Urban Fractional Model</title>
       <link>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</guid>
       <description>&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/urban_fractional_calculus_website&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

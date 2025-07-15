@@ -20,8 +20,8 @@ camera.position.z = 3;
 
 function animate() {
     requestAnimationFrame(animate);
-    cube.rotation.x += 0.1;
-    cube.rotation.y += 0.1;
+    cube.rotation.x += 0.05;
+    cube.rotation.y += 0.05;
     renderer.render(scene, camera);
 }
 animate();

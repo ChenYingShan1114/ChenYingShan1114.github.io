@@ -107,8 +107,32 @@
     <loc>http://localhost:1313/projects/projects_animation/bouncingball/</loc>
     <lastmod>2025-03-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/3d-gaussian-splat/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/projects_cg/3dgsfridge/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/java-script/</loc>
+    <lastmod>2025-02-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/jobs/itri_1/</loc>
     <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/css/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/html/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/physics/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/urban-fractional-model/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/electromagnetic/</loc>
     <lastmod>2024-06-11T00:00:00+00:00</lastmod>
@@ -174,9 +198,6 @@
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/numerical-integration/</loc>
-    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/physics/</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ta-project/</loc>
@@ -385,12 +406,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/pid-controller/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>

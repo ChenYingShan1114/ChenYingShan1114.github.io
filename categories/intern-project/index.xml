@@ -22,5 +22,12 @@
       <guid>http://localhost:1313/projects/projects_animation/moonshineosc/</guid>
       <description>&lt;h3&gt; 🔧 Step 1: Room Construction and Cinematic Setup &lt;/h3&gt;&#xA;Using assets from Fab, I built a 3m × 3m × 5m interior space in Unreal Engine. The scene includes a variety of lighting elements:&#xA;&lt;p&gt;• Environmental light simulates the overall ambient condition and expresses the transition between daytime and nighttime.&lt;/p&gt;&#xA;&lt;p&gt;• Indirect (indirectional) lighting is added to fill in darker areas, ensuring that key parts of the room remain visible without relying on harsh direct light.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>3DGS Rrefrigerator Animation</title>
+      <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
+      <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;At the beginning I started to work as intern in ITRI, my main job is taking picture for an object from different directions. The pictures should cover as many views from different direction as possible. After input the pictures as data into the program which the software engineer in our group already built, it will generate a .ply file which is like a point cloud model. However, those are not only points. They are &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt; Gaussian Splat &lt;/a&gt;which have different color when audieunce see them from different direction. The higher the spherical harmonic order, the colorful the Gaussian splat, the more accuracy of the object model, the large the data storage need.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

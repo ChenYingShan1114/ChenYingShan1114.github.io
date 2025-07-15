@@ -3,12 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ying-Shan Chen@TW ~ $ - Pancake Simulation </title>
+    <title>Ying-Shan Chen@TW ~ $ - 3DGS Rrefrigerator Animation </title>
     
     
-    <meta content="Computer Graphics, Physics Engine, NVIDIA Omniverse, computer graphics, work project" name="keywords">
+    <meta content="Computer Graphics, 3D Gaussian Splat, Java Script, computer graphics, intern project" name="keywords">
     
-    <meta content="Ying-Shan Chen@TW ~ $ - Simulated pancake-cooking scenes using NVIDIA Omniverse Isaac Sim and PhysX, with the goal of training a real-world robotic arm for cooking tasks. By carefully adjusting material properties and separating batter and pancake states across two physics scenes, we achieved realistic deformation and fluid dynamics for animation data generation." name="description">
+    <meta content="Ying-Shan Chen@TW ~ $ - ....." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -138,261 +138,8 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote self-elem-quote-bg-gray markdown-body single-title" >
-                    <h1>Pancake Simulation</h1>
+                    <h1>3DGS Rrefrigerator Animation</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
-    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2025-05-28</span>
-
-    
-     
-    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
-    
-
-    
-        <a href="/categories/computer-graphics/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
-        </a>
-    
-        <a href="/categories/work-project/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">work project</span>
-        </a>
-    
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
-    
-
-    
-        <a href="/tags/computer-graphics/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
-        </a>
-    
-        <a href="/tags/physics-engine/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Physics Engine</span>
-        </a>
-    
-        <a href="/tags/nvidia-omniverse/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">NVIDIA Omniverse</span>
-        </a>
-    
-    
-</h3>
-
-                </blockquote>
-                <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
-                    <p>Our final goal is to use a robotic arm to control a spatula and implement an autonomous cooking robot. To achieve this, NVIDIA Omniverse is a good tool to generate diverse video simulations, which are used to train a robotic arm&rsquo;s motion for real-world deployment.</p>
-<p>In this project, I use Isaac Sim as the physics engine to simulate the process of cooking a pancake. By tuning physical parameters of the batter and pancake, I created a realistic animation that mimics real-world pancake cooking behavior in a kitchen setting.</p>
-<h2 id="object-settings">Object Settings</h2>
-<p align="center">
-    <table style="width:100%;">
-        <thead>
-            <tr style="background-color: #f0f0f0;">
-                <th>Object</th>
-                <th>Source</th>
-                <th>Collider</th>
-                <th>Physics Property</th>
-                <th>Material</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td align="center">Pan</td>
-                <td align="center" rowspan=3>3DGS to Mesh Grid</td>
-                <td align="center">Yes</td>
-                <td align="center">-</td>
-                <td align="center">-</td>
-            </tr>
-            <tr>
-                <td align="center">Spatula</td>
-                <td align="center">Yes</td>
-                <td align="center">Rigid Body</td>
-                <td align="center">-</td>
-            </tr>
-            <tr>
-                <td align="center">Container</td>
-                <td align="center">Yes</td>
-                <td align="center">-</td>
-                <td align="center">-</td>
-            </tr>
-            <tr>
-                <td align="center">Batter</td>
-                <td align="center" rowspan=2 style="background-color:rgb(255, 255, 255);">Mesh Grid</td>
-                <td align="center">No</td>
-                <td align="center">Particle Sampler with Isosurface</td>
-                <td align="center">PBD Particle</td>
-            </tr>
-            <tr>
-                <td align="center">Pancake</td>
-                <td align="center">No</td>
-                <td align="center">Deformable Body</td>
-                <td align="center">Deformable Body</td>
-            </tr>
-        </tbody>
-    </table>
-</p>
-<h2 id="physics-scene-configuration">Physics Scene Configuration</h2>
-<p>Because the state of batter and pancake can&rsquo;t transfor like the real world work, I use two separate physics scenes — one for the batter and one for the cooked pancake — because physics interactions in Omniverse occur even if an object is invisible. Separating them ensures clean transitions and prevents unwanted interactions.</p>
-<ol>
-<li>Scene 1: container, batter, pan</li>
-<li>Scene 2: spatula, pancake, pan</li>
-</ol>
-<h2 id="adjusting-physical-parameters">Adjusting Physical Parameters</h2>
-<p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/RM-HoD7I5DE?si=lBosfyzhkJ9i6syk&autoplay=1&loop=1&playlist=RM-HoD7I5DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
-<p align="center">
-    <table style="width:70%;">
-        <thead>
-            <tr style="background-color: #f0f0f0;">
-                <th>Fluid Parameter</th>
-                <th>Left</th>
-                <th>Middle</th>
-                <th>Right</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td align="center">density</td>
-                <td align="center">1.0</td>
-                <td align="center">10.0</td>
-                <td align="center">0.0</td>
-            </tr>
-            <tr>
-                <td align="center">fiction</td>
-                <td align="center">0.0</td>
-                <td align="center">0.2</td>
-                <td align="center">0.2</td>
-            </tr>
-            <tr>
-                <td align="center">surface tension</td>
-                <td align="center">0.0</td>
-                <td align="center">0.5</td>
-                <td align="center">0.0</td>
-            </tr>
-            <tr>
-                <td align="center">viscosity</td>
-                <td align="center">0.0</td>
-                <td align="center">50.0</td>
-                <td align="center">50000.0</td>
-            </tr>
-            <tr>
-                <td align="center">cohesion</td>
-                <td colspan=3 align="center">0.0</td>
-            </tr>
-            <tr>
-                <td align="center">damping</td>
-                <td colspan=3 align="center">0.0</td>
-            </tr>
-            <tr>
-                <td align="center">drag</td>
-                <td colspan=3 align="center">0.0</td>
-            </tr>
-            <tr>
-                <td align="center">lift</td>
-                <td colspan=3 align="center">0.0</td>
-            </tr>
-        </tbody>
-    </table>
-</p>
-<h2 id="final-physical-parameters">Final Physical Parameters</h2>
-<p>Most parameters are set as defualt, except</p>
-<p align="center">
-    <table style="width:100%;">
-        <thead>
-            <tr style="background-color: #f0f0f0;">
-                <th>Object</th>
-                <th>Parameters</th>
-                <th>Value</th>
-                <th>Unit</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td align="center" rowspan=4>Pancake (Mesh)</td>
-                <td align="center">mass</td>
-                <td align="center">0.2</td>
-                <td align="center">kg</td>
-            </tr>
-            <tr>
-                <td align="center">simulation mesh resolution</td>
-                <td align="center">5</td>
-                <td align="center">-</td>
-            </tr>
-            <tr>
-                <td align="center">vertex velocity damping</td>
-                <td align="center">10</td>
-                <td align="center">1/s</td>
-            </tr>
-            <tr>
-                <td align="center">rest offset</td>
-                <td align="center">0</td>
-                <td align="center">m</td>
-            </tr>
-            <tr>
-                <td align="center" rowspan=2>Pancake (Material)</td>
-                <td align="center">dynamic fiction</td>
-                <td align="center">0.5</td>
-                <td align="center">-</td>
-            </tr>
-            <tr>
-                <td align="center">Young's modulus</td>
-                <td align="center">50000</td>
-                <td align="center">kg/m/s<sup>2</sup>=N/m<sup>2</sup></td>
-            </tr>
-            <tr>
-                <td align="center">Batter (Particle System)</td>
-                <td align="center">particle contact offset</td>
-                <td align="center">0.005</td>
-                <td align="center">m</td>
-            </tr>
-            <tr>
-                <td align="center" rowspan=3 style="background-color:rgb(255, 255, 255);">Pancake (Material)</td>
-                <td align="center">density</td>
-                <td align="center">10</td>
-                <td align="center">kg/m<sup>3</sup></td>
-            </tr>
-            <tr>
-                <td align="center">surface tension</td>
-                <td align="center">0.5</td>
-                <td align="center">1/m<sup>3</sup></td>
-            </tr>
-            <tr>
-                <td align="center">viscosity</td>
-                <td align="center">50</td>
-                <td align="center">-</td>
-            </tr>
-        </tbody>
-    </table>
-</p>
-<!--
-Parameter Descriptions:
-• simulation mesh resolution: use how mant mesh to simulate the motion of deformable body. Bigger the value, softer the object.
-• vertex velocity damping: provide a drag force to vertices on mesh, act like air drag. Bigger the value, stiffer the object.
-• rest offset: the rest offset of rigid body.
-• Young's modulus: the stiffness of material. Smaller the value, softer the object.
-• particle contact offset: the distance between particles. Smaller the value, smaller the distance between particles, therefore there will have more particles under same volume and cost more computational resource.
-• viscosity: how sticky the fluid is.
--->
-<h2 id="simulation-result">Simulation Result</h2>
-<p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jRciGPLgf7U?si=vZgFnR9-Ms2Aqlow&autoplay=1&loop=1&playlist=jRciGPLgf7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p></div>
-            </div>
-        </div>
-
-        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
-            
-            <div class="layui-card single-card">
-                <h2 class="single-title">Relevant Topics</h2>
-                
-                	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/projects/projects_cg/3dgsfridge/">
-                                <h3 class="">3DGS Rrefrigerator Animation</h3>
-                            </a>
-                            
-                            <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
     <span>2025-02-21</span>
 
@@ -422,6 +169,98 @@ Parameter Descriptions:
     
         <a href="/tags/3d-gaussian-splat/">
             <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">3D Gaussian Splat</span>
+        </a>
+    
+        <a href="/tags/java-script/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Java Script</span>
+        </a>
+    
+    
+</h3>
+
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
+                    <h2 id="3d-gaussian-splat-model">3D Gaussian Splat Model</h2>
+<p>At the beginning I started to work as intern in ITRI, my main job is taking picture for an object from different directions. The pictures should cover as many views from different direction as possible. After input the pictures as data into the program which the software engineer in our group already built, it will generate a .ply file which is like a point cloud model. However, those are not only points. They are <a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting"> Gaussian Splat </a>which have different color when audieunce see them from different direction. The higher the spherical harmonic order, the colorful the Gaussian splat, the more accuracy of the object model, the large the data storage need.</p>
+<p>It is a good technique that it can reconstruct the details on model, such like scratches or words. But it is hard to rebuild some transparent material, such like glass or acrylic sheet, or highly reflective material, such like iron. Also, highly symmetric model or dark color model are hard to find feature points. So it is also hard to rebuild. The following are two dolls that I reconstructed by this technique and it provides me a good way to keep some important memories without any physical space storage.</p>
+<ol>
+<li>Slinky Dog, which is my favorite character in Pixar movies. It is a doll bought from Tokyo Disney Land.</li>
+</ol>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WyFcS6JCUUA?si=-PTVyFrgMxis6-VZ&autoplay=1&loop=1&playlist=WyFcS6JCUUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+<ol start="2">
+<li>Einstein doll, which my dad bought for me when he travel to Europe, because I am a physics major student and he is a professor in department of physics.</li>
+</ol>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/A7ipDpDIhX8?si=AAKfSAixf4cqVkL2&autoplay=1&loop=1&playlist=A7ipDpDIhX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+<h2 id="animation-on-3d-gaussian-splat">Animation on 3D Gaussian Splat</h2>
+<p>🔗 See more details <a href="https://github.com/ChenYingShan1114/Fridge-Animation"> here</a>.</p>
+<p>Next, I try to make the animation of 3DGS file in order to demo some real-to-sim technique.</p>
+<ol>
+<li>My coworker generate a refrigerator with upper door opened.</li>
+<li>I use <a href="https://superspl.at/editor/"> supersplat</a> as editor to split fridge&rsquo;s door and body into two models. Also, turn the rotational axis to the closest x, y, z axis in order to rotate fridge&rsquo;s door easily when making animation.
+Notice: Do not rotate the model too much because the spherical harmonic which represent different color watch from different direction on each point can&rsquo;t rotate with the model.</li>
+<li>I use three.js to make an animation, shown in following:</li>
+</ol>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jVAnlvHCA4E?si=v34I36xKSirCQY-T&autoplay=1&loop=1&playlist=jVAnlvHCA4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+<h2 id="simulation-result">Simulation Result</h2>
+<p>Finally, I add a scene behind the fridge. Also, I can put a cake inside the fridge or on the table.</p>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jRciGPLgf7U?si=vZgFnR9-Ms2Aqlow&autoplay=1&loop=1&playlist=jRciGPLgf7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p></div>
+            </div>
+        </div>
+
+        <div class="layui-col-md4 layui-col-sm12 layui-col-xs12">
+            
+            <div class="layui-card single-card">
+                <h2 class="single-title">Relevant Topics</h2>
+                
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_physics/urbanfractionalmodel/">
+                                <h3 class="">Urban Fractional Model</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2024-06-15</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/physics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">physics</span>
+        </a>
+    
+        <a href="/categories/work-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">work project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/urban-fractional-model/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Urban Fractional Model</span>
+        </a>
+    
+        <a href="/tags/html/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">HTML</span>
+        </a>
+    
+        <a href="/tags/css/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">CSS</span>
         </a>
     
         <a href="/tags/java-script/">

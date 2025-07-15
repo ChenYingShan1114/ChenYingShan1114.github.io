@@ -16,6 +16,13 @@
       <description>&lt;p&gt;Our final goal is to use a robotic arm to control a spatula and implement an autonomous cooking robot. To achieve this, NVIDIA Omniverse is a good tool to generate diverse video simulations, which are used to train a robotic arm&amp;rsquo;s motion for real-world deployment.&lt;/p&gt;&#xA;&lt;p&gt;In this project, I use Isaac Sim as the physics engine to simulate the process of cooking a pancake. By tuning physical parameters of the batter and pancake, I created a realistic animation that mimics real-world pancake cooking behavior in a kitchen setting.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>3DGS Rrefrigerator Animation</title>
+      <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
+      <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;At the beginning I started to work as intern in ITRI, my main job is taking picture for an object from different directions. The pictures should cover as many views from different direction as possible. After input the pictures as data into the program which the software engineer in our group already built, it will generate a .ply file which is like a point cloud model. However, those are not only points. They are &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt; Gaussian Splat &lt;/a&gt;which have different color when audieunce see them from different direction. The higher the spherical harmonic order, the colorful the Gaussian splat, the more accuracy of the object model, the large the data storage need.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>A Curve Fitting Tool</title>
       <link>http://localhost:1313/projects/projects_cg/curvefitting/</link>
       <pubDate>Sun, 26 May 2024 00:00:00 +0000</pubDate>
