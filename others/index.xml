@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/others/scholarship/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Skills</title>
+      <link>http://localhost:1313/others/skills/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/others/skills/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

@@ -6,8 +6,15 @@
     <description>Recent content in Python on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Urban Fractional Model</title>
+      <link>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</guid>
+      <description>&lt;p&gt;I developed a user-friendly web platform with graphical output for a fractional urban growth model based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Fractional_calculus&#34;&gt;fractional calculus&lt;/a&gt;. Based on a &lt;a href=&#34;https://pubs.aip.org/aip/cha/article/32/8/083127/2836025/Fractional-modeling-of-urban-growth-with-memory&#34;&gt;published &lt;/a&gt; model by Prof. Ricky&amp;rsquo;s team, I converted the core computational code from MATLAB to Python. The website was built using Flask, with MySQL used for user account management. Users can upload data, trigger backend computations, and download results directly from the platform after automatic processing.&lt;/p&gt;&#xA;&lt;!--Here is the &lt;a href=&#34;&#34;&gt; website&lt;/a&gt;.&#xA;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/urban_fractional_calculus_website&#34;&gt; here&lt;/a&gt;.--&gt;</description>
+    </item>
     <item>
       <title>A Curve Fitting Tool</title>
       <link>http://localhost:1313/projects/projects_cg/curvefitting/</link>

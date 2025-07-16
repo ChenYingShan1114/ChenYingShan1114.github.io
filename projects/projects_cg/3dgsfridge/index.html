@@ -8,7 +8,7 @@
     
     <meta content="Computer Graphics, 3D Gaussian Splat, Java Script, computer graphics, intern project" name="keywords">
     
-    <meta content="Ying-Shan Chen@TW ~ $ - ....." name="description">
+    <meta content="Ying-Shan Chen@TW ~ $ - Captured real-world objects to generate 3D Gaussian Splatting (3DGS) models and created interactive scenes with animations using Three.js." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -181,36 +181,37 @@ layui.use('element', function(){
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content" style="font-family: Georgia;">
                     <h2 id="3d-gaussian-splat-model">3D Gaussian Splat Model</h2>
-<p>At the beginning I started to work as intern in ITRI, my main job is taking picture for an object from different directions. The pictures should cover as many views from different direction as possible. After input the pictures as data into the program which the software engineer in our group already built, it will generate a .ply file which is like a point cloud model. However, those are not only points. They are <a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting"> Gaussian Splat </a>which have different color when audieunce see them from different direction. The higher the spherical harmonic order, the colorful the Gaussian splat, the more accuracy of the object model, the large the data storage need.</p>
-<p>It is a good technique that it can reconstruct the details on model, such like scratches or words. But it is hard to rebuild some transparent material, such like glass or acrylic sheet, or highly reflective material, such like iron. Also, highly symmetric model or dark color model are hard to find feature points. So it is also hard to rebuild. The following are two dolls that I reconstructed by this technique and it provides me a good way to keep some important memories without any physical space storage.</p>
+<p>During my internship at ITRI, I worked on capturing multi-view images of physical objects to generate <a href="https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting">3D Gaussian Splatting (3DGS)</a> models. After taking photos from various angles, the images were processed into .ply files using our in-house pipeline. Unlike traditional point clouds, these models use anisotropic Gaussians with spherical harmonic shading, allowing them to reflect color and detail based on viewing direction.</p>
+<p>Higher-order spherical harmonics result in more vivid, accurate models—but also require more storage. This technique excels at capturing surface details such as scratches, engravings, and textures, but has limitations when handling transparent, reflective, symmetric, or low-contrast objects due to challenges in feature detection.</p>
+<p>Personally, I find 3DGS a meaningful way to digitally preserve sentimental items without taking up physical space. Below are two examples I reconstructed:</p>
 <ol>
-<li>Slinky Dog, which is my favorite character in Pixar movies. It is a doll bought from Tokyo Disney Land.</li>
+<li>Slinky Dog, which is my favorite Pixar character. I purchased at Tokyo Disneyland.</li>
 </ol>
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/WyFcS6JCUUA?si=-PTVyFrgMxis6-VZ&autoplay=1&loop=1&playlist=WyFcS6JCUUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
 <ol start="2">
-<li>Einstein doll, which my dad bought for me when he travel to Europe, because I am a physics major student and he is a professor in department of physics.</li>
+<li>Einstein doll, which my dad bought for me when he traveled to Europe, symbolizing our shared physics background.</li>
 </ol>
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/A7ipDpDIhX8?si=AAKfSAixf4cqVkL2&autoplay=1&loop=1&playlist=A7ipDpDIhX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
-<h2 id="animation-on-3d-gaussian-splat">Animation on 3D Gaussian Splat</h2>
+<h2 id="3dgs-animation">3DGS Animation</h2>
 <p>🔗 See more details <a href="https://github.com/ChenYingShan1114/Fridge-Animation"> here</a>.</p>
-<p>Next, I try to make the animation of 3DGS file in order to demo some real-to-sim technique.</p>
+<p>To explore real-to-sim animation, I created an animated demo of a fridge model reconstructed using 3DGS:</p>
 <ol>
-<li>My coworker generate a refrigerator with upper door opened.</li>
-<li>I use <a href="https://superspl.at/editor/"> supersplat</a> as editor to split fridge&rsquo;s door and body into two models. Also, turn the rotational axis to the closest x, y, z axis in order to rotate fridge&rsquo;s door easily when making animation.
-Notice: Do not rotate the model too much because the spherical harmonic which represent different color watch from different direction on each point can&rsquo;t rotate with the model.</li>
-<li>I use three.js to make an animation, shown in following:</li>
+<li>A 3DGS fridge model (with open door) was provided by a teammate.</li>
+<li>Using <a href="https://superspl.at/editor/"> SuperSplat</a> as editor, I segmented the fridge door and adjusted both fridge body and door models&rsquo; pivot axis to the closest principle axis for animation.<br>
+⚠️ Note: Avoid large model rotations since spherical harmonics don’t rotate with the geometry.</li>
+<li>I implemented the animation using Three.js, rotating the door to simulate an opening sequence.</li>
 </ol>
 <p align="center">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jVAnlvHCA4E?si=v34I36xKSirCQY-T&autoplay=1&loop=1&playlist=jVAnlvHCA4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p>
-<h2 id="simulation-result">Simulation Result</h2>
-<p>Finally, I add a scene behind the fridge. Also, I can put a cake inside the fridge or on the table.</p>
+<h2 id="final-scene">Final Scene</h2>
+<p>To complete the simulation, I placed the fridge in a virtual room and added interactable elements such as a cake inside the fridge or on a table.</p>
 <p align="center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jRciGPLgf7U?si=vZgFnR9-Ms2Aqlow&autoplay=1&loop=1&playlist=jRciGPLgf7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EEthVJPCRZo?si=xPuSPmrN77rIC-sx&autoplay=1&loop=1&playlist=EEthVJPCRZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </p></div>
             </div>
         </div>
@@ -220,58 +221,6 @@ Notice: Do not rotate the model too much because the spherical harmonic which re
             <div class="layui-card single-card">
                 <h2 class="single-title">Relevant Topics</h2>
                 
-                	
-                    <div style="margin-left: 10px;">
-                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
-                            <a href="/projects/projects_physics/urbanfractionalmodel/">
-                                <h3 class="">Urban Fractional Model</h3>
-                            </a>
-                            
-                            <h3 style="margin-top:10px; margin-bottom:10px"> 
-    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>2024-06-15</span>
-
-    
-     
-    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
-    
-
-    
-        <a href="/categories/physics/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">physics</span>
-        </a>
-    
-        <a href="/categories/work-project/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">work project</span>
-        </a>
-    
-
-    
-    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
-    
-
-    
-        <a href="/tags/urban-fractional-model/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Urban Fractional Model</span>
-        </a>
-    
-        <a href="/tags/html/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">HTML</span>
-        </a>
-    
-        <a href="/tags/css/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">CSS</span>
-        </a>
-    
-        <a href="/tags/java-script/">
-            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Java Script</span>
-        </a>
-    
-    
-</h3>
-
-                        </blockquote>
-                    </div>
                 	
                     <div style="margin-left: 10px;">
                         <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
@@ -422,6 +371,54 @@ Notice: Do not rotate the model too much because the spherical harmonic which re
                             <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
     <span>2022-10-31</span>
+
+    
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
+    
+
+    
+        <a href="/categories/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">computer graphics</span>
+        </a>
+    
+        <a href="/categories/course-project/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">course project</span>
+        </a>
+    
+
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/computer-graphics/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">Computer Graphics</span>
+        </a>
+    
+        <a href="/tags/openglut/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">OpenGLUT</span>
+        </a>
+    
+        <a href="/tags/c&#43;&#43;/">
+            <span class="layui-badge layui-bg-gray" style="vertical-align: 2px;">C&#43;&#43;</span>
+        </a>
+    
+    
+</h3>
+
+                        </blockquote>
+                    </div>
+                	
+                    <div style="margin-left: 10px;">
+                        <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+                            <a href="/projects/projects_cg/paintbrush/">
+                                <h3 class="">A Paint Brush</h3>
+                            </a>
+                            
+                            <h3 style="margin-top:10px; margin-bottom:10px"> 
+    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
+    <span>2022-10-03</span>
 
     
      
