@@ -39,11 +39,11 @@
       {
         "imports": {
           "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+          "dat.gui": "https://unpkg.com/dat.gui@0.7.9/build/dat.gui.module.js"
         }
       }
     </script>
-
     
 
     <link rel="stylesheet" href="/layui/css/layui.css">
@@ -145,9 +145,11 @@ layui.use('element', function(){
                         <h2>and also my life</h2>
                     </div>
                 </div>
+                <br>
                 <span style="display: flex; flex-direction: column; align-items: center; height: 350px;">
                     <br>
                     <div id="threejs-container-physics" style="width: 400px; height: 300px;"></div>
+                    <div class = 'moveGUI-physics' style="position: absolute; "></div>
                 </span>
             
         </div>

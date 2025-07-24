@@ -1,4 +1,6 @@
 import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GUI } from 'dat.gui';
 
 var container = document.getElementById('threejs-container-cg');
 var width = container.offsetWidth;
@@ -9,19 +11,37 @@ var renderer = new THREE.WebGLRenderer({antialias: true});
 renderer.setSize(width, height);
 container.appendChild(renderer.domElement);
 
+const axesHelper = new THREE.AxesHelper( 50 );
+scene.add( axesHelper );
 
 var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshNormalMaterial();
+var material = new THREE.MeshBasicMaterial();
 var cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
+camera.position.x = 3;
+camera.position.y = 3;
 camera.position.z = 3;
+
+const gui = new GUI({ autoPlace: false });
+gui.close();
+var customContainer = $('.moveGUI-cg').append($(gui.domElement));
+const parameters = {
+    color: 0x00ff00,
+    speed: 0.5
+};
+gui.addColor(parameters, 'color').onChange(function(colorValue) {
+});
+gui.add(parameters, 'speed', 0, 1).step(0.01);
+
+const controls = new OrbitControls( camera, renderer.domElement );
 
 
 function animate() {
     requestAnimationFrame(animate);
-    cube.rotation.x += 0.05;
-    cube.rotation.y += 0.05;
+    cube.rotation.x += parameters.speed;
+    // cube.rotation.y += parameters.speed;
+    cube.material.color.set(parameters.color);
     renderer.render(scene, camera);
 }
 animate();

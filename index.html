@@ -40,11 +40,11 @@
       {
         "imports": {
           "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+          "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+          "dat.gui": "https://unpkg.com/dat.gui@0.7.9/build/dat.gui.module.js"
         }
       }
     </script>
-
     
 
     <link rel="stylesheet" href="/layui/css/layui.css">
@@ -197,19 +197,29 @@ layui.use('element', function(){
                     <span style="display: flex; flex-direction: column; align-items: center; height: 350px;">
                         <br>
                         <div id="threejs-container-physics" style="width: 400px; height: 300px;"></div>
+                        <div class = 'moveGUI-physics' style="position: absolute; "></div>
                         <a href="../categories/physics/" style="font-size: 18px; color: #FF5722"> enter my physics projects </a>
                     </span>
                     
                     <span style="display: flex; flex-direction: column; align-items: center; height: 350px;">
                         <br>
                         <div id="threejs-container-cg" style="width: 400px; height: 300px;"></div>
+                        <div class = 'moveGUI-cg' style="position: absolute; "></div>
                         <a href="../categories/computer-graphics/" style="font-size: 18px; color: #1E9FFF"> enter my computer graphics projects </a>
                     </span>
                     
                     <span style="display: flex; flex-direction: column; align-items: center; height: 350px;">
                         <br>
                         <div id="threejs-container-animation" style="width: 400px; height: 300px;"></div>
+                        <div class = 'moveGUI-animation' style="position: absolute; "></div>
                         <a href="../categories/animation/" style="font-size: 18px; color: #009688"> enter my animation projects </a>
+                    </span>
+
+                    <span style="display: flex; flex-direction: column; align-items: center; height: 350px;">
+                        <br>
+                        <div id="threejs-container-test" style="width: 400px; height: 300px;"></div>
+                        <div class = 'moveGUI' style="position: absolute; "></div>
+                        <a> test three.js </a>
                     </span>
                 </div>
             
@@ -221,6 +231,7 @@ layui.use('element', function(){
     <script type="module" src="/self/js/threejs_script_physics.js"></script>
     <script type="module" src="/self/js/threejs_script_cg.js"></script>
     <script type="module" src="/self/js/threejs_script_animation.js"></script>
+    <script type="module" src="/self/js/threejs_script_test.js"></script>
 </main>
 
 
