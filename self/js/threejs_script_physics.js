@@ -1,5 +1,4 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 
 var container = document.getElementById('threejs-container-physics');
@@ -15,16 +14,13 @@ renderer.setAnimationLoop( animate );
 renderer.setClearColor("rgb(0%, 0%, 0%)");
 container.appendChild(renderer.domElement);
 
-//const controls = new OrbitControls( camera, renderer.domElement );
-//controls.target.set(0, -1, 0);
 camera.position.y = -0.5;
 camera.position.z = 2;
-//controls.update();
 
 const axesHelper = new THREE.AxesHelper( 50 );
 // scene.add( axesHelper );
 
-const sphere_center = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new THREE.MeshStandardMaterial(  ) );
+// node sphere
 const sphere_1 = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new THREE.MeshStandardMaterial( ) );
 const sphere_2 = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new THREE.MeshStandardMaterial(  ) );
 [sphere_1, sphere_2].forEach(sphere => {
@@ -33,6 +29,7 @@ const sphere_2 = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new TH
     sphere.receiveShadow = true;
 });
 
+// lights
 const ambientLight = new THREE.AmbientLight("rgb(100%, 100%, 100%)");
 scene.add( ambientLight );
 
@@ -62,6 +59,7 @@ sLightHelper3.visible = false;
     light.intensity = 2000;
 });
 
+// gui
 const gui = new GUI({ autoPlace: false, width: 150 });
 gui.close();
 var customContainer = $('.moveGUI-physics').append($(gui.domElement));
@@ -112,13 +110,20 @@ function init_pendulum() {
     for (let i = 0; i < objects.length; i++) {
         scene.remove(objects[i]);
     }
-    omega1 = [], omega2 = [], theta1 = [], theta2 = [], t_now = [];
+    while (objects.length > 0) {
+        objects.shift();
+    }
+    while (t_now.length > 0) {
+        omega1.shift();
+        omega2.shift();
+        theta1.shift();
+        theta2.shift();
+        t_now.shift();
+    }
     omega1.push(0); omega2.push(0); theta1.push(parameters.theta1 * Math.PI / 180); theta2.push(parameters.theta2 * Math.PI / 180 ); t_now.push(0);
     sphere_1.position.copy(p1(theta1[0], theta2[0]));
     sphere_2.position.copy(p2(theta1[0], theta2[0]));
-    step = 1;
-    objects = [];
-
+    step = 0;
 }
 
 // set initial
@@ -130,30 +135,42 @@ sphere_1.position.copy(p1(theta1[0], theta2[0]));
 sphere_2.position.copy(p2(theta1[0], theta2[0]));
 
 let dt = 0.01;
-let step = 1;
+let step = 0;
 let objects = [];
 function animate() {
     const delta = clock.getElapsedTime();
     if (step < 50 * delta) {
-        omega1.push(omega1[step-1] + dt * alpha1(theta1[step-1], theta2[step-1], omega1[step-1], omega2[step-1], t_now[step-1]));
-        omega2.push(omega2[step-1] + dt * alpha2(theta1[step-1], theta2[step-1], omega1[step-1], omega2[step-1], t_now[step-1]));
-        theta1.push(theta1[step-1] + dt * omega1[step]);
-        theta2.push(theta2[step-1] + dt * omega2[step]);
-        t_now.push(t_now[step-1] + dt);
+        if (step > 50) {
+            omega1.shift();
+            omega2.shift();
+            theta1.shift();
+            theta2.shift();
+            t_now.shift();
+            step--;
+        }
+        // eular method
+        omega1.push(omega1[step] + dt * alpha1(theta1[step], theta2[step], omega1[step], omega2[step], t_now[step]));
+        omega2.push(omega2[step] + dt * alpha2(theta1[step], theta2[step], omega1[step], omega2[step], t_now[step]));
+        theta1.push(theta1[step] + dt * omega1[step + 1]);
+        theta2.push(theta2[step] + dt * omega2[step + 1]);
+        t_now.push(t_now[step] + dt);
+        step++;
         sphere_1.position.copy(p1(theta1[step], theta2[step]));
         sphere_2.position.copy(p2(theta1[step], theta2[step]));
         // console.log(dt, step, t_now[step], theta1[step], theta2[step], omega1[step], omega2[step]);
         // console.log('energy: ', energy(theta1[step], theta2[step], omega1[step], omega2[step], t_now[step]));
-        step++;
         
     }
     for (let i = 0; i < objects.length; i++) {
         scene.remove(objects[i]);
     }
+    while (objects.length > 0) {
+        objects.shift();
+    }
     const points = [];
     points.push(new THREE.Vector3(0, 0, 0));
-    points.push(p1(theta1[step-1], theta2[step-1]));
-    points.push(p2(theta1[step-1], theta2[step-1]));
+    points.push(p1(theta1[step], theta2[step]));
+    points.push(p2(theta1[step], theta2[step]));
     const line = new THREE.Line( new THREE.BufferGeometry().setFromPoints( points ), new THREE.LineBasicMaterial({color: 0xffffff}) );
     scene.add(line);
     objects.push(line);
@@ -161,7 +178,7 @@ function animate() {
     for (let i = 1; i <= 10; i++) {
         const sphere = new THREE.Mesh( new THREE.SphereGeometry( 0.01 * 0.5 * (10 - i), 32, 16 ), new THREE.MeshBasicMaterial( {color: new THREE.Color(1 - 0.1 * i, 1 - 0.1 * i, 1 - 0.1 * i) }) );
         scene.add( sphere );
-        sphere.position.set(l1 * Math.sin(theta1[step-3*i]) + l2 * Math.sin(theta2[step-3*i]), -l1 * Math.cos(theta1[step-3*i]) - l2 * Math.cos(theta2[step-3*i]), 0);
+        sphere.position.copy(p2(theta1[step - 3 * i], theta2[step - 3 * i]));
         objects.push(sphere);
     }
     renderer.render(scene, camera);

@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'; //很重要 要用到！
 import { GUI } from 'dat.gui';
 
 var container = document.getElementById('threejs-container-animation');
