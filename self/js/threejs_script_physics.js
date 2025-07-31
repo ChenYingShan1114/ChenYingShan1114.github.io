@@ -8,16 +8,14 @@ var scene = new THREE.Scene();
 // var camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
 var camera = new THREE.OrthographicCamera(-2.2, 2.2, 2.2, -2.2, 0.0001, 20000);
 var renderer = new THREE.WebGLRenderer({antialias: true});
-// renderer.shadowMap.enabled = true;
 renderer.setSize(width, height);
-renderer.setAnimationLoop( animate );
 renderer.setClearColor("rgb(0%, 0%, 0%)");
 container.appendChild(renderer.domElement);
 
 camera.position.y = -0.5;
 camera.position.z = 2;
 
-const axesHelper = new THREE.AxesHelper( 50 );
+// const axesHelper = new THREE.AxesHelper( 50 );
 // scene.add( axesHelper );
 
 // node sphere
@@ -25,8 +23,6 @@ const sphere_1 = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new TH
 const sphere_2 = new THREE.Mesh( new THREE.SphereGeometry( 0.1, 32, 32 ), new THREE.MeshStandardMaterial(  ) );
 [sphere_1, sphere_2].forEach(sphere => {
     scene.add(sphere);
-    sphere.castShadow = true;
-    sphere.receiveShadow = true;
 });
 
 // lights
@@ -35,25 +31,24 @@ scene.add( ambientLight );
 
 const spotLight1 = new THREE.SpotLight("rgb(20%, 0%, 0%)");
 spotLight1.position.set(Math.cos(Math.PI / 6) * 1, Math.sin(Math.PI / 6) * 1, 5);
-const sLightHelper1 = new THREE.SpotLightHelper(spotLight1);
-scene.add(sLightHelper1);
-sLightHelper1.visible = false;
+// const sLightHelper1 = new THREE.SpotLightHelper(spotLight1);
+// scene.add(sLightHelper1);
+// sLightHelper1.visible = false;
 
 const spotLight2 = new THREE.SpotLight("rgb(0%, 20%, 0%)");
 spotLight2.position.set(Math.cos(Math.PI * 5 / 6) * 1, Math.sin(Math.PI * 5 / 6) * 1, 5);
-const sLightHelper2 = new THREE.SpotLightHelper(spotLight2);
-scene.add(sLightHelper2);
-sLightHelper2.visible = false;
+// const sLightHelper2 = new THREE.SpotLightHelper(spotLight2);
+// scene.add(sLightHelper2);
+// sLightHelper2.visible = false;
 
 const spotLight3 = new THREE.SpotLight("rgb(0%, 0%, 20%)");
 spotLight3.position.set(Math.cos(Math.PI * 9 / 6) * 1, Math.sin(Math.PI * 9 / 6) * 1, 5);
-const sLightHelper3 = new THREE.SpotLightHelper(spotLight3);
-scene.add(sLightHelper3);
-sLightHelper3.visible = false;
+// const sLightHelper3 = new THREE.SpotLightHelper(spotLight3);
+// scene.add(sLightHelper3);
+// sLightHelper3.visible = false;
 
 [spotLight1, spotLight2, spotLight3].forEach(light => {
     scene.add(light);
-    light.castShadow = true;
     light.angle = 0.5;
     light.penumbra = 1;
     light.intensity = 2000;
@@ -106,24 +101,20 @@ function p2(theta1, theta2) {
     let z = 0;
     return new THREE.Vector3(x, y, z);
 }
+
+const degToRad = deg => deg * Math.PI / 180;
+
 function init_pendulum() {
-    for (let i = 0; i < objects.length; i++) {
-        scene.remove(objects[i]);
-    }
-    while (objects.length > 0) {
-        objects.shift();
-    }
-    while (t_now.length > 0) {
-        omega1.shift();
-        omega2.shift();
-        theta1.shift();
-        theta2.shift();
-        t_now.shift();
-    }
-    omega1.push(0); omega2.push(0); theta1.push(parameters.theta1 * Math.PI / 180); theta2.push(parameters.theta2 * Math.PI / 180 ); t_now.push(0);
+    omega1.length = omega2.length = theta1.length = theta2.length = t_now.length = 0;
+
+    omega1.push(0); omega2.push(0); theta1.push(degToRad(parameters.theta1)); theta2.push(degToRad(parameters.theta2)); t_now.push(0);
     sphere_1.position.copy(p1(theta1[0], theta2[0]));
     sphere_2.position.copy(p2(theta1[0], theta2[0]));
     step = 0;
+    accumulator = 0;
+    for (const sphere of spheres) {
+        sphere.visible = false;
+    }
 }
 
 // set initial
@@ -131,15 +122,35 @@ const m1 = 1, m2 = 1, l1 = 1, l2 = 1, g = 9.8;
 let clock =  new THREE.Clock();
 let omega1 = [], omega2 = [], theta1 = [], theta2 = [], t_now = [];
 omega1.push(0); omega2.push(0); theta1.push(Math.PI -0.1); theta2.push(Math.PI ); t_now.push(0);
-sphere_1.position.copy(p1(theta1[0], theta2[0]));
-sphere_2.position.copy(p2(theta1[0], theta2[0]));
+let pos1 = p1(theta1[0], theta2[0]), pos2 = p2(theta1[0], theta2[0]);
+sphere_1.position.copy(pos1);
+sphere_2.position.copy(pos2);
 
+const points = [new THREE.Vector3(0, 0, 0), pos1, pos2];
+const geometry = new THREE.BufferGeometry().setFromPoints(points);
+const line = new THREE.Line(geometry, new THREE.LineBasicMaterial({ color: 0xffffff }));
+scene.add(line);
+
+// Trail sphere pool
+const spheres = [];
+for (let i = 0; i < 10; i++) {
+    const sphere = new THREE.Mesh(
+        new THREE.SphereGeometry(0.01 * 0.5 * (10 - i), 16, 8),
+        new THREE.MeshBasicMaterial({ color: new THREE.Color(1 - 0.1 * i, 1 - 0.1 * i, 1 - 0.1 * i) })
+    );
+    scene.add(sphere);
+    spheres.push(sphere);
+}
+
+let accumulator = 0;
 let dt = 0.01;
 let step = 0;
 let objects = [];
 function animate() {
-    const delta = clock.getElapsedTime();
-    if (step < 50 * delta) {
+    requestAnimationFrame(animate);
+    const delta = clock.getDelta();
+    accumulator += delta;
+    while( accumulator >= dt && step < 1000) {
         if (step > 50) {
             omega1.shift();
             omega2.shift();
@@ -155,34 +166,34 @@ function animate() {
         theta2.push(theta2[step] + dt * omega2[step + 1]);
         t_now.push(t_now[step] + dt);
         step++;
-        sphere_1.position.copy(p1(theta1[step], theta2[step]));
-        sphere_2.position.copy(p2(theta1[step], theta2[step]));
+        accumulator -= dt;
+        
+        pos1 = p1(theta1[step], theta2[step]);
+        pos2 = p2(theta1[step], theta2[step]);
+    
+        sphere_1.position.copy(pos1);
+        sphere_2.position.copy(pos2);
         // console.log(dt, step, t_now[step], theta1[step], theta2[step], omega1[step], omega2[step]);
         // console.log('energy: ', energy(theta1[step], theta2[step], omega1[step], omega2[step], t_now[step]));
         
-    }
-    for (let i = 0; i < objects.length; i++) {
-        scene.remove(objects[i]);
-    }
-    while (objects.length > 0) {
-        objects.shift();
-    }
-    const points = [];
-    points.push(new THREE.Vector3(0, 0, 0));
-    points.push(p1(theta1[step], theta2[step]));
-    points.push(p2(theta1[step], theta2[step]));
-    const line = new THREE.Line( new THREE.BufferGeometry().setFromPoints( points ), new THREE.LineBasicMaterial({color: 0xffffff}) );
-    scene.add(line);
-    objects.push(line);
+        // Update line
+        geometry.setFromPoints([new THREE.Vector3(0, 0, 0), pos1, pos2]);
+        geometry.attributes.position.needsUpdate = true;
 
-    for (let i = 1; i <= 10; i++) {
-        const sphere = new THREE.Mesh( new THREE.SphereGeometry( 0.01 * 0.5 * (10 - i), 32, 16 ), new THREE.MeshBasicMaterial( {color: new THREE.Color(1 - 0.1 * i, 1 - 0.1 * i, 1 - 0.1 * i) }) );
-        scene.add( sphere );
-        sphere.position.copy(p2(theta1[step - 3 * i], theta2[step - 3 * i]));
-        objects.push(sphere);
+        // Update trail
+        for (let i = 0; i < spheres.length; i++) {
+            const index = step - 3 * (i + 1);
+            if (index >= 0) {
+                spheres[i].visible = true;
+                spheres[i].position.copy(p2(theta1[index], theta2[index]));
+            } else {
+                spheres[i].visible = false;
+            }
+        }
     }
     renderer.render(scene, camera);
 }
+animate();
 
 window.addEventListener('resize', function() {
     var width = container.offsetWidth;

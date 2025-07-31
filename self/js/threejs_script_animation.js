@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js'; //很重要 要用到！
-import { GUI } from 'dat.gui';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GUI } from 'three/addons/libs/lil-gui.module.min.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 var container = document.getElementById('threejs-container-animation');
@@ -12,43 +12,28 @@ var renderer = new THREE.WebGLRenderer({antialias: true});
 renderer.setSize(width, height);
 container.appendChild(renderer.domElement);
 renderer.setClearColor("rgb(0%, 0%, 0%)");
-renderer.setAnimationLoop( animate );
+renderer.shadowMap.enabled = true;
 
 // initial light
-const ambientLight = new THREE.AmbientLight("rgb(100%, 100%, 100%)");
+const ambientLight = new THREE.AmbientLight("rgb(100%, 100%, 100%)", 3);
 scene.add( ambientLight );
 
-// const spotLight1 = new THREE.SpotLight("rgb(20%, 0%, 0%)");
+const spotLight1 = new THREE.SpotLight("rgb(10%, 10%, 10%)", 50, 0.5, 0.4, 1);
+scene.add(spotLight1);
+// spotLight1.position.set(0, 0.05, 0.08);
 // const sLightHelper1 = new THREE.SpotLightHelper(spotLight1);
 // scene.add(sLightHelper1);
-// sLightHelper1.visible = true;
 
-// const spotLight2 = new THREE.SpotLight("rgb(0%, 20%, 0%)");
-// const sLightHelper2 = new THREE.SpotLightHelper(spotLight2);
-// scene.add(sLightHelper2);
-// sLightHelper2.visible = true;
+spotLight1.castShadow = false;
+spotLight1.shadow.mapSize.width = 256;
+spotLight1.shadow.mapSize.height = 256;
+spotLight1.shadow.camera.near = 0.01;
+spotLight1.shadow.camera.far = 1;
+spotLight1.shadow.radius = 0.3;
+spotLight1.shadow.bias = -0.001;
 
-// const spotLight3 = new THREE.SpotLight("rgb(0%, 0%, 20%)");
-// const sLightHelper3 = new THREE.SpotLightHelper(spotLight3);
-// scene.add(sLightHelper3);
-// sLightHelper3.visible = true;
-// //set light1
-// spotLight1.position.set(Math.cos(Math.PI / 6), 1.5, Math.sin(Math.PI / 6));
-// //set light2
-// spotLight2.position.set(Math.cos(Math.PI * 5 / 6), 1.5, Math.sin(Math.PI * 5 / 6));
-// //set light3
-// spotLight3.position.set(Math.cos(Math.PI * 9 / 6), 1.5, Math.sin(Math.PI * 9 / 6));
-
-// [spotLight1, spotLight2, spotLight3].forEach(light => {
-//     scene.add(light);
-//     light.angle = 0.5;
-//     light.penumbra = 0.5;
-//     light.intensity = 10000;
-// });
-
-const axesHelper = new THREE.AxesHelper( 500 );
-scene.add( axesHelper );
-
+// const axesHelper = new THREE.AxesHelper( 500 );
+// scene.add( axesHelper );
 
 // Animation mixer
 let mixer = null;
@@ -56,10 +41,18 @@ let mixer = null;
 // Load GLB with animation
 const loader = new GLTFLoader();
 loader.load('/self/glb/WalkCycle.glb', (gltf) => {
-    scene.add(gltf.scene);
-
+    let model = gltf.scene;
+    model.traverse((child) => {
+        if (child.isMesh) {
+            child.castShadow = true;
+            // child.receiveShadow = false;
+            // child.material.side = THREE.DoubleSide;
+        }
+    });
+    scene.add(model);
+    
     // Setup animation mixer & play all animations
-    mixer = new THREE.AnimationMixer(gltf.scene);
+    mixer = new THREE.AnimationMixer(model);
 
     gltf.animations.forEach((clip) => {
         const action = mixer.clipAction(clip);
@@ -73,33 +66,58 @@ loader.load('/self/glb/WalkCycle.glb', (gltf) => {
 // Animation loop
 const clock = new THREE.Clock();
 
-
 const controls = new OrbitControls( camera, renderer.domElement );
-camera.position.set(0.05, 0.05, 0.05);
-controls.target.set(0, 0, 0);
+camera.position.set(0.08, 0.06, 0.06);
+controls.target.set(0, 0.05, 0);
 controls.update();
+controls.enableDamping = false;
+controls.enablePan = false;
+// controls.enableZoom = false;
 
-var geometry = new THREE.BoxGeometry();
-var material = new THREE.MeshNormalMaterial();
-var cube = new THREE.Mesh(geometry, material);
-// scene.add(cube);
+const plane = new THREE.Mesh( new THREE.PlaneGeometry( 0.1, 10 ), new THREE.MeshStandardMaterial( {color: 0x550000 }));
+plane.rotation.set(-Math.PI / 2, 0, 0);
+scene.add( plane );
+plane.receiveShadow = true;
 
-const gui = new GUI({ autoPlace: false });
+let sparking = false;
+const gui = new GUI({ autoPlace: false, width: 150 });
 gui.close();
-var customContainer = $('.moveGUI-animation').append($(gui.domElement));
-const parameters = {
-    color: 0x0000ff,
-    speed: 0.9
-};
-gui.addColor(parameters, 'color').onChange(function(colorValue) {
-});
-gui.add(parameters, 'speed', 0, 1).step(0.01);
+// var customContainer = $('.moveGUI-animation').append($(gui.domElement));
+document.querySelector('.moveGUI-animation')?.appendChild(gui.domElement);
 
-function animate() {
+const options = {
+    intensity: 0.5,
+    shadow: false,
+    flash: false
+};
+
+gui.add(options, 'intensity', 0, 1);
+gui.add(options, 'shadow').onChange(function(e){
+    spotLight1.castShadow = e;
+});
+gui.add(options, 'flash').onChange(function(e){
+    sparking = e;
+});
+
+let lastFrameTime = 0;
+const targetFPS = 30;
+function animate(now) {
     requestAnimationFrame(animate);
+    const dt = now - lastFrameTime;
+    if (dt < 1000 / targetFPS) return;
+
+    lastFrameTime = now;
     const delta = clock.getDelta();
     if (mixer) mixer.update(delta);
     renderer.render(scene, camera);
+
+    const delta_time = clock.getElapsedTime();
+
+    spotLight1.position.set(0.1 * Math.cos(delta_time), 0.15, 0.1 * Math.sin(delta_time));
+    if (sparking) spotLight1.intensity = Math.round(Math.random()) * 100 * options.intensity;
+    else spotLight1.intensity = 100 * options.intensity;
+    // sLightHelper1.update();
+
 }
 animate();
 
@@ -110,4 +128,5 @@ window.addEventListener('resize', function() {
     renderer.setSize(width, height);
     camera.aspect = width / height;
     camera.updateProjectionMatrix();
+    controls.update();
 });
