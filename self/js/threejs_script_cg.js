@@ -50,7 +50,7 @@ const spotLight3 = new THREE.SpotLight("rgb(0%, 0%, 20%)");
 
 [spotLight1, spotLight2, spotLight3].forEach(light => {
     scene.add(light);
-    light.castShadow = false;
+    light.castShadow = true;
     light.shadow.mapSize.width = 4096;
     light.shadow.mapSize.height = 4096;
     light.shadow.radius = 30;
@@ -62,7 +62,7 @@ const spotLight3 = new THREE.SpotLight("rgb(0%, 0%, 20%)");
 function updateLight(light, helper = null) {
     light.angle = options.angle;
     light.penumbra = options.penumbra;
-    light.intensity = 10 * options.intensity * box_size.length();
+    light.intensity = 500 * options.intensity * box_size.length();
     if (helper) helper.update();
 }
 
@@ -153,8 +153,8 @@ const options = {
     // helper: false,
     angle: 0.40,
     penumbra: 0.25,
-    intensity: 10,
-    shadow: false
+    intensity: 0.2,
+    shadow: true
 };
 
 gui.addColor(options, 'modelColor').onChange(function(e){
@@ -166,9 +166,9 @@ gui.addColor(options, 'modelColor').onChange(function(e){
 //     sLightHelper2.visible = e;
 //     sLightHelper3.visible = e;
 // });
-gui.add(options, 'angle', 0, 0.6);
-gui.add(options, 'penumbra', 0, 1);
-gui.add(options, 'intensity', 0, 50);
+gui.add(options, 'angle', 0, 0.6).step(0.01);
+gui.add(options, 'penumbra', 0, 1).step(0.01);
+gui.add(options, 'intensity', 0, 1).step(0.01);
 gui.add(options, 'shadow').onChange(function(e){
     spotLight1.castShadow = e;
     spotLight2.castShadow = e;

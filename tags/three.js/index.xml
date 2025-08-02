@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Three.js on Ying-Shan Chen@TW ~ $</title>
+    <link>http://localhost:1313/tags/three.js/</link>
+    <description>Recent content in Three.js on Ying-Shan Chen@TW ~ $</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/three.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3DGS Refrigerator Animation</title>
+      <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
+      <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;During my internship at ITRI, I worked on capturing multi-view images of physical objects to generate &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt;3D Gaussian Splatting (3DGS)&lt;/a&gt; models. After taking photos from various angles, the images were processed into .ply files using our in-house pipeline. Unlike traditional point clouds, these models use anisotropic Gaussians with spherical harmonic shading, allowing them to reflect color and detail based on viewing direction.&lt;/p&gt;&#xA;&lt;p&gt;Higher-order spherical harmonics result in more vivid, accurate models—but also require more storage. This technique excels at capturing surface details such as scratches, engravings, and textures, but has limitations when handling transparent, reflective, symmetric, or low-contrast objects due to challenges in feature detection.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>National Center for High-performance Computing, Hsinchu City, Taiwan</title>
+      <link>http://localhost:1313/jobs/nchc/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/nchc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Google Certification</title>
       <link>http://localhost:1313/certification/google/</link>
@@ -79,7 +86,7 @@
       <description>&lt;p&gt;In this project, I used keyframe animation in Maya to simulate the motion of three types of balls, each representing a different physical behavior:&lt;/p&gt;&#xA;&lt;p&gt;• A small yellow ball with a blue stripe acts as a bouncing ball.&lt;/p&gt;&#xA;&lt;p&gt;• A medium purple ball with a gray stripe behaves like a heavy bowling ball.&lt;/p&gt;&#xA;&lt;p&gt;• A large green ball with an orange stripe simulates a light, floaty beach ball.&lt;/p&gt;&#xA;&lt;p&gt;Rather than solving the equations of motion, I animated each ball by manually setting keyframes and applying the &lt;strong&gt;Twelve Basic Principles of Animation&lt;/strong&gt;. Techniques such as &lt;em&gt;slow in and slow out&lt;/em&gt;, &lt;em&gt;arc&lt;/em&gt;, and &lt;em&gt;timing&lt;/em&gt; were used to make the movements feel natural and expressive.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>3DGS Rrefrigerator Animation</title>
+      <title>3DGS Refrigerator Animation</title>
       <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
@@ -202,7 +209,7 @@
       <link>http://localhost:1313/projects/projects_physics/analyzetemperature/</link>
       <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/analyzetemperature/</guid>
-      <description>&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/proposal.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/complex.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/proposal.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/AnalyzeTemperature/complex.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Step into Animation: Cartoon Rocket Launch</title>
@@ -223,7 +230,7 @@
       <link>http://localhost:1313/projects/projects_cg/3dcgpipeline/</link>
       <pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_cg/3dcgpipeline/</guid>
-      <description>&lt;p&gt;There are many test data in the forder and many input commands in each test data.&#xA;I read the files and complete the following instructions. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
+      <description>&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;a href=&#34;https://www.researchgate.net/figure/Outline-of-the-graphics-pipeline_fig1_281810652&#34;&gt;&lt;img src=&#34;http://localhost:1313/self/img/projects_cg/3DCGPipeline/Outline-of-the-graphics-pipeline&#xA;.png&#34; width=&#34;600&#34; style=&#34;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px&#34;&gt;&lt;/a&gt; &#xA;&lt;/p&gt;&#xA;&lt;p&gt;I read the files and complete the following instructions. There are many test data in the forder and many input commands in each test data. Otherwise, the program would delete the graphic that is backward from camera.&lt;/p&gt;&#xA;&lt;p&gt;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/3D_CG_Pipeline&#34;&gt; here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;operating-instructions&#34;&gt;Operating instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;head&#34;&gt;Head:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;Width Height&lt;/code&gt;&lt;br&gt;&#xA;In the head of the files will give 2 integrals that represent the windows&amp;rsquo; width and height respectively.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;comment&#34;&gt;Comment:&lt;/h3&gt;&#xA;&lt;p&gt;The instruction is &lt;code&gt;# ......&lt;/code&gt;&lt;br&gt;&#xA;If &lt;code&gt;#&lt;/code&gt; appears, skip the line. (i.e. You don&amp;rsquo;t need to execute the line which &lt;code&gt;#&lt;/code&gt; appears.)&lt;/p&gt;</description>
     </item>
     <item>
       <title>KEK IINAS 5th International School on Beam Dynamics and Accelerator Technology</title>
@@ -293,7 +300,7 @@
       <link>http://localhost:1313/projects/projects_physics/gaussianbeam/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/gaussianbeam/</guid>
-      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Activities</title>
@@ -307,14 +314,14 @@
       <link>http://localhost:1313/projects/projects_physics/hhg/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/hhg/</guid>
-      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>One-Dimensional Simulation with the FDTD Method</title>
       <link>http://localhost:1313/projects/projects_physics/fdtd/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/fdtd/</guid>
-      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd1.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;boundary-condition&#34;&gt;Boundary Condition&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed boundary condition with hard source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Fixed boundary condition with soft source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Absorb boundary condition&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd2.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;propagation-in-medium&#34;&gt;Propagation in Medium&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd3.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The reflection coefficient is&#xA;$$&#xA;\varGamma = \frac{\sqrt{\epsilon_0} - \sqrt{\epsilon_r}}{\sqrt{\epsilon_0} + \sqrt{\epsilon_r}}&#xA;$$&#xA;and the transmission coefficient is&#xA;$$&#xA;\tau = \frac{2\sqrt{\epsilon_0}}{(\sqrt{\epsilon_0} + \sqrt{\epsilon_r})}.&#xA;$$&#xA;The region where \(x &amp;gt; 100\) has a relative permittivity \(\epsilon_r\) of 4.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Lossy Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd4.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The region where \(x &amp;gt; 100 \) has a relative permittivity \(\epsilon_r = 4\) and electrical conductivity \(\sigma = 0.04\).&lt;/p&gt;</description>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd1.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;boundary-condition&#34;&gt;Boundary Condition&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed boundary condition with hard source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Fixed boundary condition with soft source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Absorb boundary condition&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd2.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;propagation-in-medium&#34;&gt;Propagation in Medium&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd3.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The reflection coefficient is&#xA;$$&#xA;\varGamma = \frac{\sqrt{\epsilon_0} - \sqrt{\epsilon_r}}{\sqrt{\epsilon_0} + \sqrt{\epsilon_r}}&#xA;$$&#xA;and the transmission coefficient is&#xA;$$&#xA;\tau = \frac{2\sqrt{\epsilon_0}}{(\sqrt{\epsilon_0} + \sqrt{\epsilon_r})}.&#xA;$$&#xA;The region where \(x &amp;gt; 100\) has a relative permittivity \(\epsilon_r\) of 4.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Lossy Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd4.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The region where \(x &amp;gt; 100 \) has a relative permittivity \(\epsilon_r = 4\) and electrical conductivity \(\sigma = 0.04\).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Awards</title>
@@ -328,14 +335,14 @@
       <link>http://localhost:1313/projects/projects_physics/soapturbulence/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/soapturbulence/</guid>
-      <description>&lt;p&gt;Team members: 陳盈珊 張容誌&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/SoapTurbulence/G03_Poster_final version.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Team members: 陳盈珊 張容誌&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/SoapTurbulence/G03_Poster_final version.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Compound Pendulums</title>
       <link>http://localhost:1313/projects/projects_physics/pendulum/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/pendulum/</guid>
-      <description>&lt;p&gt;Team members: 陳盈珊 李思杰&lt;/p&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;We use a setup to realize two physics phenomenon&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;flipping of lower pendulum in double pendulum&lt;/li&gt;&#xA;&lt;li&gt;the synchronization of two single pendulems on a plane with wheels.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/Pendulum/pendulum.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;measurement-method&#34;&gt;Measurement Method&lt;/h2&gt;&#xA;&lt;p&gt;Use image analysis to track specific point on the pendulum. Record 10 to 15 frames per second.&lt;/p&gt;&#xA;&lt;h2 id=&#34;anaylsis-method&#34;&gt;Anaylsis Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Time series observation&lt;/li&gt;&#xA;&lt;li&gt;Energy transfer&lt;/li&gt;&#xA;&lt;li&gt;Phse diagram&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;flipping-pendulum&#34;&gt;Flipping Pendulum&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-does-flipping-means&#34;&gt;What does flipping means?&lt;/h3&gt;&#xA;&lt;p&gt;Non-flipping with initial condition \( \theta_1=\theta_2=60^\circ\)&lt;/p&gt;</description>
+      <description>&lt;p&gt;Team members: 陳盈珊 李思杰&lt;/p&gt;&#xA;&lt;h2 id=&#34;goal&#34;&gt;Goal&lt;/h2&gt;&#xA;&lt;p&gt;We use a setup to realize two physics phenomenon&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;flipping of lower pendulum in double pendulum&lt;/li&gt;&#xA;&lt;li&gt;the synchronization of two single pendulems on a plane with wheels.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/Pendulum/pendulum.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;measurement-method&#34;&gt;Measurement Method&lt;/h2&gt;&#xA;&lt;p&gt;Use image analysis to track specific point on the pendulum. Record 10 to 15 frames per second.&lt;/p&gt;&#xA;&lt;h2 id=&#34;anaylsis-method&#34;&gt;Anaylsis Method&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Time series observation&lt;/li&gt;&#xA;&lt;li&gt;Energy transfer&lt;/li&gt;&#xA;&lt;li&gt;Phse diagram&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;flipping-pendulum&#34;&gt;Flipping Pendulum&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-does-flipping-means&#34;&gt;What does flipping means?&lt;/h3&gt;&#xA;&lt;p&gt;Non-flipping with initial condition \( \theta_1=\theta_2=60^\circ\)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Scholarships</title>
@@ -363,34 +370,34 @@
       <link>http://localhost:1313/projects/projects_physics/eyecontrolledtwowheelrobot/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/eyecontrolledtwowheelrobot/</guid>
-      <description>&lt;p&gt;Team members: 陳盈珊 曾義閔&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/EyeControlledTwowheelRobot/poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Team members: 陳盈珊 曾義閔&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/EyeControlledTwowheelRobot/poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
+      <link>http://localhost:1313/default_post/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
+      <guid>http://localhost:1313/default_post/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:1313/post/placeholder-text/</link>
+      <link>http://localhost:1313/default_post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/placeholder-text/</guid>
+      <guid>http://localhost:1313/default_post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de&#xA;pectora summo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:1313/post/math-typesetting/</link>
+      <link>http://localhost:1313/default_post/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/math-typesetting/</guid>
+      <guid>http://localhost:1313/default_post/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:1313/post/emoji-support/</link>
+      <link>http://localhost:1313/default_post/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/emoji-support/</guid>
+      <guid>http://localhost:1313/default_post/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     <item>
@@ -406,6 +413,13 @@
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/others/skills/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Introduction to Computational Physics</title>
+      <link>http://localhost:1313/projects/projects_physics/ta_introtocomphysics/</link>
+      <pubDate>Sun, 14 Nov 1999 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_physics/ta_introtocomphysics/</guid>
+      <description>&lt;h2 id=&#34;ta-project&#34;&gt;TA Project&lt;/h2&gt;&#xA;&lt;p&gt;• Ordinary Differential Equation: &lt;a href=&#34;../rutherfordscattering/&#34;&gt;Rutherford Scattering&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Solving Systems of Equations: &lt;a href=&#34;../finitesquarewell/&#34;&gt;Finite Square Well&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Analysis of Data: &lt;a href=&#34;../simpledigitalfilter/&#34;&gt;Simple Digital Filter – Frequency Domain Analysis&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Partial Differential Equation: &lt;a href=&#34;../kortewegdevriesequation/&#34;&gt;Korteweg de Vries Equation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Stochastic Method: &lt;a href=&#34;../distributiongenerator/&#34;&gt;Acceptance-Rejection Distribution Generator&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;• Special Functions and Quadrature (Numerical Integration): &lt;a href=&#34;../besselfunction/&#34;&gt;The Second Kind Bessel Function&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

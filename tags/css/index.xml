@@ -6,21 +6,21 @@
     <description>Recent content in CSS on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3DGS Refrigerator Animation</title>
+      <link>http://localhost:1313/projects/projects_cg/3dgsfridge/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
+      <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;During my internship at ITRI, I worked on capturing multi-view images of physical objects to generate &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt;3D Gaussian Splatting (3DGS)&lt;/a&gt; models. After taking photos from various angles, the images were processed into .ply files using our in-house pipeline. Unlike traditional point clouds, these models use anisotropic Gaussians with spherical harmonic shading, allowing them to reflect color and detail based on viewing direction.&lt;/p&gt;&#xA;&lt;p&gt;Higher-order spherical harmonics result in more vivid, accurate models—but also require more storage. This technique excels at capturing surface details such as scratches, engravings, and textures, but has limitations when handling transparent, reflective, symmetric, or low-contrast objects due to challenges in feature detection.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Urban Fractional Model</title>
       <link>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/urbanfractionalmodel/</guid>
       <description>&lt;p&gt;I developed a user-friendly web platform with graphical output for a fractional urban growth model based on &lt;a href=&#34;https://en.wikipedia.org/wiki/Fractional_calculus&#34;&gt;fractional calculus&lt;/a&gt;. Based on a &lt;a href=&#34;https://pubs.aip.org/aip/cha/article/32/8/083127/2836025/Fractional-modeling-of-urban-growth-with-memory&#34;&gt;published &lt;/a&gt; model by Prof. Ricky&amp;rsquo;s team, I converted the core computational code from MATLAB to Python. The website was built using Flask, with MySQL used for user account management. Users can upload data, trigger backend computations, and download results directly from the platform after automatic processing.&lt;/p&gt;&#xA;&lt;!--Here is the &lt;a href=&#34;&#34;&gt; website&lt;/a&gt;.&#xA;🔗 See more details &lt;a href=&#34;https://github.com/ChenYingShan1114/urban_fractional_calculus_website&#34;&gt; here&lt;/a&gt;.--&gt;</description>
-    </item>
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>http://localhost:1313/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

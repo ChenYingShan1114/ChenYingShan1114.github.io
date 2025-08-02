@@ -6,8 +6,15 @@
     <description>Recent content in Jobs on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>National Center for High-performance Computing, Hsinchu City, Taiwan</title>
+      <link>http://localhost:1313/jobs/nchc/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/nchc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software Engineer at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
       <link>http://localhost:1313/jobs/itri_2/</link>
