@@ -56,6 +56,12 @@
     <loc>http://localhost:1313/categories/work-project/</loc>
     <lastmod>2025-05-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/gallery/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/draw/</loc>
+    <lastmod>2025-04-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/animation/</loc>
     <lastmod>2025-04-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -373,9 +379,6 @@
   </url><url>
     <loc>http://localhost:1313/projects/projects_physics/pendulum/</loc>
     <lastmod>2019-12-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
-    <lastmod>2019-12-01T13:21:53+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/others/scholarship/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
