@@ -12,40 +12,28 @@
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
 
+  
+  
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-    
-    
- 
 " name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
@@ -181,44 +169,152 @@ layui.use('element', function(){
 <br>
 <br>
 <br>
-<div>
-    <img src="/self/img/gallery/draw/doll.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/penguin.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/dragon.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/stitch.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/101dog.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/car.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/santa.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/frog.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/pikachu.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/elephant.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/giraffe.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/octopus.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/sunfish.png" style="height: 25%;"/>
-</div> 
-<div>
-    <img src="/self/img/gallery/draw/fruit01.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit02.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit03.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit04.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit05.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit06.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit07.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit08.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit09.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit10.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit11.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit12.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/fruit13.png" style="height: 25%;"/>
-    <img src="/self/img/gallery/draw/wallE.png" style="height: 25%;"/>
-</div> 
-<div>
-    <img src="/self/img/gallery/draw/series01.png" style="height: 100%;"/>
-    <img src="/self/img/gallery/draw/series02.png" style="height: 100%;"/>
-</div> 
-<!-- <div>
-    <img src="/self/img/gallery/draw/doll.png" style="height: 25%; transform: rotate(20deg);"/>
-</div>  -->
+<style>
+.gallery-container {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.center-images {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.center-images img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.sticker {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.sticker:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.sticker img {
+  width: 100%;
+  height: auto;
+}
+
+/* Random positions for stickers - no overlap, avoiding center */
+/* .sticker:nth-child(1) { top: 5%; left: 5%; }
+.sticker:nth-child(2) { top: 8%; left: 18%; }
+.sticker:nth-child(3) { top: 12%; left: 32%; }
+.sticker:nth-child(4) { top: 6%; left: 68%; }
+.sticker:nth-child(5) { top: 10%; left: 82%; }
+.sticker:nth-child(6) { top: 15%; left: 8%; }
+.sticker:nth-child(7) { top: 18%; left: 25%; }
+.sticker:nth-child(8) { top: 22%; left: 72%; }
+.sticker:nth-child(9) { top: 16%; left: 88%; }
+.sticker:nth-child(10) { top: 25%; left: 12%; }
+.sticker:nth-child(11) { top: 28%; left: 28%; }
+.sticker:nth-child(12) { top: 32%; left: 75%; }
+.sticker:nth-child(13) { top: 26%; left: 92%; }
+.sticker:nth-child(14) { top: 35%; left: 5%; }
+.sticker:nth-child(15) { top: 38%; left: 22%; }
+.sticker:nth-child(16) { top: 42%; left: 78%; }
+.sticker:nth-child(17) { top: 36%; left: 88%; }
+.sticker:nth-child(18) { top: 68%; left: 8%; }
+.sticker:nth-child(19) { top: 72%; left: 25%; }
+.sticker:nth-child(20) { top: 75%; left: 42%; }
+.sticker:nth-child(21) { top: 68%; left: 58%; }
+.sticker:nth-child(22) { top: 72%; left: 75%; }
+.sticker:nth-child(23) { top: 78%; left: 88%; }
+.sticker:nth-child(24) { top: 82%; left: 5%; }
+.sticker:nth-child(25) { top: 85%; left: 22%; }
+.sticker:nth-child(26) { top: 88%; left: 38%; }
+.sticker:nth-child(27) { top: 82%; left: 55%; }
+.sticker:nth-child(28) { top: 85%; left: 72%; }
+.sticker:nth-child(29) { top: 92%; left: 12%; }
+.sticker:nth-child(30) { top: 95%; left: 82%; } */
+.sticker:nth-child(1) { top: 5%; left: 5%; }
+.sticker:nth-child(2) { top: 12%; left: 32%; }
+.sticker:nth-child(3) { top: 10%; left: 82%; }
+.sticker:nth-child(4) { top: 18%; left: 25%; }
+.sticker:nth-child(5) { top: 16%; left: 88%; }
+.sticker:nth-child(6) { top: 28%; left: 28%; }
+.sticker:nth-child(7) { top: 26%; left: 92%; }
+.sticker:nth-child(8) { top: 38%; left: 22%; }
+.sticker:nth-child(9) { top: 36%; left: 88%; }
+.sticker:nth-child(10) { top: 72%; left: 25%; }
+.sticker:nth-child(11) { top: 68%; left: 58%; }
+.sticker:nth-child(12) { top: 78%; left: 88%; }
+.sticker:nth-child(13) { top: 85%; left: 22%; }
+.sticker:nth-child(14) { top: 82%; left: 55%; }
+.sticker:nth-child(15) { top: 92%; left: 12%; }
+</style>
+<div class="gallery-container">
+  <!-- Center images -->
+  <div class="center-images">
+    <img src="/self/img/gallery/draw/series01.png"/>
+    <img src="/self/img/gallery/draw/series02.png"/>
+    <img src="/self/img/gallery/draw/series03.png"/>
+  </div>
+  <!-- Sticker images positioned around -->
+  <div class="sticker" id="toggleSticker01"><img src="/self/img/gallery/draw/fruit01.png"/></div>
+  <div class="sticker" id="toggleSticker02"><img src="/self/img/gallery/draw/fruit02.png"/></div>
+  <div class="sticker" id="toggleSticker03"><img src="/self/img/gallery/draw/fruit03.png"/></div>
+  <div class="sticker" id="toggleSticker04"><img src="/self/img/gallery/draw/fruit04.png"/></div>
+  <div class="sticker" id="toggleSticker05"><img src="/self/img/gallery/draw/fruit05.png"/></div>
+  <div class="sticker" id="toggleSticker06"><img src="/self/img/gallery/draw/fruit06.png"/></div>
+  <div class="sticker" id="toggleSticker07"><img src="/self/img/gallery/draw/fruit07.png"/></div>
+  <div class="sticker" id="toggleSticker08"><img src="/self/img/gallery/draw/fruit08.png"/></div>
+  <div class="sticker" id="toggleSticker09"><img src="/self/img/gallery/draw/fruit09.png"/></div>
+  <div class="sticker" id="toggleSticker10"><img src="/self/img/gallery/draw/fruit10.png"/></div>
+  <div class="sticker" id="toggleSticker11"><img src="/self/img/gallery/draw/fruit11.png"/></div>
+  <div class="sticker" id="toggleSticker12"><img src="/self/img/gallery/draw/fruit12.png"/></div>
+  <div class="sticker" id="toggleSticker13"><img src="/self/img/gallery/draw/fruit13.png"/></div>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Generic toggle function
+  function createToggle(elementId, originalSrc, toggleSrc) {
+    const element = document.getElementById(elementId);
+    const img = element.querySelector('img');
+    let isOriginal = true;
+    
+    element.addEventListener('click', function() {
+      if (isOriginal) {
+        img.src = toggleSrc;
+        isOriginal = false;
+      } else {
+        img.src = originalSrc;
+        isOriginal = true;
+      }
+    });
+  }
+
+  // Create toggles for each sticker
+  createToggle('toggleSticker01', '/self/img/gallery/draw/fruit01.png', '/self/img/gallery/draw/doll.png');
+  createToggle('toggleSticker02', '/self/img/gallery/draw/fruit02.png', '/self/img/gallery/draw/penguin.png');
+  createToggle('toggleSticker03', '/self/img/gallery/draw/fruit03.png', '/self/img/gallery/draw/dragon.png');
+  createToggle('toggleSticker04', '/self/img/gallery/draw/fruit04.png', '/self/img/gallery/draw/stitch.png');
+  createToggle('toggleSticker05', '/self/img/gallery/draw/fruit05.png', '/self/img/gallery/draw/101dog.png');
+  createToggle('toggleSticker06', '/self/img/gallery/draw/fruit06.png', '/self/img/gallery/draw/car.png');
+  createToggle('toggleSticker07', '/self/img/gallery/draw/fruit07.png', '/self/img/gallery/draw/santa.png');
+  createToggle('toggleSticker08', '/self/img/gallery/draw/fruit08.png', '/self/img/gallery/draw/frog.png');
+  createToggle('toggleSticker09', '/self/img/gallery/draw/fruit09.png', '/self/img/gallery/draw/pikachu.png');
+  createToggle('toggleSticker10', '/self/img/gallery/draw/fruit10.png', '/self/img/gallery/draw/elephant.png');
+  createToggle('toggleSticker11', '/self/img/gallery/draw/fruit11.png', '/self/img/gallery/draw/giraffe.png');
+  createToggle('toggleSticker12', '/self/img/gallery/draw/fruit12.png', '/self/img/gallery/draw/octopus.png');
+  createToggle('toggleSticker13', '/self/img/gallery/draw/fruit13.png', '/self/img/gallery/draw/sunfish.png');
+});
+</script>
 
 
 
