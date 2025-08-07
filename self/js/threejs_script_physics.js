@@ -160,7 +160,7 @@ function init_pendulum() {
 }
 
 // set initial
-const m1 = 1, m2 = 1, l1 = 1, l2 = 1, g = 9.8;
+const m1 = 50, m2 = 50, l1 = 1, l2 = 1, g = 9.8;
 let clock =  new THREE.Clock();
 let omega1 = [], omega2 = [], theta1 = [], theta2 = [], t_now = [];
 omega1.push(0); omega2.push(0); theta1.push(Math.PI -0.1); theta2.push(Math.PI ); t_now.push(0);

@@ -56,10 +56,10 @@
     <loc>http://localhost:1313/categories/work-project/</loc>
     <lastmod>2025-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>http://localhost:1313/gallery/draw/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/draw/</loc>
+    <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2025-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/animation/</loc>
@@ -139,6 +139,9 @@
   </url><url>
     <loc>http://localhost:1313/jobs/itri_1/</loc>
     <lastmod>2024-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/picture/</loc>
+    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/flask/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
@@ -389,6 +392,9 @@
     <loc>http://localhost:1313/researchers/ncu/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/gallery/music/</loc>
+    <lastmod>2019-06-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/circuit/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -437,10 +443,10 @@
     <loc>http://localhost:1313/others/skills/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/music/</loc>
-    <lastmod>2018-04-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/projects/projects_physics/ta_introtocomphysics/</loc>
+    <lastmod>1999-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gallery/web/</loc>
     <lastmod>1999-11-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

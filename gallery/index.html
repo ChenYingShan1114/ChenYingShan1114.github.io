@@ -136,16 +136,6 @@ layui.use('element', function(){
 <main id="main">
 
 
-<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/map.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
-<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
-
-
-            
-            <div id="worldMap" style="width: 100%; height: 500px; margin: 0 auto;"></div>
-
-        
 
 
 <div class="layui-container">
@@ -160,8 +150,8 @@ layui.use('element', function(){
             <h2 class="">A Journey Through My Art</h2>
         </a>
         <h3 style="margin-top:10px; margin-bottom:10px"> 
-    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>Apr 30 2025</span>
+    
+    
 
     
     
@@ -188,12 +178,44 @@ layui.use('element', function(){
             
         
         
-        <a href="/gallery/music/">
-            <h2 class="">My music life</h2>
+        <a href="/gallery/picture/">
+            <h2 class="">My Travel Log</h2>
         </a>
         <h3 style="margin-top:10px; margin-bottom:10px"> 
-    <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
-    <span>Apr 30 2018</span>
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+    
+</h3>
+
+        <h3>
+        	
+				The world in my eye <a href="/gallery/picture/"><span style="color:#01AAED">Read More</span></a>
+			 
+        </h3>
+    </blockquote>
+
+    
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+        
+        <a href="/gallery/music/">
+            <h2 class="">My Music Life</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    
+    
 
     
     
@@ -214,76 +236,41 @@ layui.use('element', function(){
     </blockquote>
 
     
+                
+            
+                <blockquote class="self-elem-quote self-elem-quote-bg-gray" style="background-color:#FFFFFF;margin-top: 10px;">
+            
+        
+        
+        <a href="/gallery/web/">
+            <h2 class="">My Personal Web</h2>
+        </a>
+        <h3 style="margin-top:10px; margin-bottom:10px"> 
+    
+    
 
     
-<div class="pager">
-    <div class="layui-btn-group">
-        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
-            <a href="/gallery/"><i class="layui-icon">&#xe65a;</i></a>
-        </button>
-        
-        <button type="button" class="layui-btn layui-btn-disabled layui-btn-sm">
-            <i class="layui-icon">&#xe603;</i>
-        </button>
-        
-        
-        <button type="button" class="layui-btn layui-btn-disabled layui-btn-sm">
-            <i class="layui-icon">&#xe602;</i>
-        </button>
-        
-        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm">
-            <a href="/gallery/"><i class="layui-icon">&#xe65b;</i></a>
-        </button>
-    </div>
+    
+
+    
+
+    
+
+    
+    
+</h3>
+
+        <h3>
+        	
+				just record web devlog for myself...... <a href="/gallery/web/"><span style="color:#01AAED">Read More</span></a>
+			 
+        </h3>
+    </blockquote>
+
+    
+
+    
 </div>
-</div>
-
-<script>
-am5.ready(function() {
-    var root = am5.Root.new("worldMap");
-    root.setThemes([am5themes_Animated.new(root)]);
-
-    var chart = root.container.children.push(
-        am5map.MapChart.new(root, {
-            panX: "none",
-            panY: "none",
-            wheelX: "none",
-            wheelY: "none",
-            projection: am5map.geoMercator()
-        })
-    );
-
-    var polygonSeries = chart.series.push(
-        am5map.MapPolygonSeries.new(root, {
-            geoJSON: am5geodata_worldLow
-        })
-    );
-
-    polygonSeries.mapPolygons.template.setAll({
-        tooltipText: "{name}",
-        interactive: true
-    });
-
-    
-    polygonSeries.mapPolygons.template.states.create("hover", {
-        fill: am5.color(0x677935)
-    });
-
-    
-    polygonSeries.mapPolygons.template.events.on("click", function(ev) {
-        var countryId = ev.target.dataItem.dataContext.id;
-        
-        window.location.href = "/country/" + countryId;
-    });
-
-    
-    polygonSeries.mapPolygons.template.events.on("pointerover", function(ev) {
-        ev.target.set("cursorOverStyle", "pointer");
-    });
-
-    chart.appear(1000, 100);
-});
-</script>
 
 </main>
 
