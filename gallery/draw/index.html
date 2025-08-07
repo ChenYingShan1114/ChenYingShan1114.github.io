@@ -3,67 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Ying-Shan Chen@TW ~ $ - My art works </title>
+    <title>Ying-Shan Chen@TW ~ $ - A Journey Through My Art </title>
     
     
     <meta content="Ying-Shan Chen@TW ~ $" name="keywords">
     
-    <meta content="Ying-Shan Chen@TW ~ $ - 
-
-  
-  
-    
-      
-        
-          
-        
-        
-          One day, I dove into the crystal-clear waters and discovered a mysterious jade stone — perfectly shaped like my homeland, Taiwan.
-        
-      
-    
-    
-      
-        
-          
-        
-        
-          Intrigued by its beauty, I gently picked it up and vowed to care for it like a treasured companion. From that moment on, we journeyed together — across lands and seas — sharing breathtaking views and tasting delicious foods from around the world.
-        
-      
-    
-    
-      
-        
-          
-        
-        
-          Now, we&#39;ve climbed to the mountain’s edge to gaze upon the most stunning cityscape around Taipei 101. But adventures take energy, and we’re in need of something special — sweet, juicy fruits from Taiwan, of course! 🍍🍌 
-          Will you help us find them hidden in the scene? But beware… some areas are enchanted. Don’t touch the magic! ✨
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-  
-
-" name="description">
+    <meta content="Ying-Shan Chen@TW ~ $ - An interactive journey through my artwork since childhood, wrapped in a simple story and a playful treasure hunt to find hidden Taiwanese fruits." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -365,6 +310,9 @@ body  {
   <span id="magicText" style="color:white; font-size:2rem; font-family:monospace;"></span>
 </div>
 <script>
+
+let count = 0;
+
 document.addEventListener('DOMContentLoaded', function() {
   // Generic toggle function
   function createToggle(elementId, originalSrc, toggleSrc) {
@@ -376,10 +324,18 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isOriginal) {
         img.src = toggleSrc;
         isOriginal = false;
+        count--;
       } else {
         img.src = originalSrc;
         isOriginal = true;
+        count++;
       }
+      if (count === 13) {
+        // Slight delay before alert so the last message shows
+        setTimeout(() => {
+            alert("Thank you for helping us collect the fruits!\n\nYou’ve earned a taste of Taiwan’s juicy treasures — mangoes, pineapples, lychees, and more!\n\nOne day, we hope you can come visit Taiwan and taste them for real! 🇹🇼🍍🍓");
+        }, 600);
+    }  
     });
   }
 
