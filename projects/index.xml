@@ -6,8 +6,15 @@
     <description>Recent content in projects on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quadcopter</title>
+      <link>http://localhost:1313/projects/projects_physics/quadcopter/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_physics/quadcopter/</guid>
+      <description>&lt;main&gt;&#xA;&lt;span style=&#34;display: flex; flex-direction: column; align-items: center; height: 700px;&#34;&gt;&#xA;    &lt;br&gt;&#xA;    &lt;div style=&#34;font-size: 18px;&#34;&gt;Quadcopter Simulation&lt;/div&gt;&#xA;    &lt;div id=&#34;threejs-container-quadcopter&#34; style=&#34;width: 700px; height: 600px;&#34;&gt;&lt;div class = &#39;moveGUI-quadcopter&#39; style=&#34;position: absolute; &#34;&gt;&lt;/div&gt;&lt;/div&gt;     &#xA;&lt;/span&gt;&#xA;&lt;script type=&#34;module&#34; src=&#34;http://localhost:1313/self/js/threejs_script_quadcopter.js&#34;&gt;&lt;/script&gt;&#xA;&lt;/main&gt;</description>
+    </item>
     <item>
       <title>Note: Physical-based Animation</title>
       <link>http://localhost:1313/projects/projects_cg/notepba/</link>

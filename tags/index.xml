@@ -6,8 +6,43 @@
     <description>Recent content in Tags on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Classical Mechanics</title>
+      <link>http://localhost:1313/tags/classical-mechanics/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/classical-mechanics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Derivation</title>
+      <link>http://localhost:1313/tags/derivation/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/derivation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java Script</title>
+      <link>http://localhost:1313/tags/java-script/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/java-script/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numerical Simulation</title>
+      <link>http://localhost:1313/tags/numerical-simulation/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/numerical-simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Three.js</title>
+      <link>http://localhost:1313/tags/three.js/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/three.js/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Physical Based Animation</title>
       <link>http://localhost:1313/tags/physical-based-animation/</link>
@@ -107,20 +142,6 @@
       <description></description>
     </item>
     <item>
-      <title>Java Script</title>
-      <link>http://localhost:1313/tags/java-script/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/java-script/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Three.js</title>
-      <link>http://localhost:1313/tags/three.js/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/three.js/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Flask</title>
       <link>http://localhost:1313/tags/flask/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
@@ -160,13 +181,6 @@
       <link>http://localhost:1313/tags/journal-paper/</link>
       <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/journal-paper/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Numerical Simulation</title>
-      <link>http://localhost:1313/tags/numerical-simulation/</link>
-      <pubDate>Tue, 11 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/numerical-simulation/</guid>
       <description></description>
     </item>
     <item>
@@ -289,13 +303,6 @@
       <description></description>
     </item>
     <item>
-      <title>Classical Mechanics</title>
-      <link>http://localhost:1313/tags/classical-mechanics/</link>
-      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/classical-mechanics/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ordinary Differential Equation</title>
       <link>http://localhost:1313/tags/ordinary-differential-equation/</link>
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
@@ -335,13 +342,6 @@
       <link>http://localhost:1313/tags/plasma-physics/</link>
       <pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/plasma-physics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Derivation</title>
-      <link>http://localhost:1313/tags/derivation/</link>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/derivation/</guid>
       <description></description>
     </item>
     <item>
