@@ -65,7 +65,7 @@
       <description>&lt;p&gt;Unlike the previous &lt;a href=&#34;../bouncingballwithtail&#34;&gt;bouncing ball with a tail&lt;/a&gt;, this animation introduces legs to the ball, adding complexity and personality to its movement.&lt;/p&gt;&#xA;&lt;p&gt;The key challenge was to balance the motion of the main body, which follows the principles of a traditional bouncing ball, with the legs, which provide buffering, elasticity, and propulsion. The legs not only absorb impact upon landing but also give a sense of power and intent during takeoff, making the animation feel more grounded and character-driven.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Software Engineer at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
+      <title>Contract Engineer at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
       <link>http://localhost:1313/jobs/itri_2/</link>
       <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/jobs/itri_2/</guid>
@@ -112,6 +112,13 @@
       <pubDate>Fri, 21 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_cg/3dgsfridge/</guid>
       <description>&lt;h2 id=&#34;3d-gaussian-splat-model&#34;&gt;3D Gaussian Splat Model&lt;/h2&gt;&#xA;&lt;p&gt;During my internship at ITRI, I worked on capturing multi-view images of physical objects to generate &lt;a href=&#34;https://github.com/MrNeRF/awesome-3D-gaussian-splatting?tab=readme-ov-file#seminal-paper-introducing-3d-gaussian-splatting&#34;&gt;3D Gaussian Splatting (3DGS)&lt;/a&gt; models. After taking photos from various angles, the images were processed into .ply files using our in-house pipeline. Unlike traditional point clouds, these models use anisotropic Gaussians with spherical harmonic shading, allowing them to reflect color and detail based on viewing direction.&lt;/p&gt;&#xA;&lt;p&gt;Higher-order spherical harmonics result in more vivid, accurate models—but also require more storage. This technique excels at capturing surface details such as scratches, engravings, and textures, but has limitations when handling transparent, reflective, symmetric, or low-contrast objects due to challenges in feature detection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Awards</title>
+      <link>http://localhost:1313/others/award/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/others/award/</guid>
+      <description></description>
     </item>
     <item>
       <title>Intern at 3D modeling team, Information and Communications Research Laboratories, Industrial Technology Research Institute (ITRI), Hsinchu County, Taiwan</title>
@@ -164,9 +171,9 @@
     </item>
     <item>
       <title>Visiting Scholar at Engineering Product Development, Singapore University of Technology and Design (SUTD), Singapore</title>
-      <link>http://localhost:1313/jobs/sutd/</link>
+      <link>http://localhost:1313/researchers/sutd/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/jobs/sutd/</guid>
+      <guid>http://localhost:1313/researchers/sutd/</guid>
       <description></description>
     </item>
     <item>
@@ -293,7 +300,7 @@
       <link>http://localhost:1313/educations/ncu_master/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/educations/ncu_master/</guid>
-      <description>&lt;p&gt;GPA: 4.0/4.0&#xA;GPA: 4.15/4.3&lt;/p&gt;</description>
+      <description>&lt;p&gt;GPA: 4.0/4.0&#xA;GPA: 4.0/4.3&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exchange student summer academy course, Linköping University (LiU)</title>
@@ -331,7 +338,7 @@
       <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/GaussianBeam/20211005.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Activities</title>
+      <title>Extracurricular Activities</title>
       <link>http://localhost:1313/others/activity/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/others/activity/</guid>
@@ -350,13 +357,6 @@
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/fdtd/</guid>
       <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd1.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;boundary-condition&#34;&gt;Boundary Condition&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Fixed boundary condition with hard source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_hard.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Fixed boundary condition with soft source&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_ex_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_1_hy_fixed_soft.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;Absorb boundary condition&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd2.pdf&#34; width=&#34;600&#34; height=&#34;500&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_2_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;propagation-in-medium&#34;&gt;Propagation in Medium&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd3.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The reflection coefficient is&#xA;$$&#xA;\varGamma = \frac{\sqrt{\epsilon_0} - \sqrt{\epsilon_r}}{\sqrt{\epsilon_0} + \sqrt{\epsilon_r}}&#xA;$$&#xA;and the transmission coefficient is&#xA;$$&#xA;\tau = \frac{2\sqrt{\epsilon_0}}{(\sqrt{\epsilon_0} + \sqrt{\epsilon_r})}.&#xA;$$&#xA;The region where \(x &amp;gt; 100\) has a relative permittivity \(\epsilon_r\) of 4.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_ex.gif&#34; width=&#34;500&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/self/gif/projects_physics/FDTD/fdtd_3_hy.gif&#34; width=&#34;500&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Lossy Dielectric Medium&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/FDTD/fdtd4.pdf&#34; width=&#34;600&#34; height=&#34;460&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The region where \(x &amp;gt; 100 \) has a relative permittivity \(\epsilon_r = 4\) and electrical conductivity \(\sigma = 0.04\).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Awards</title>
-      <link>http://localhost:1313/others/award/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/others/award/</guid>
-      <description></description>
     </item>
     <item>
       <title>Vortex Dynamics in 2-dimensional Soap Film Turbulence</title>
