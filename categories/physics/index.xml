@@ -90,7 +90,7 @@
       <link>http://localhost:1313/projects/projects_physics/hhg/</link>
       <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/projects_physics/hhg/</guid>
-      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;</description>
+      <description>&lt;p align=&#34;center&#34; &gt;&#xA;    &lt;iframe class=&#34;pdf&#34; view=&#34;fit&#34; src=&#34;http://localhost:1313/self/pdf/projects_physics/HHG/2021_poster.pdf&#34; width=&#34;600&#34; height=&#34;850&#34;&gt; &lt;/iframe&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;related-publication&#34;&gt;Related Publication&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1364/OE.529410&#34;&gt;Numerical experiment of phase-matched ion-based high-order harmonic generation in the water-window x-ray spectral region via electromagnetic envelope equation&lt;/a&gt;, Optics Express, 2024&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1016/j.cjph.2025.12.033&#34;&gt;Full Three-dimensional Particle-In-Cell Simulation for Phase-matched Ion-based High-order Harmonic Generation in Water-window X-ray&lt;/a&gt;, Chinese Journal of Physics, 2026&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>One-Dimensional Simulation with the FDTD Method</title>
