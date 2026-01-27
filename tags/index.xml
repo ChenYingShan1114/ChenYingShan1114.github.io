@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physical Based Animation</title>
+      <link>http://localhost:1313/tags/physical-based-animation/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/physical-based-animation/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Electromagnetic</title>
       <link>http://localhost:1313/tags/electromagnetic/</link>
@@ -34,13 +48,6 @@
       <link>http://localhost:1313/tags/particle-in-cell-simulation/</link>
       <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/particle-in-cell-simulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Physical Based Animation</title>
-      <link>http://localhost:1313/tags/physical-based-animation/</link>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/physical-based-animation/</guid>
       <description></description>
     </item>
     <item>
@@ -223,13 +230,6 @@
       <link>http://localhost:1313/tags/national-conference/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/national-conference/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
-      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
