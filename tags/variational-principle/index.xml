@@ -6,8 +6,15 @@
     <description>Recent content in Variational Principle on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/variational-principle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloth Simulation</title>
+      <link>http://localhost:1313/projects/projects_cg/clothsimulation/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/clothsimulation/</guid>
+      <description>&lt;p&gt;🔗 See more details about &lt;a href=&#34;https://github.com/ChenYingShan1114/cloth-simulation&#34;&gt;cloth simulation&lt;/a&gt;, forked from the projects in physical-based animation course at University of Toronto.&lt;/p&gt;&#xA;&lt;p&gt;Using co-rotational linear elasticity energy model.&lt;/p&gt;&#xA;&lt;h2 id=&#34;linearly-implicit-euler-method&#34;&gt;Linearly Implicit Euler Method&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/ClothSimulation/cloth-linearly.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h3 id=&#34;with-collistion&#34;&gt;With Collistion&lt;/h3&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/ClothSimulation/cloth-linearly-collision.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;fully-implicit-with-gradient-descent&#34;&gt;Fully Implicit with Gradient Descent&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/ClothSimulation/cloth-gradient_descent.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;fully-implicit-with-newton-method&#34;&gt;Fully Implicit with Newton Method&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/ClothSimulation/cloth-newton.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=MJj17gpmrI4&amp;list=PLTkE7n2CwG_PH09_q0Q7ttjqE2F9yGeM3&amp;index=8&#34;&gt;Physics-based animation lecture 6: Cloth Simulation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://gemini.google.com/app/6d549414b840ab0d&#34;&gt;Gemini Note&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Finite Element Method</title>
       <link>http://localhost:1313/projects/projects_cg/finiteelementmethod/</link>
