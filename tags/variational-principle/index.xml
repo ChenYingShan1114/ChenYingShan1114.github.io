@@ -6,8 +6,15 @@
     <description>Recent content in Variational Principle on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/variational-principle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rigid Body Motion</title>
+      <link>http://localhost:1313/projects/projects_cg/rigidbody/</link>
+      <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/rigidbody/</guid>
+      <description>&lt;p&gt;🔗 See more details about &lt;a href=&#34;https://github.com/ChenYingShan1114/rigid-bodies&#34;&gt;rigid body motion&lt;/a&gt; and &lt;a href=&#34;https://github.com/ChenYingShan1114/rigid-bodies-contact&#34;&gt;contact&lt;/a&gt;, forked from the projects in physical-based animation course at University of Toronto.&lt;/p&gt;&#xA;&lt;p&gt;Using projected Gauss-Seidel algorithm to deal with contact effect.&lt;/p&gt;&#xA;&lt;h2 id=&#34;rigid-body-motion&#34;&gt;Rigid Body Motion&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/RigidBody/rigidbodymotion.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;      &#xA;&lt;h2 id=&#34;rigid-body-contact&#34;&gt;Rigid Body Contact&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/RigidBody/rigidbodycontact.mov&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=X0spyNYoZ1o&amp;list=PLTkE7n2CwG_PH09_q0Q7ttjqE2F9yGeM3&amp;index=9&#34;&gt;Physics-based animation lecture 7: Rigid Bodies (Updated Again)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=8fFg7fOAHSA&amp;list=PLTkE7n2CwG_PH09_q0Q7ttjqE2F9yGeM3&amp;index=10&#34;&gt;Physics-based animation lecture 9: Rigid Bodies Contact&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=1RF7j-Yc21c&amp;t=500s&#34;&gt;Rotation Matrix Time Derivative&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Cloth Simulation</title>
       <link>http://localhost:1313/projects/projects_cg/clothsimulation/</link>
