@@ -6,8 +6,15 @@
     <description>Recent content in Computer Graphics on Ying-Shan Chen@TW ~ $</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PIC-FLIP Fluids Simulation</title>
+      <link>http://localhost:1313/projects/projects_cg/fluidsimulation/</link>
+      <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/projects_cg/fluidsimulation/</guid>
+      <description>&lt;p&gt;🔗 See more details about &lt;a href=&#34;https://github.com/panuelosj/pba-assignment-fluids&#34;&gt;fluid simulation&lt;/a&gt;, forked from the projects in physical-based animation course at University of Toronto.&lt;/p&gt;&#xA;&lt;p&gt;🔗 If you need my source code, please email me. &lt;!---https://github.com/ChenYingShan1114/PIC-FLIP-Fluids---&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;waterfall&#34;&gt;Waterfall&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/FluidSimulation/waterfall.mp4&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;      &#xA;&lt;h2 id=&#34;maze&#34;&gt;Maze&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/FluidSimulation/maze.mp4&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;lots-of-fluid&#34;&gt;Lots of Fluid&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xA;    &lt;video src=&#34;http://localhost:1313/self/mp4/projects_cg/FluidSimulation/lots_of_fluid.mp4&#34; controls type=&#34;video/mov&#34; width=&#34;600&#34;&gt;&lt;/video&gt;&#xA;&lt;/p&gt;    &#xA;&lt;h2 id=&#34;reference&#34;&gt;Reference&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=VddQZH_Ppd0&amp;list=PLTkE7n2CwG_PH09_q0Q7ttjqE2F9yGeM3&amp;index=11&#34;&gt;Physics-based animation lecture 10: Fluid Simulation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
     <item>
       <title>Rigid Body Motion</title>
       <link>http://localhost:1313/projects/projects_cg/rigidbody/</link>

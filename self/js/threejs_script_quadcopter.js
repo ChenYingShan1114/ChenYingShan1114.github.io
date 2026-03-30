@@ -73,13 +73,19 @@ const ModelParam_I_xx = 0.0211;      // 四旋翼x轴转动惯量(kg·m**2)
 const ModelParam_I_yy = 0.0219;      // 四旋翼y轴转动惯量(kg·m**2)
 const ModelParam_I_zz = 0.0366;      // 四旋翼z轴转动惯量(kg·m**2)
 const ModelParam_J_RP = 0.0001287;   // 整个电机转子和螺旋桨绕转轴的总转动惯量(kg·m**2)
+// Wind Parameters
+const ModelParam_rho = 1.225;        // 空氣密度(kg/m**3)
+const ModelParam_drag = 0.25;        // 無人機阻力係數 0.15~0.5
+const ModelParam_area_x = 0.478 * 0.114;  // Iris無人機x方向截面積
+const ModelParam_area_y = 0.521 * 0.114;  // Iris無人機y方向截面積
+const ModelParam_area_z = 0.521 * 0.478;  // Iris無人機z方向截面積
 
 // Equation of motion
 /* acceleration */
-function v_dot(m, g, phi, theta, psi, f) {
-    let v_x_dot = -f * (1/m) * (Math.cos(psi) * Math.sin(theta) * Math.cos(phi) + Math.sin(psi) * Math.sin(phi));
-    let v_y_dot = -f * (1/m) * (Math.sin(psi) * Math.sin(theta) * Math.cos(phi) - Math.cos(psi) * Math.sin(phi));
-    let v_z_dot = g - f * (1/m) * Math.cos(phi) * Math.cos(theta);
+function v_dot(m, g, phi, theta, psi, f, fx_wind, fy_wind, fz_wind) {
+    let v_x_dot = -f * (1/m) * (Math.cos(psi) * Math.sin(theta) * Math.cos(phi) + Math.sin(psi) * Math.sin(phi)) + fx_wind;
+    let v_y_dot = -f * (1/m) * (Math.sin(psi) * Math.sin(theta) * Math.cos(phi) - Math.cos(psi) * Math.sin(phi)) + fy_wind;
+    let v_z_dot = g - f * (1/m) * Math.cos(phi) * Math.cos(theta) + fz_wind;
     return new THREE.Vector3(v_x_dot, v_y_dot, v_z_dot);
 }
 
@@ -126,6 +132,24 @@ function force(w1, w2, w3, w4, c_T, c_M, d) {
     return new THREE.Vector4(tau_x, tau_y, tau_z, f);
 }
 
+function wind(wind_vx, wind_vy, wind_vz, vx, vy, vz, rho, drag, Ax, Ay, Az, phi, theta, psi) {
+    let dvx = vx - wind_vx;
+    let dvy = vy - wind_vy;
+    let dvz = vz - wind_vz;
+
+    let relate_vx = Math.cos(theta) * Math.cos(psi) * dvx + Math.cos(theta) * Math.sin(psi) * dvy - Math.sin(theta) * dvz;
+    let relate_vy = (Math.cos(psi) * Math.sin(theta) * Math.sin(phi) - Math.sin(psi) * Math.cos(phi)) * dvx + (Math.sin(psi) * Math.sin(theta) * Math.sin(phi) + Math.cos(psi) * Math.cos(phi)) * dvy + Math.sin(phi) * Math.cos(theta) * dvz;
+    let relate_vz = (Math.cos(psi) * Math.sin(theta) * Math.cos(phi) + Math.sin(psi) * Math.sin(phi)) * dvx + (Math.sin(psi) * Math.sin(theta) * Math.cos(phi) - Math.cos(psi) * Math.sin(phi)) * dvy + Math.cos(phi) * Math.cos(theta) * dvz;
+
+    let relate_v_length = Math.sqrt(relate_vx * relate_vx + relate_vy * relate_vy + relate_vz * relate_vz);
+    let fx_wind = -0.5 * rho * drag * Ax * relate_v_length * relate_vx;
+    let fy_wind = -0.5 * rho * drag * Ay * relate_v_length * relate_vy;
+    let fz_wind = -0.5 * rho * drag * Az * relate_v_length * relate_vz;
+    // console.log(fx_wind, fy_wind, fz_wind);
+    return new THREE.Vector3(fx_wind, fy_wind, fz_wind);
+    
+}
+     
 const gui = new GUI({ autoPlace: false, width: 150 });
 gui.close();
 // var customContainer = $('.moveGUI-animation').append($(gui.domElement));
@@ -147,7 +171,10 @@ const options = {
     w1: 557.142,      // rad/s 當懸停在空中時，螺旋槳產生的拉力與無人機所受到的重力相等。
     w2: 557.142,
     w3: 557.142,
-    w4: 557.142
+    w4: 557.142,
+    wind_x: 0,
+    wind_y: 0,
+    wind_z: 0
 }
 gui.add(options, 'reset').name( 'reset quadcopter!');
 const omegaFolder = gui.addFolder('Omega');
@@ -175,6 +202,10 @@ thrustFolder.add(options, 'w1', 500, 600);
 thrustFolder.add(options, 'w2', 500, 600);
 thrustFolder.add(options, 'w3', 500, 600);
 thrustFolder.add(options, 'w4', 500, 600);
+const windFolder = gui.addFolder('Wind');
+windFolder.add(options, 'wind_x', -10, 10);
+windFolder.add(options, 'wind_y', -10, 10);
+windFolder.add(options, 'wind_z', -10, 10);
 
 function init_quadcopter() {
     Omega.set(options.omega_x, options.omega_y, options.omega_z);
@@ -182,6 +213,7 @@ function init_quadcopter() {
     Angle.set(options.phi, options.theta, options.psi);
     X.set(options.x, options.y, options.z);
     Thrust.set(options.w1, options.w2, options.w3, options.w4);
+    Wind.set(options.wind_x, options.wind_y, options.wind_z);
 
     camera.position.set(-1, -1, options.z - 1);
     camera.up.set(0, 0, -1);
@@ -192,6 +224,7 @@ function init_quadcopter() {
 // let w_i = 557.142;      // rad/s 當懸停在空中時，螺旋槳產生的拉力與無人機所受到的重力相等。
 
 let F = new THREE.Vector4();
+let W = new THREE.Vector3();
 let Omega_dot = new THREE.Vector3();
 let V_dot = new THREE.Vector3();
 let Omega_modify = new THREE.Vector3();
@@ -201,6 +234,7 @@ let V = new THREE.Vector3();
 let Angle = new THREE.Vector3();
 let X = new THREE.Vector3();
 let Thrust = new THREE.Vector4();
+let Wind = new THREE.Vector3();
 init_quadcopter();
 
 const dt = 0.01;
@@ -213,10 +247,12 @@ function animate(now) {
     while( accumulator >= dt) {        
         // torque & force
         F = force(Thrust.x, Thrust.y, Thrust.z, Thrust.w, ModelParam_c_T, ModelParam_c_M,  ModelParam_d);
+        // console.log(Thrust, Wind);
+        W = wind(Wind.x, Wind.y, Wind.z, V.x, V.y, V.z, ModelParam_rho, ModelParam_drag, ModelParam_area_x, ModelParam_area_y, ModelParam_area_z, Angle.x, Angle.y, Angle.z);
         
         // omega_dot & v_dot -> omega & v
         Omega_dot = omega_dot(F.x, F.y, F.z, Thrust.x, Thrust.y, Thrust.z, Thrust.w, ModelParam_I_xx, ModelParam_I_yy, ModelParam_I_zz, ModelParam_J_RP, Omega.x, Omega.y, Omega.z);
-        V_dot = v_dot(ModelParam_m, ModelParam_g, Angle.x, Angle.y, Angle.z, F.w);  // (m/s**2)
+        V_dot = v_dot(ModelParam_m, ModelParam_g, Angle.x, Angle.y, Angle.z, F.w, W.x, W.y, W.z);  // (m/s**2)
 
         Omega.set(Omega.x + Omega_dot.x * dt, Omega.y + Omega_dot.y * dt, Omega.z + Omega_dot.z * dt);
         V.set(V.x + V_dot.x * dt, V.y + V_dot.y * dt, V.z + V_dot.z * dt);
